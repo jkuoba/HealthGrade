@@ -261,10 +261,11 @@
 	<td>link=Search</td>
 	<td></td>
 </tr>
+<!--QA note: Depending on the GEO location, will have different result.-->
 <tr>
 	<td>assertText</td>
 	<td>css=div.hgwdgt-total</td>
-	<td>Viewing 1 - 2 of 33 matches for Internal Medicine in Knoxville, TN</td>
+	<td>Viewing 1 - 2 of 119 matches for Internal Medicine in Reston, VA</td>
 </tr>
 <tr>
 	<td>assertElementPresent</td>

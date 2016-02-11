@@ -162,6 +162,31 @@
 	<td></td>
 </tr>
 <tr>
+	<td>selectWindow</td>
+	<td>name=share</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=Email</td>
+	<td>joseph@perfectsensedigital.com</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=next</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=Passwd</td>
+	<td>grace2010</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=next</td>
+	<td></td>
+</tr>
+<tr>
 	<td>waitForText</td>
 	<td>link=exact:How Much Do You Know About Type 1 Diabetes?</td>
 	<td>exact:How Much Do You Know About Type 1 Diabetes?</td>
@@ -259,6 +284,11 @@
 <tr>
 	<td>selectWindow</td>
 	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
 	<td></td>
 </tr>
 <tr>
