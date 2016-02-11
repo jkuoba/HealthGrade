@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://ucms-qa.healthgrades.com/healthcoach/adult-adhd-healthcoach" />
+<title>Vertical Social share icons </title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Vertical Social share icons </td></tr>
+</thead><tbody>
+<tr>
+	<td>setSpeed</td>
+	<td>700</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/learning-challenge/type-1-diabetes-learning-challenge</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=h1</td>
+	<td>Type 1 Diabetes Learning Challenge</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=img.psd-sharebar-sprite.psd-sharebar-facebookshare</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectPopUp</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>selenium.browserbot.getCurrentWindow().resizeTo(800, 600)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>selenium.browserbot.getCurrentWindow().moveTo(0, 0)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeElementPresent</td>
+	<td>css=div.unclickableMask</td>
+	<td>YN</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${YN}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>gotoIf</td>
+	<td>'${YN}'==&quot;true&quot;</td>
+	<td>bypassSignIn</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=email</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=email</td>
+	<td>josephkuo1@aol.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=pass</td>
+	<td>gracefacebook</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=u_0_2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>label</td>
+	<td>bypassSignIn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Post to Facebook</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=div.unclickableMask</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=__CANCEL__</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=img.psd-sharebar-sprite.psd-sharebar-twittershare</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectPopUp</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=h2.action-information</td>
+	<td>Share a link with your followers</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>id=status</td>
+	<td>exact:How Much Do You Know About Type 1 Diabetes? http://ucms-qa.healthgrades.com/learning-challenge/type-1-diabetes-learning-challenge</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//input[@value='Log in and Tweet']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>close</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=img.psd-sharebar-sprite.psd-sharebar-googleshare</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectPopUp</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>link=exact:How Much Do You Know About Type 1 Diabetes?</td>
+	<td>exact:How Much Do You Know About Type 1 Diabetes?</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div/a/img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//td/div[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=img.psd-sharebar-sprite.psd-sharebar-pinterestshare</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectPopUp</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeElementPresent</td>
+	<td>css=p.pinCreateTitle</td>
+	<td>YN</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${YN}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>gotoIf</td>
+	<td>'${YN}'==&quot;true&quot;</td>
+	<td>bypassPinterestSignIn</td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=div.title</td>
+	<td>Sign up for Pinterest</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=userEmail</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=userEmail</td>
+	<td>perfectqatest@yahoo.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=userPassword</td>
+	<td>Testing123</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//button[@type='button'])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>label</td>
+	<td>bypassPinterestSignIn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=p.pinDescription</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//textarea</td>
+	<td>exact:How Much Do You Know About Type 1 Diabetes? Test your knowledge and take our type 1 diabetes learning challenge.</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button[@type='button']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=img.psd-sharebar-sprite.psd-sharebar-emailshare</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=#psd-sharebar-email-form &gt; h3</td>
+	<td>Share via Emailx</td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=label.psd-sharebar-send-to-self-label</td>
+	<td>Send to myself</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=psd-sharebar-user-name</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=psd-sharebar-friends-email</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=recaptcha_response_field</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=psd-sharebar-email-form-close</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=img.psd-sharebar-sprite.psd-sharebar-print</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

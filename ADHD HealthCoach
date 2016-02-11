@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://ucms-qa.healthgrades.com/healthcoach/adult-adhd-healthcoach" />
+<title>test1</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">test1</td></tr>
+</thead><tbody>
+<!--## ERROR if user under private window mode in FF,  result page won't rendering.  Chrome incognito works fine. -->
+<tr>
+	<td>setSpeed</td>
+	<td>700</td>
+	<td></td>
+</tr>
+<tr>
+	<td>deleteCookie</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/healthcoach/adult-adhd-healthcoach</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Health Tests: Adult ADHD HealthCoach</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementNotPresent</td>
+	<td>link=/common/omniture.jsp</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=div.banner-ad.clrfix</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=a.hcCrossLink &gt; span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=a.hcCrossLink &gt; span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=h4</td>
+	<td>exact:Are you taking this for yourself or for someone else?</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.cst-radio</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=qa-n</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=h4</td>
+	<td>exact:What is your gender?</td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=label &gt; h4</td>
+	<td>exact:What is your age?</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.cst-radio</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=QAssetID:10670|QNodeID:7|QNodeTypeID:35|QAlgoID:3436</td>
+	<td>label=50-59</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=qa-p</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=qa-n</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=qa-n</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=h4</td>
+	<td>exact:Have you been told by a doctor that you definitely have ADHD?</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>id=hcProgressBar</td>
+	<td>9%</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='qa-head']/div/div/form/div/div/div/div[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=qa-n</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=h4</td>
+	<td>exact:Why are you interested in ADHD today?</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>id=hcProgressBar</td>
+	<td>12%</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.cst-radio</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=qa-n</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=h4</td>
+	<td>Now we will ask 18 questions about common ADHD symptoms that you may be experiencing in your everyday life. These are similar to the questions a doctor might ask during an office visit. <br /><br />We will use your answers to assess your likelihood of having ADHD and to help create your personal action plan.</td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>id=hcProgressBar</td>
+	<td>14%</td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=p</td>
+	<td>If one person in a family is diagnosed with ADHD, there is a 25% to 35% probability that any other family member also has ADHD</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=qa-n</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=h4</td>
+	<td>exact:Today, how often are the following 6 items an issue for you at work/school or socially?</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.cst-radio</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='qa-head']/div/div/form/div/div/div/table/tbody/tr[2]/td[3]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='qa-head']/div/div/form/div/div/div/table/tbody/tr[3]/td[4]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='qa-head']/div/div/form/div/div/div/table/tbody/tr[4]/td[4]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='qa-head']/div/div/form/div/div/div/table/tbody/tr[5]/td[5]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='qa-head']/div/div/form/div/div/div/table/tbody/tr[6]/td[4]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//td[@onclick='selectFnc(this);'])[23]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=qa-n</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=h4</td>
+	<td>exact:How often are each of the following items an issue for you at work/school or socially?</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='qa-head']/div/div/form/div/div/div/table/tbody/tr/td[4]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='qa-head']/div/div/form/div/div/div/table/tbody/tr[2]/td[4]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='qa-head']/div/div/form/div/div/div/table/tbody/tr[3]/td[5]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='qa-head']/div/div/form/div/div/div/table/tbody/tr[4]/td[3]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='qa-head']/div/div/form/div/div/div/table/tbody/tr[5]/td[4]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='qa-head']/div/div/form/div/div/div/table/tbody/tr[6]/td[4]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=qa-n</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=h4</td>
+	<td>exact:How often is each of this last group of items an issue for you at work/school or socially?</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='qa-head']/div/div/form/div/div/div/table/tbody/tr/td[4]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='qa-head']/div/div/form/div/div/div/table/tbody/tr[2]/td[5]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='qa-head']/div/div/form/div/div/div/table/tbody/tr[3]/td[6]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='qa-head']/div/div/form/div/div/div/table/tbody/tr[4]/td[3]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='qa-head']/div/div/form/div/div/div/table/tbody/tr[5]/td[4]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='qa-head']/div/div/form/div/div/div/table/tbody/tr[6]/td[5]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>id=hcProgressBar</td>
+	<td>23%</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=qa-n</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=b</td>
+	<td>Those answers indicate a high chance that you could have ADHD.</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.cst-radio</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=qa-n</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=h4</td>
+	<td>exact:Understanding how your symptoms are affecting your life today and how those symptoms – if they remain unchanged – could affect your future will help us provide you with personalized advice. With this in mind, how severely do you feel your symptoms are affecting your life?</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=td.frst</td>
+	<td>Symptoms' impact on my life today</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=tr.evenRow. &gt; td.frst</td>
+	<td>Symptoms' impact on my future (if left unchanged)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=slider0</td>
+	<td>label=Mild</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=slider1</td>
+	<td>label=Severe</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=slider1</td>
+	<td>label=Moderate</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>id=hcProgressBar</td>
+	<td>30%</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=qa-n</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=h4</td>
+	<td>Now we will ask you about other conditions related to ADHD and your medical history. Your answers to the following questions will help us provide you with the most personalized action plan possible.</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=qa-n</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=h4</td>
+	<td>exact:Adults with ADHD have a higher risk of having health-related issues from long-standing and hard-to-break habits. Are you having problems with any of the following? Choose all that apply.</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='qa-head']/div/div/form/div/div/div/div[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=qa-n</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>id=hcProgressBar</td>
+	<td>39%</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='qa-head']/div/div/form/div/div/div/div[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=qa-n</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=h4</td>
+	<td>exact:Do you have a regular doctor or clinic you go to?</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='qa-head']/div/div/form/div/div/div/div[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=qa-n</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=h4</td>
+	<td>exact:Because of the known association of ADHD with symptoms of depression and anxiety, doctors agree that it's important to ask this question: Have you recently thought seriously about harming yourself or others?</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.cst-radio</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=qa-n</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=h4</td>
+	<td>exact:Do you really mean that in the past 1-2 weeks you have seriously considered harming yourself or others?</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='qa-head']/div/div/form/div/div/div/div[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=qa-n</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=h4</td>
+	<td>exact:If you believed it would help, how willing would you be to do the following?</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>slider0</td>
+	<td>label=Very willing</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>slider1</td>
+	<td>label=Somewhat willing</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>slider2</td>
+	<td>label=Not willing</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>slider3</td>
+	<td>label=Somewhat willing</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=qa-n</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=p</td>
+	<td>Your assessment is complete! We are calculating your results.<br /> Your personalized report and action plan will be ready in just a moment.</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=li.nextStep4</td>
+	<td>Managing Your Finances<br /> The impulsive urges that come with ADHD can drain your wallet fast. But there are ways to get control.</td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=h2</td>
+	<td>Your Personalized Action Plan</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=h3</td>
+	<td>Your Next Steps</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=b</td>
+	<td>Your answers indicate a HIGH likelihood that you have ADHD.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=li.nextStep1</td>
+	<td>Review Your Personalized Report Now<br /> We've interpreted your responses and prepared a customized report just for you. See the personalized recommendations on what you should discuss with your doctor and how to prepare for your visit.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=li.nextStep2</td>
+	<td>Talk to Your Doctor about Treatment Options<br /> Your results suggest that you may have adult ADHD. Talk with your doctor about your symptoms. A variety of treatment options are available to help you live well with ADHD. Your doctor can work with you to find the right treatment. Managing these symptoms can improve your quality of life and lower the stress that ADHD may be causing. Your customized doctor’s report can help you start a conversation with your doctor.</td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=li.nextStep3</td>
+	<td>Helpful Tips and Techniques<br /> Many techniques can help you cope with ADHD symptoms. For example, routines and reminders help with forgetfulness. Read 4 Tips to Staying Organized with ADHD.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=li.nextStep4</td>
+	<td>Managing Your Finances<br /> The impulsive urges that come with ADHD can drain your wallet fast. But there are ways to get control.</td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>selenium.browserbot.getCurrentWindow().scrollTo(400,800)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=li.nextStep5</td>
+	<td>Support is the Key to Coping with ADHD<br /> Adult ADHD causes many challenges-and also affects spouses, significant others, and family members. Talking with others who have ADHD can help you work out your feelings and get coping tips. Check out these resources.</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.v-center</td>
+	<td>Print Your Doctor's Report</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=#hc-takeToolBar-email &gt; div.v-center</td>
+	<td>Email My Report</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=#hc-takeToolBar-1 &gt; div.v-center</td>
+	<td>10 Questions to Ask Your Doctor</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=span.icon-print</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=span.icon-envelope-alt</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//a[@id='hc-takeToolBar-1']/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#hc-takeToolBar-email &gt; div.v-center</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=label</td>
+	<td>Email My Personalized Action Plan</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=emailTo</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=cancelResults</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=sendpdf</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=emailClose</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#hc-takeToolBar-email &gt; div.v-center</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=emailTo</td>
+	<td>joseph@perfectsensedigital.com</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=sendpdf</td>
+	<td></td>
+</tr>
+<!--## ERROR Please clarify the pop up sent result layout and its expected behavior -->
+<!--## ERROR the mail out pdf file with UI issue -->
+<tr>
+	<td>selectPopUp</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>id=emailResponse</td>
+	<td>Results sent to: joseph@perfectsensedigital.com</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=emailClose</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>4000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeAttribute</td>
+	<td>id=hc-takeToolBar-2@href</td>
+	<td>url</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>6000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>windowFocus</td>
+	<td>title=Adult ADHD HealthCoach Physician Report</td>
+	<td></td>
+</tr>
+<!--## QA Note: using direct url approach instead of button clicks   click   css=span.icon-print  openWindow ${url}-->
+<tr>
+	<td>open</td>
+	<td>${url}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=img.printBtn.physician-report</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=b</td>
+	<td>exact:Patient:</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[@id='hc-report-body']/p[5]/b</td>
+	<td>exact:Problem:</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[@id='hc-report-body']/p[6]/b</td>
+	<td>Recommendation Provided:</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[@id='hc-report-body']/p[7]/b</td>
+	<td>Screening Test Results:</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[@id='hc-report-body']/table/tbody/tr[6]/td</td>
+	<td>6. Always &quot;on the go&quot; or acting as if &quot;driven by a motor&quot;</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='hc-report-body']/table/tbody/tr[6]/td[4]</td>
+	<td>x</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[@id='hc-report-body']/table[2]/tbody/tr[7]/td</td>
+	<td>12. Often misplacing things</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='hc-report-body']/table[2]/tbody/tr[7]/td[4]</td>
+	<td>x</td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>selenium.browserbot.getCurrentWindow().scrollTo(400,800)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[@id='hc-report-body']/table[3]/tbody/tr/td</td>
+	<td>13. Getting distracted by nearby activity or noise</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='hc-report-body']/table[3]/tbody/tr/td[4]</td>
+	<td>x</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[@id='hc-report-body']/table[3]/tbody/tr[6]/td</td>
+	<td>18. Finishing the sentences of others</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='hc-report-body']/table[3]/tbody/tr[6]/td[5]</td>
+	<td>x</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[@id='hc-report-body']/p[9]/b</td>
+	<td>exact:Summary:</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='hc-report-body']/p[9]/b[2]</td>
+	<td>highly consistent</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=p.qa-review</td>
+	<td>Medically Reviewed By: Andre J Ognibene MD MACP on October 9, 2014</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=img.printBtn.physician-report</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

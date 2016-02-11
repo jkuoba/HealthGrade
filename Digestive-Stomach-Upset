@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://ucms-qa.healthgrades.com/healthcoach/adult-adhd-healthcoach" />
+<title>Digestive-Stomach-Upset</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Digestive-Stomach-Upset</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/healthcoach/digestive-investigator</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=div.hcIntroCont &gt; h3</td>
+	<td>Select your digestive symptoms and get practical advice for feeling better.</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.ans.c21118 &gt; div.cst-radio</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=qa-n</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=h4.QError</td>
+	<td>exact:What is your age?</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=QAssetID:10670|QNodeID:7|QNodeTypeID:35|QAlgoID:3495</td>
+	<td>label=30-39</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=qa-n</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=h4.QError</td>
+	<td>exact:What is your gender?</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[starts-with(@id, 'hcw')]/div/div/div/div[3]/form/div/div/div/div[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=qa-n</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=qa-n</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=h4.QError</td>
+	<td>exact:Which of these symptoms most concerns you?</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=span.error-txt</td>
+	<td>Please complete the highlighted question to continue.</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.hc-label</td>
+	<td>Belching</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[starts-with(@id, 'hcw')]/div/div/div/div[3]/form/div/div/div/div[2]/div[2]</td>
+	<td>Burning</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[starts-with(@id, 'hcw')]/div/div/div/div[3]/form/div/div/div/div[3]/div[2]</td>
+	<td>Gas/flatulence</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[starts-with(@id, 'hcw')]/div/div/div/div[3]/form/div/div/div/div[4]/div[2]</td>
+	<td>Nausea</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[starts-with(@id, 'hcw')]/div/div/div/div[3]/form/div/div/div/div[5]/div[2]</td>
+	<td>Stomach/abdominal pain</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[starts-with(@id, 'hcw')]/div/div/div/div[3]/form/div/div/div/div[6]/div[2]</td>
+	<td>Bloating or stomach cramps</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[starts-with(@id, 'hcw')]/div/div/div/div[3]/form/div/div/div/div[7]/div[2]</td>
+	<td>Vomiting</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[starts-with(@id, 'hcw')]/div/div/div/div[3]/form/div/div/div/div[5]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=qa-n</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=h4</td>
+	<td>exact:Are you experiencing any of the following?</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=qa-n</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=h4.QError</td>
+	<td>exact:Are you experiencing any of the following?</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=td.frst</td>
+	<td>Fever over 102 degrees</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.cst-radio</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=qa-n</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=td.frst</td>
+	<td>Fever over 102 degrees</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=tr.evenRow.AError &gt; td.frst</td>
+	<td>Stomach/abdominal pain that has been constant for at least 12 hours without easing</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[starts-with(@id, 'hcw')]/div/div/div/div[3]/form/div/div/div/table/tbody/tr/td[3]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[starts-with(@id, 'hcw')]/div/div/div/div[3]/form/div/div/div/table/tbody/tr/td[3]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[starts-with(@id, 'hcw')]/div/div/div/div[3]/form/div/div/div/table/tbody/tr[2]/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[starts-with(@id, 'hcw')]/div/div/div/div[3]/form/div/div/div/table/tbody/tr[3]/td[3]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[starts-with(@id, 'hcw')]/div/div/div/div[3]/form/div/div/div/table/tbody/tr[3]/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[starts-with(@id, 'hcw')]/div/div/div/div[3]/form/div/div/div/table/tbody/tr[4]/td[3]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[starts-with(@id, 'hcw')]/div/div/div/div[3]/form/div/div/div/table/tbody/tr[5]/td[3]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[starts-with(@id, 'hcw')]/div/div/div/div[3]/form/div/div/div/table/tbody/tr[6]/td[3]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=qa-n</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=div.hc-calc-cont &gt; p</td>
+	<td>Your assessment is complete! We are calculating your results.<br /> Your personalized report and action plan will be ready in just a moment.</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=startAgain</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=#hc-results &gt; h2</td>
+	<td>Your Digestive Investigator Results</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=#hc-results &gt; b</td>
+	<td>make an appointment with a doctor right away</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=img.spResImg</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>selenium.browserbot.getCurrentWindow().scrollTo(300,800)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[@id='hc-results']/b[2]</td>
+	<td>Symptoms You Should Discuss With a Healthcare Professional</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=td.e24TableRowHeader</td>
+	<td>Fever over 102 degrees</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=td.e24TableCellSelected</td>
+	<td>x</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='hc-results']/table/tbody/tr[2]/td</td>
+	<td>Stomach/abdominal pain that has been constant for at least 12 hours without easing</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='hc-results']/table/tbody/tr[2]/td[2]</td>
+	<td>x</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='hc-results']/table/tbody/tr[3]/td</td>
+	<td>Vomiting</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='hc-results']/table/tbody/tr[3]/td[2]</td>
+	<td>x</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='hc-results']/table/tbody/tr[4]/td</td>
+	<td>Severe stomach/abdominal pain that is getting increasingly worse</td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>//div[@id='hc-results']/table/tbody/tr[4]/td[3]</td>
+	<td>x</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='hc-results']/table/tbody/tr[5]/td</td>
+	<td>Abdominal trauma</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='hc-results']/table/tbody/tr[5]/td[3]</td>
+	<td>x</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='hc-results']/table/tbody/tr[6]/td</td>
+	<td>Diarrhea lasting more than 7 days</td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>//div[@id='hc-results']/table/tbody/tr[6]/td[3]</td>
+	<td>x</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=emailTo</td>
+	<td>josephmail</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=sendResults</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=span.red</td>
+	<td>Valid email address required</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=email</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=emailTo</td>
+	<td>joseph@perfectsensedigital.com</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=sendResults</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>id=emailResponse</td>
+	<td>Results sent to: joseph@perfectsensedigital.com</td>
+</tr>
+</tbody></table>
+</body>
+</html>

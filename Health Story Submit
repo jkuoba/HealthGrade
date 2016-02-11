@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://ucms-qa.healthgrades.com/healthcoach/adult-adhd-healthcoach" />
+<title>Health Story Submit</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Health Story Submit</td></tr>
+</thead><tbody>
+<!--QA Note:  Photo Upload cannot be automated, please test it manuelly, and verify it through multiple images and preview page -->
+<tr>
+	<td>setSpeed</td>
+	<td>700</td>
+	<td></td>
+</tr>
+<tr>
+	<td>deleteCookie</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>http://test.healthgrades.com/health-stories/submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=h1</td>
+	<td>Share Your Health Story</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=a.logoImg</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=multi_search_textbox</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=multi_search_location_textbox</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=headerSearch</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=health stories</td>
+	<td>health stories</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Story Guidelines</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[@id='ps-form-wrapper']/div[7]/p</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.guidelines-overlay.popup &gt; span.close.icon-cancel-circle</td>
+	<td></td>
+</tr>
+<!--View All Stories-->
+<tr>
+	<td>clickAndWait</td>
+	<td>link=View All Stories</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>selenium.browserbot.getCurrentWindow().scrollTo(400,500)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>selenium.browserbot.getCurrentWindow().scrollTo(400,800)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>selenium.browserbot.getCurrentWindow().scrollTo(400,1300)</td>
+	<td></td>
+</tr>
+<!--ERROR  RR What Happening  Module should be a sticky module while screen scroll down-->
+<!--ERROR There is no close/cancel button to bring user back to Health Story Submit page. -->
+<tr>
+	<td>open</td>
+	<td>http://test.healthgrades.com/health-stories/submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=label.form-label</td>
+	<td>exact:First Name *</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.field-group.group2 &gt; label.form-label</td>
+	<td>exact:City *</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.field-group.group3 &gt; label.form-label</td>
+	<td>exact:State *</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.field-group.group4 &gt; label.form-label</td>
+	<td>exact:Which Health Condition Is Your Story Related to? *</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>id=condition</td>
+	<td>(Example: Diabetes) Allergies Bones, Joints and Muscles Brain and Nerves Cancer Diabetes Digestive System Ear, Nose and Throat Eyes and Vision Female Reproductive Food &amp; Nutrition Genetics Heart Infections Injuries Kidneys Lungs Male Reproductive Mental Health Metabolic System Oral Health Poisoning Sexual Health Skin, Hair and Nails</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//form[@id='psForm']/div[3]/div/div/label</td>
+	<td>Doctor in Your Story</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.field-group.group5A &gt; label.form-label</td>
+	<td>City</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.field-group.group5B &gt; label.form-label</td>
+	<td>State</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//form[@id='psForm']/div[4]/div/div/label</td>
+	<td>Hospital/Practice in Your Story</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//form[@id='psForm']/div[4]/div/div[2]/label</td>
+	<td>City</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//form[@id='psForm']/div[4]/div/div[3]/label</td>
+	<td>State</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.field-group.afterthought1 &gt; label.form-label</td>
+	<td>Title of Your Story (optional)</td>
+</tr>
+<!--RR-->
+<tr>
+	<td>verifyText</td>
+	<td>//form[@id='psForm']/div/div[3]/div/span[2]</td>
+	<td>The name and location you provide here will be displayed to other users, along with your story.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//form[@id='psForm']/div[2]/div/div/span[2]</td>
+	<td>Pick a condition or procedure your story relates to.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//form[@id='psForm']/div[3]/div/div[3]/div/span[2]</td>
+	<td>The name and location you provide here will be displayed to other users, along with your story.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//form[@id='psForm']/div[4]/div/div[3]/div/span[2]</td>
+	<td>The name and location you provide here will be displayed to other users, along with your story.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//form[@id='psForm']/div[5]/div/div/span[2]</td>
+	<td>The Story Title will appear as the headline of your story.</td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>selenium.browserbot.getCurrentWindow().scrollTo(400,800)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.field-group.group6 &gt; label.form-label</td>
+	<td>exact:Tell Us Your Story *</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=span.field-length-error</td>
+	<td>Please enter at least 500 characters.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=span.char-count</td>
+	<td>5000 Characters Remaining</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.ps-overlay.popup &gt; ul &gt; li</td>
+	<td>exact:How did this health condition or procedure affect your life?</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//form[@id='psForm']/div[6]/div/div/ul/li[2]</td>
+	<td>exact:What did you take into consideration when making treatment decisions?</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//form[@id='psForm']/div[6]/div/div/ul/li[3]</td>
+	<td>Tell us about your recovery and what it was like.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//form[@id='psForm']/div[6]/div/div/ul/li[4]</td>
+	<td>exact:What advice would you give someone going through a similar situation?</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=b</td>
+	<td>Add Photos</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//form[@id='psForm']/div[7]/label</td>
+	<td>Add Photos (optional)</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=fileupload</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=span.text</td>
+	<td>You haven't chosen any photos.</td>
+</tr>
+<!--QA Note, I think this is duplicae info on the RR, need to clarify with product owner  ( we have same dscp on the top )-->
+<tr>
+	<td>assertText</td>
+	<td>//form[@id='psForm']/div[7]/div/span[2]</td>
+	<td>The name and location you provide here will be displayed to other users, along with your story.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.field-group.group8 &gt; label.form-label</td>
+	<td>I agree to the terms and conditions. (required)<br /><br />These submissions are individual opinions of patients based upon their own experiences. By submitting a story about a provider, you are acknowledging that you or a family member was or has been a patient of the provider. Once submitted, stories will be displayed publicly on our website.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=Preview My Story</td>
+	<td>Preview My Story</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=Hospital and Group Practices</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=Conditions</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[@id='hgsw-footer']/div/div/ul/li[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.legal &gt; p</td>
+	<td>© Copyright 2016 Healthgrades Operating Company, Inc. Patent US Nos. 7,752,060 and 8,719,052. All Rights Reserved. <br /> Third Party materials included herein protected under copyright law.</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=Preview My Story</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Preview My Story</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Preview My Story</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=h1</td>
+	<td>Share Your Health Story</td>
+</tr>
+<!--Starting Fields V&V-->
+<tr>
+	<td>storeEval</td>
+	<td>selenium.browserbot.getCurrentWindow().scrollTo(400,300)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=firstName</td>
+	<td>joseph</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=city</td>
+	<td>fairfax</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=condition</td>
+	<td>label=Bones, Joints and Muscles</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=doctor</td>
+	<td>Dr. John Pi</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=doctor-city</td>
+	<td>Vienna</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=doctor-state</td>
+	<td>label=VA</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=hospital</td>
+	<td>inova</td>
+</tr>
+<tr>
+	<td>typeKeys</td>
+	<td>id=hospital</td>
+	<td>inova</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=span.facility-info</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=storyTitle</td>
+	<td>MY Join pain</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=story</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=story</td>
+	<td>I starting with have join pain about 5 years ago. <br /></td>
+</tr>
+<tr>
+	<td>sendKeys</td>
+	<td>id=story</td>
+	<td>It started from my left leg and now it extends to my right leg.</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=span.char-count</td>
+	<td>4886 Characters Remaining</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=span.field-length-error</td>
+	<td>Please enter at least 500 characters.</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=story</td>
+	<td>I starting with have join pain about 5 years ago. <br />It started from my left leg and now it extends to my right leg<br />My story isn't based on one of my many injuries or illnesses its based on great overall health care from Dr. Pierskala. I started to see Dr. Pierskala in my late 40's near 50. Over the past 10 years plus i have kept him busy with hockey injuries, stitches, herniated disk C4-C7, pulmonary embolism from a puck to the thigh, followed by a blood clot in my calf. Bone spurs removed from toes and ankle by Dr. Zingas. With a bad run starting in March with a puck to the face, stitches in my finger and now in my foot. I have road thousands of miles on bike, played a lot of hockey, remodeled houses and built custom cabinets. My point is I keep busy and keep him busy with health problems and injuries. Through all of this Dr. Pierskala has been there to help me. He may give me a funny look and sigh but never once told me to give up my activities. If you know anything about Covey's speed of trust its in play every time I see him. I have a tremendous amount of trust and respect, we discuss the specifics in detail and he always provides great advice, guidance and referrals regardless of the circumstances. I want every one to know if you can get an appointment with Dr. Pierskala and have him become your doctor do it, you wont be disappointed. Given my track record and the stories I hear from others I want you all to know Dr. Pierskala is an excellent doctor for you and your family. QA testing</td>
+</tr>
+<tr>
+	<td>sendKeys</td>
+	<td>id=story</td>
+	<td> END</td>
+</tr>
+<tr>
+	<td>verifyTextNotPresent</td>
+	<td>css=span.field-length-error</td>
+	<td>Please enter at least 500 characters.</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=span.char-count</td>
+	<td>3483 Characters Remaining</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=div.upload-wrapper.clrfix</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=fileupload</td>
+	<td></td>
+</tr>
+<!--QA Note:  Photo Upload cannot be automated, please test it manuelly, and verify it through multiple images and preview page -->
+<tr>
+	<td>click</td>
+	<td>link=Preview My Story</td>
+	<td></td>
+</tr>
+<!--stay in same page since the "agree" checkbox does not enabled-->
+<tr>
+	<td>click</td>
+	<td>id=agreebox</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Preview My Story</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=h3</td>
+	<td>Story Preview</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=p</td>
+	<td>These submissions are individual opinions of patients based upon their own experiences. By submitting a story about a provider, you are acknowledging that you or a family member was or has been a patient of the provider. Once submitted, stories will be displayed publicly on our website. Healthgrades also reserves the right to further edit your story.</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=h1.ps-post-title</td>
+	<td>MY Join pain</td>
+</tr>
+<tr>
+	<td>assertElementNotPresent</td>
+	<td>css=img.ps-carousel-slide-image</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementNotPresent</td>
+	<td>css=div.caro-promo</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=p.intro</td>
+	<td>I starting with have join pain about 5 years ago.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.post-after-body.clrfix &gt; p</td>
+	<td>These submissions are individual opinions of patents based upon their own experiences. By submitting a story about a provider, you are acknowledging that you or a family member was or has been a patient of the provider. Once submitted, stories will be displayed publicly on our website.</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=Back to Editing</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>name=submitForm</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Back to Editing</td>
+	<td></td>
+</tr>
+<!--QA Action: please check multiple image upload and preview page with carousel  feature -->
+<!--QA Action:  we did not test Submit button,  I assue it is working on prod or need to be verify during post launch V&V-->
+<tr>
+	<td>click</td>
+	<td>link=Preview My Story</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=span.close-preview.icon-cancel-circle</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Preview My Story</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=submitForm</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=span.close.icon-cancel-circle</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Preview My Story</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=submitForm</td>
+	<td></td>
+</tr>
+<!--## ERROR - not able to access Preview My Story page!!!!!-->
+<tr>
+	<td>waitForText</td>
+	<td>css=p.auth-intro-text</td>
+	<td>Please log in or register to submit a health story.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.topLnk &gt; span</td>
+	<td>exact:Don't have an account yet?</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.formGroup.clean &gt; label</td>
+	<td>Email Address</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='InlineCss-2']/form/div[2]/label</td>
+	<td>Password</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=strong</td>
+	<td>MUST CONTAIN:</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.rules &gt; div &gt; span</td>
+	<td>8 or more characters,</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='InlineCss-2']/form/div[2]/div/div/span[2]</td>
+	<td>at least 1 number,</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='InlineCss-2']/form/div[2]/div/div/span[3]</td>
+	<td>1 upper case letter,</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='InlineCss-2']/form/div[2]/div/div/span[4]</td>
+	<td>and 1 lower case letter</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[@id='InlineCss-2']/form/div[3]/label</td>
+	<td>Confirm Password</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=button.btnSubmit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//button[@value='Sign Up Using Facebook']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=Sign In</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=email</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=email</td>
+	<td>psdqaauto@gmail.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=password</td>
+	<td>Password1</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=button.btnSubmit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>//div[@id='ps-form-wrapper']/div[9]/h4</td>
+	<td>Thank you!</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[@id='ps-form-wrapper']/div[9]/p</td>
+	<td>Our editors will review your story before it's published. Once verified, we'll notify you when it's live.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=(//a[contains(text(),'View All Stories')])[2]</td>
+	<td>View All Stories</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='ps-form-wrapper']/div[9]/p[2]</td>
+	<td>exact:* If you just registered please verify your email address to submit your story. *</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=(//a[contains(text(),'View All Stories')])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>link=Health Stories</td>
+	<td>Health Stories</td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Health Stories</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

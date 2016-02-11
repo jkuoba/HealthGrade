@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://ucms-qa.healthgrades.com/healthcoach/adult-adhd-healthcoach" />
+<title>Type1-Diabetes-Expert</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Type1-Diabetes-Expert</td></tr>
+</thead><tbody>
+<tr>
+	<td>setSpeed</td>
+	<td>700</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/learning-challenge/type-1-diabetes-learning-challenge</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=h1</td>
+	<td>Type 1 Diabetes Learning Challenge</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=Novice ›</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=Expert ›</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Expert ›</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=h3.lm-qstn-num</td>
+	<td>Question&nbsp;&nbsp;1 of 10</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='lm-widget']/div/div[3]/div/div/h4/p[2]</td>
+	<td>exact:Who can get type 1 diabetes?</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=button.ans-btn</td>
+	<td>A. Children under 12</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//button[@value='00000149-8740-de38-a959-cff74f400000']</td>
+	<td>C. Adults of any age</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=Remove Answer</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=Get a Clue</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=button.ans-btn.correct</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=div.lm-correct &gt; h4</td>
+	<td>Correct!</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='lm-widget']/div/div[3]/div/div[2]/p[2]</td>
+	<td>The correct answer is D. All of the above</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Next ›</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=h3.lm-qstn-num</td>
+	<td>Question&nbsp;&nbsp;2 of 10</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='lm-widget']/div/div[3]/div/div/h4/p[2]</td>
+	<td>exact:What health problem can result from having type 1 diabetes?</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=button.ans-btn</td>
+	<td>A. Ear infections</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=button.ans-btn.correct</td>
+	<td>B. Kidney failure</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=li.removable &gt; button.ans-btn</td>
+	<td>C. Rheumatoid arthritis</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//button[@value='00000149-8746-de38-a959-cff736300000']</td>
+	<td>D. Emphysema</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Remove Answer</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=button.ans-btn.correct</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>//div[@id='lm-widget']/div/div[3]/div/div[2]/p[2]</td>
+	<td>The correct answer is B. Kidney failure</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='lm-widget']/div/div[3]/div/div[2]/p[3]</td>
+	<td>People with type 1 diabetes are also at risk of developing heart disease, stroke, high blood pressure, blindness, and nerve damage. Controlling blood sugar levels is the best way to prevent these complications.</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Next ›</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=h3.lm-qstn-num</td>
+	<td>Question&nbsp;&nbsp;3 of 10</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='lm-widget']/div/div[3]/div/div/h4/p[2]</td>
+	<td>exact:What can you do to decrease the risk of developing type 1 diabetes complications?</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=button.ans-btn</td>
+	<td>A. Limit exercise to stretching exercises only</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//button[@value='00000149-8ad9-de38-a959-cbff0de30000']</td>
+	<td>B. Exercise before doctor appointments</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=button.ans-btn.correct</td>
+	<td>C. Exercise regularly</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//button[@value='00000149-8ad9-de38-a959-cbff55060000']</td>
+	<td>D. People with type 1 diabetes shouldn’t exercise</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button[@value='00000149-8ad9-de38-a959-cbff0de30000']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=div.lm-incorrect &gt; h4</td>
+	<td>Incorrect!</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='lm-widget']/div/div[3]/div/div[2]/p[3]</td>
+	<td>Regular exercise helps control blood sugar levels. It increases insulin sensitivity, so your body doesn’t need as much insulin to use blood sugar for energy. It also strengthens your cardiovascular system. Talk with your doctor about exercises that are right for you.</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Next ›</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=h3.lm-qstn-num</td>
+	<td>Question&nbsp;&nbsp;4 of 10</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='lm-widget']/div/div[3]/div/div/h4/p[2]</td>
+	<td>exact:What other lifestyle habit can help prevent complications of type 1 diabetes?</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=button.ans-btn</td>
+	<td>A. Eat a healthy diet</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=li.removable &gt; button.ans-btn</td>
+	<td>B. Don’t smoke</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//button[@value='00000149-8ae2-de38-a959-cbf7ed8e0000']</td>
+	<td>C. Control blood pressure and cholesterol levels</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=button.ans-btn.correct</td>
+	<td>D. All of the above</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Get a Clue</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[@id='lm-widget']/div/div[3]/div/div/div/p[2]</td>
+	<td>There are many facets to a healthy lifestyle.</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=span.lm-close</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=button.ans-btn.correct</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>//div[@id='lm-widget']/div/div[3]/div/div[2]/p[2]/b</td>
+	<td>The correct answer is D. All of the above</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='lm-widget']/div/div[3]/div/div[2]/p[3]</td>
+	<td>Along with exercise, practicing all of these lifestyle habits can decrease your risk of developing complications by more than 75%.</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Next ›</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=h3.lm-qstn-num</td>
+	<td>Question&nbsp;&nbsp;5 of 10</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='lm-widget']/div/div[3]/div/div/h4/p[2]</td>
+	<td>exact:What is the best type of carbohydrate for people with type 1 diabetes?</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=button.ans-btn</td>
+	<td>A. Simple carbohydrates</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//button[@value='00000149-8ae5-de38-a959-cbf7feed0000']</td>
+	<td>C. The type of carbohydrate doesn’t matter</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=button.ans-btn.correct</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>//div[@id='lm-widget']/div/div[3]/div/div[2]/p[2]/b</td>
+	<td>The correct answer is B. Complex carbohydrates</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='lm-widget']/div/div[3]/div/div[2]/p[3]</td>
+	<td>Complex carbohydrates take longer to digest and keep you feeling full longer. Examples include vegetables, beans, and whole-grain breads, pasta and cereals. They also don’t raise blood sugar levels as high as simple carbohydrates like sugar, honey, or highly processed or refined foods. But portion is always important. Work with a dietitian if you need help understanding carbohydrates.</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Next ›</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=h3.lm-qstn-num</td>
+	<td>Question&nbsp;&nbsp;6 of 10</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='lm-widget']/div/div[3]/div/div/h4/p[2]</td>
+	<td>exact:How often can people with type 1 diabetes eat sweets?</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=button.ans-btn</td>
+	<td>A. Anytime they feel like it</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=button.ans-btn.correct</td>
+	<td>B. Once in a while</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//button[@value='00000149-8aea-de38-a959-cbff2bee0000']</td>
+	<td>C. Every evening</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=li.removable &gt; button.ans-btn</td>
+	<td>D. Never</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Skip Question</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>//div[@id='lm-widget']/div/div[3]/div/div[2]/p[2]/b</td>
+	<td>The correct answer is B. Once in a while</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='lm-widget']/div/div[3]/div/div[2]/p[3]</td>
+	<td>People with type 1 diabetes don’t have to deprive themselves of enjoying sweets. But they have to be smart about it and plan for it. Work with a dietitian to understand how to swap out other carbohydrates for a sweet treat. And make sure you know how to adjust your insulin dose to accommodate it.</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Next ›</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=h3.lm-qstn-num</td>
+	<td>Question&nbsp;&nbsp;7 of 10</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='lm-widget']/div/div[3]/div/div/h4/p[2]</td>
+	<td>exact:What is the main treatment for type 1 diabetes?</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//button[@value='00000149-8aed-de38-a959-cbffe1490000']</td>
+	<td>B. Oral medicines</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//button[@value='00000149-8aee-de38-a959-cbff13b60000']</td>
+	<td>D. Combination of oral medicines and insulin therapy</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=button.ans-btn.correct</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>//div[@id='lm-widget']/div/div[3]/div/div[2]/p[3]</td>
+	<td>Replacing insulin that the pancreas can no longer make is the main treatment for type 1 diabetes. People with type 1 diabetes give themselves insulin as an injection or through an insulin pump. Oral diabetes medicines don’t work in type 1 diabetes.</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Next ›</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=h3.lm-qstn-num</td>
+	<td>Question&nbsp;&nbsp;8 of 10</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='lm-widget']/div/div[3]/div/div/h4/p[2]</td>
+	<td>exact:Which side effect is the most common concern with insulin?</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=button.ans-btn.correct</td>
+	<td>A. Hypoglycemia</td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=li.removable &gt; button.ans-btn</td>
+	<td>D. Anemia</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=button.ans-btn.correct</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>//div[@id='lm-widget']/div/div[3]/div/div[2]/p[2]/b</td>
+	<td>The correct answer is A. Hypoglycemia</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Next ›</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=h3.lm-qstn-num</td>
+	<td>Question&nbsp;&nbsp;9 of 10</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='lm-widget']/div/div[3]/div/div/h4/p[2]</td>
+	<td>exact:How can people with type 1 diabetes tell when their blood sugar is too low?</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=li.removable &gt; button.ans-btn</td>
+	<td>B. They have trouble speaking and moving, and they can’t think clearly</td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>//button[@value='00000149-8af5-de38-a959-cbf7ebf40000']</td>
+	<td>C. Their blood sugar measures below 70 mg/dL</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=button.ans-btn.correct</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>//div[@id='lm-widget']/div/div[3]/div/div[2]/p[3]</td>
+	<td>Recognizing low blood sugar is key to treating it quickly and avoiding problems. It’s important to verify a low blood sugar level by checking it with a glucose monitor. If the reading is low, take steps to bring it back to normal.</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Next ›</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=h3.lm-qstn-num</td>
+	<td>Question&nbsp;&nbsp;10 of 10</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='lm-widget']/div/div[3]/div/div/h4/p[2]</td>
+	<td>exact:How do people with type 1 diabetes monitor their blood sugar levels?</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=button.ans-btn.correct</td>
+	<td>B. With a glucose monitor</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=li.removable &gt; button.ans-btn</td>
+	<td>D. With a stethoscope</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=button.ans-btn.correct</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=div.lm-correct &gt; h4</td>
+	<td>Correct!</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='lm-widget']/div/div[3]/div/div[2]/p[3]</td>
+	<td>There are two types of glucose monitors. Blood glucose meters check blood sugar levels periodically with a finger stick. Continuous glucose monitors constantly monitor glucose levels using a tiny sensor. They both have advantages and disadvantages. Ask your doctor which one is right for you.</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Results ›</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=div.lm-score</td>
+	<td>Your Score: 89%</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='lm-widget']/div/div[4]/div/div[3]/p[2]</td>
+	<td>exact:Well done! Would you like to brush up on your knowledge?</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.next-challenge-text</td>
+	<td>Challenge your friends to beat your score!</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=div.lm-more &gt; h3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=The Diabetes-Heart Disease Connection and What It Means for You</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=10 Myths About Diabetes</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=12 Signs of Uncontrolled Diabetes</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

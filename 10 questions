@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://ucms-qa.healthgrades.com/healthcoach/adult-adhd-healthcoach" />
+<title>10 questions</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">10 questions</td></tr>
+</thead><tbody>
+<tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=#hc-takeToolBar-1 &gt; div.v-center</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=h1</td>
+	<td>10 Questions to Ask Your Doctor About Asthma</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=p</td>
+	<td>exact:What causes asthma? Can it be cured?</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/article/ol/li[5]/p</td>
+	<td>exact:What medications treat asthma? How do they work?</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/article/ol/li[8]/p</td>
+	<td>exact:What are common asthma triggers? What are ways to control these triggers?</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/article/ol/li[10]/p</td>
+	<td>exact:When should I call a doctor or get emergency help for my asthma?</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.asset-details &gt; span</td>
+	<td>Medical Reviewers: William C. Lloyd III, MD, FACS</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/article/div[4]/span[2]</td>
+	<td>Last Review Date: Aug 17, 2015</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.asset-details &gt; p</td>
+	<td>© 2000-2015 Krames StayWell, 780 Township Line Road, Yardley, PA 19067. All rights reserved. This information is not intended as a substitute for professional medical care. Always follow your healthcare professional's instructions.</td>
+</tr>
+<tr>
+	<td>########</td>
+	<td></td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>

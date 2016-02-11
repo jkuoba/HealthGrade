@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://test.healthgrades.com/" />
+<title>Blog Search Result</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Blog Search Result</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/blog/search?q=fancy</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=h1</td>
+	<td>Search Results for &quot;fancy&quot;</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h4.search-results-number</td>
+	<td>9 results found</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div/h4[2]</td>
+	<td>Results 1-5 are displayed</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=h3.search-results-category</td>
+	<td>Other Healthgrades Content</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3 &gt; a &gt; span</td>
+	<td>Treatment Options for HIV</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.cpb</td>
+	<td>Modern medicine has come a long way, and there are effective treatments to keep HIV at bay.</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.month</td>
+	<td>Nov</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.day</td>
+	<td>19</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=Second Opinion On L5-S1 Fusion</td>
+	<td>Second Opinion On L5-S1 Fusion</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.card-post-list-attributes</td>
+	<td>exact:By: Dean|11/19/15 |Health Stories - Bones, Joints and Muscles</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=img.card-post-list-image</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div[2]/div[2]/div[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=(0)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div[2]/div[2]/div[2]/div/a[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=Read More</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>xpath=(//input[@name='q'])[3]</td>
+	<td>Enter Blog key words...</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[@id='contentWrapper']/div[3]/div/form/button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.rc-module-title</td>
+	<td>Trending Posts</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=label.form-label.clrfix</td>
+	<td>Filter By</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=select.select-btn</td>
+	<td>Most Recent Most Commented Most Popular</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=a.link &gt; img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h4.post-title</td>
+	<td>Healthgrades Sponsors Special Olympics</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='contentWrapper']/div[3]/div/div/div/div[2]/div[2]/div[2]/a/h4</td>
+	<td>exact:Nervous About Your Doctor's Appointment? Tricks to Ease Your Mind</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='contentWrapper']/div[3]/div/div/div/div[2]/div[2]/div[3]/a/h4</td>
+	<td>The 10 Most In-Demand Medical Specialties</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>css=select.select-btn</td>
+	<td>label=Most Recent</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=option[value=&quot;/health-stories/getmostrecent.jsp?topicId=0000014a-3e90-d5a2-a9ee-7fd0ce210000&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=a.link &gt; img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h4.post-title</td>
+	<td>Scott Booker Named CEO of Healthgrades</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>css=select.select-btn</td>
+	<td>label=Most Popular</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=option[value=&quot;/health-stories/getmostthumbsup.jsp?topicId=0000014a-3e90-d5a2-a9ee-7fd0ce210000&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=a.link &gt; img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h4.post-title</td>
+	<td>5 Benefits of Working at Healthgrades</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.author-info</td>
+	<td>by Amanda Randall | 01/21/2015</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>css=select.select-btn</td>
+	<td>label=Most Commented</td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>selenium.browserbot.getCurrentWindow().scrollTo(400,600)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div[2]/div[3]/div/h3/a/span</td>
+	<td>A Gluten-Free Holiday Survival Guide</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div[2]/div[3]/div/div</td>
+	<td>Avoiding gluten during seasonal celebrations doesn’t have to dampen your holiday cheer.</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/300x260/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2F07%2F95%2Fdcc5f7de4e89b440851968e7ccc5%2Fresizes%2F500%2Fimage-crohns-disease-biologics-food-group-of-people-laughing.jpg')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div[2]/div[4]/div/h3/a/span</td>
+	<td>Choosing the Right Clothes for Sensitive Skin</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.hgwdgt-headline.hgwdgt-theme-htc</td>
+	<td>Find a Physician</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=td.hgwdgt-c1 &gt; label</td>
+	<td>Specialty</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>css=select.hgwdgt-f-specialty</td>
+	<td>label=Internal Medicine</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='hgwdgt']/div[2]/div/div[2]/div/table/tbody/tr[2]/td/label</td>
+	<td>Name</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=input.hgwdgt-f-name.hgwdgt-hint</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='hgwdgt']/div[2]/div/div[2]/div/table/tbody/tr[3]/td/label</td>
+	<td>Location</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=Search</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=input.hgwdgt-f-name</td>
+	<td>John Pi</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Search</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.hgwdgt-total</td>
+	<td>Viewing 1 - 2 of 33 matches for Internal Medicine in Knoxville, TN</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=div.hgwdgt-results-info</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[@id='hgwdgt']/div[2]/div/div[2]/div[2]/div[2]/div[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=Next »</td>
+	<td>Next »</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Next »</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=View All</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=« Previous</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>selenium.browserbot.getCurrentWindow().scrollTo(400,1200)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div[2]/div[5]/div/h3/a/span</td>
+	<td>First Person: My Chronic Pain Story</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div[2]/div[5]/div/div</td>
+	<td>Loolwa Khazzoom tells her story about chronic pain after a hit-and-run accident.</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/crop/319x276%2B90%2B1/resize/300x260/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2Fc5%2F94%2F53b1206b4deb8023017b7335565b%2Fistock-000019683716-extrasmall.jpg')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.search-results-footer.clrfix &gt; h4.search-results-number</td>
+	<td>9 results found</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div[3]/h4[2]</td>
+	<td>Results 1-5 are displayed</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=Previous</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=li.next-pg &gt; a &gt; span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.rc-module-header.clrfix &gt; h3.rc-module-title</td>
+	<td>What's Happening</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=On Twitter</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=On Facebook</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=div.feed-content</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[@id='twitter-tab']/div[3]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=li.next-pg &gt; a &gt; span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=h3 &gt; a &gt; span</td>
+	<td>Gardening Tips for Allergy Sufferers</td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>selenium.browserbot.getCurrentWindow().scrollTo(400,1000)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div[2]/div[4]/div/h3/a/span</td>
+	<td>ABCs of Autumn Allergies</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div[2]/div[4]/div/div</td>
+	<td>Since it's back-to-school time, get a quick primer on allergy facts from A to Z.</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/crop/380x329%2B80%2B1/resize/300x260/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2F34%2Fc0%2Ffd963dd1438bb4ce00a2f66d5a2e%2Fresizes%2F500%2Fallergy-relief-guide-1.jpg')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div[4]/div/ul/li/a/span[2]</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

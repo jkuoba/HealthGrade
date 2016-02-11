@@ -1,0 +1,931 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://ucms-qa.healthgrades.com/healthcoach/adult-adhd-healthcoach" />
+<title>Appointment-guide-COPD</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Appointment-guide-COPD</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/appointment-guide/copd-appointment-guide</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=h1</td>
+	<td>COPD Appointment Guide</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=span.title-icon.icon-stethoscope</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=span.app-title</td>
+	<td>At Your Appointment</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=Keeping COPD Under Control</td>
+	<td>Keeping COPD Under Control</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='pageHead']/div[3]/ul/li[3]</td>
+	<td>COPD Appointment Guide</td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>link=View All &quot;Keeping COPD Under Control&quot; Articles</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=This content is selected and managed by the Healthgrades editorial staff and is brought to you by an advertising sponsor.</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=p</td>
+	<td>This content is created or selected by the Healthgrades editorial team and is funded by an advertising sponsor. The content is subject to the Healthgrades medical review process for accuracy, balance and objectivity. The content is not edited or otherwise influenced by the advertisers appearing on this page except with the possible suggestion of the broad topic area. For more information, read the HealthGrades advertising policy.</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=span.close</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=This content is selected and managed by the Healthgrades editorial staff and is brought to you by an advertising sponsor.</td>
+	<td>This content is selected and managed by the Healthgrades editorial staff and is brought to you by an advertising sponsor.</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=div.gradient-overlay</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2</td>
+	<td>Ask the Right Questions at Your Next Doctor's Appointment</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=get-started</td>
+	<td>Get Started</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=img.img_ad</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.zone</td>
+	<td>ADVERTISEMENT</td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>selenium.browserbot.getCurrentWindow().scrollTo(400,600)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>id=view-top-10</td>
+	<td>View Top 10 Questions About COPD</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>id=view-all</td>
+	<td>View All Questions About COPD</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=div-gpt-ad-belowbottom1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=Hospital and Group Practices</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[@id='hgsw-footer']/div/div/ul/li[3]</td>
+	<td>For Partners Healthgrades for Hospitals Hospital Client Log In Advertise With Us Quality Use Guidelines</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.ftShare.ie8 &gt; div</td>
+	<td>Connect With Us</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=div.ftShare.ie8</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=a[title=&quot;Follow Healthgrades on LinkedIn&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.legal &gt; p</td>
+	<td>© Copyright 2016 Healthgrades Operating Company, Inc. Patent US Nos. 7,752,060 and 8,719,052. All Rights Reserved. <br /> Third Party materials included herein protected under copyright law.</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=view-top-10</td>
+	<td></td>
+</tr>
+<!--ERRPR ##  aren't buton be dimmed ???-->
+<tr>
+	<td>waitForText</td>
+	<td>css=h2.top-10-heading</td>
+	<td>Top 10 Questions about COPD</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=ol.results.top-10 &gt; li</td>
+	<td>exact:What is COPD and what causes it?</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='results']/div/div/div[2]/ol/li[2]</td>
+	<td>exact:How will COPD affect my daily life and long-term health?</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='results']/div/div/div[2]/ol/li[3]</td>
+	<td>exact:Will I need follow-up tests for COPD and if so, how often will I need them?</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='results']/div/div/div[2]/ol/li[4]</td>
+	<td>exact:What are the symptoms of COPD?</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='results']/div/div/div[2]/ol/li[5]</td>
+	<td>exact:What are my treatment options for COPD?</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='results']/div/div/div[2]/ol/li[6]</td>
+	<td>exact:What should I do if my breathing or other COPD symptoms gets worse?</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='results']/div/div/div[2]/ol/li[7]</td>
+	<td>exact:Are there lifestyle changes I can make to improve my breathing and other COPD symptoms and support my treatment?</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='results']/div/div/div[2]/ol/li[8]</td>
+	<td>exact:What can I expect from my COPD medication and how long will it take to start working?</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='results']/div/div/div[2]/ol/li[9]</td>
+	<td>exact:How and when should I take my COPD medication and what should I do if I miss a dose?</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='results']/div/div/div[2]/ol/li[10]</td>
+	<td>exact:What are the possible risks, benefits, side effects, and interactions of my COPD medication?</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[@id='results']/div/div/div[2]/ol/li[3]</td>
+	<td>exact:Will I need follow-up tests for COPD and if so, how often will I need them?</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='results']/div[3]/button[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=div.email-form.clrfix &gt; h2</td>
+	<td>Send Questions by Email</td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=div.email-form.clrfix &gt; p</td>
+	<td>Email this list of questions to yourself or someone else.</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=a.cancel</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//input[@value='Send']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=a.cancel</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='results']/div[3]/button[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=email-to</td>
+	<td>joseph@perfectsensedigital.com</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@value='Send']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//div[@id='results']/div[3]/button[2]</td>
+	<td></td>
+</tr>
+<!--## ERROR Email might also have problem -->
+<!--## ERROR  print does not function-->
+<tr>
+	<td>click</td>
+	<td>id=view-all</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=h2.important-heading</td>
+	<td>Most important questions to ask about COPD</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=ol.results.all-questions &gt; li</td>
+	<td>exact:What is COPD and what causes it?</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='results']/div/div/div[2]/ol[2]/li[4]</td>
+	<td>exact:What types of specialists do I need to see and when for my COPD?</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='results']/div/div/div[2]/ol[2]/li[8]</td>
+	<td>exact:How is COPD diagnosed?</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='results']/div/div/div[2]/ol[2]/li[12]</td>
+	<td>exact:What are the symptoms of COPD?</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='results']/div/div/div[2]/ol[2]/li[16]</td>
+	<td>exact:Are there lifestyle changes I can make to improve my breathing and other COPD symptoms and support my treatment?</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='results']/div/div/div[2]/ol[2]/li[20]</td>
+	<td>exact:What types of COPD medications are available (pills, shots, inhaled sprays and breathing treatments)?</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='results']/div/div/div[2]/ol[2]/li[23]</td>
+	<td>exact:What are the possible risks, benefits, side effects, and interactions of my COPD medication?</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='results']/div[3]/button[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=div.email-form.clrfix &gt; h2</td>
+	<td>Send Questions by Email</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=email-to</td>
+	<td>josephkuo1@aol.com</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@value='Send']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=a.cancel</td>
+	<td></td>
+</tr>
+<!--#####  ERROR Print not functioning  in View All Page-->
+<tr>
+	<td>clickAndWait</td>
+	<td>//div[@id='results']/div[3]/button[2]</td>
+	<td></td>
+</tr>
+<!--QA note: Need to add test from questions page jump to qusetionnaire-->
+<!--ERROR : Please clarify "back to questionnaire" button color and label need to clarify-->
+<!--Get Started ------------------------->
+<tr>
+	<td>click</td>
+	<td>css=button.round-corners.back-to-questionnaire</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=get-started</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=get-started</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=h4</td>
+	<td>Question 1 of 6</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3</td>
+	<td>exact:Who is the appointment for?</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=label &gt; span</td>
+	<td>Myself</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div[2]/div[2]/div/div/label[2]/span</td>
+	<td>Spouse</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div[2]/div[2]/div/div/label[3]/span</td>
+	<td>Child</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div[2]/div[2]/div/div/label[4]/span</td>
+	<td>Parent</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div[2]/div[2]/div/div/label[5]/span</td>
+	<td>Friend or other relative</td>
+</tr>
+<tr>
+	<td>storeAttribute</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div[2]/div[2]/div[7]/button[2]@disabled</td>
+	<td>isDisabled</td>
+</tr>
+<tr>
+	<td>verifyExpression</td>
+	<td>${isDisabled}</td>
+	<td>disabled</td>
+</tr>
+<tr>
+	<td>storeAttribute</td>
+	<td>css=button.round-corners.previous@disabled</td>
+	<td>isDisabled</td>
+</tr>
+<tr>
+	<td>verifyExpression</td>
+	<td>${isDisabled}</td>
+	<td>disabled</td>
+</tr>
+<!--ERROR click on the option does not highlight the NEXT button-->
+<tr>
+	<td>click</td>
+	<td>id=q1-4</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeAttribute</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div[2]/div[2]/div[7]/button[2]@disabled</td>
+	<td>isDisabled</td>
+</tr>
+<tr>
+	<td>verifyExpression</td>
+	<td>${isDisabled}</td>
+	<td>${isDisabled}</td>
+</tr>
+<tr>
+	<td>storeAttribute</td>
+	<td>css=button.round-corners.previous@disabled</td>
+	<td>isDisabled</td>
+</tr>
+<tr>
+	<td>verifyExpression</td>
+	<td>${isDisabled}</td>
+	<td>disabled</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div[2]/div[2]/div[7]/button[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=div.question.active-question &gt; h4</td>
+	<td>Question 2 of 6</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.question.active-question &gt; h3</td>
+	<td>exact:What is the reason for the appointment?</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.question.active-question &gt; div.inputs &gt; label &gt; span</td>
+	<td>Routine visit</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div[2]/div[2]/div[2]/div/label[2]/span</td>
+	<td>New or worsening symptoms</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div[2]/div[2]/div[2]/div/label[3]/span</td>
+	<td>Medication issues or side effects</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div[2]/div[2]/div[2]/div/label[4]/span</td>
+	<td>Second opinion</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div[2]/div[2]/div[2]/div/label[5]/span</td>
+	<td>Evaluation for a possible diagnosis of COPD</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=q2-5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeAttribute</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div[2]/div[2]/div[7]/button[2]@disabled</td>
+	<td>isDisabled</td>
+</tr>
+<tr>
+	<td>verifyExpression</td>
+	<td>${isDisabled}</td>
+	<td>${isDisabled}</td>
+</tr>
+<tr>
+	<td>storeAttribute</td>
+	<td>css=button.round-corners.previous@disabled</td>
+	<td>isDisabled</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${isDisabled}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyExpression</td>
+	<td>${isDisabled}</td>
+	<td>${isDisabled}</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div[2]/div[2]/div[7]/button[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=div.question.active-question &gt; h4</td>
+	<td>Question 3 of 6</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.question.active-question &gt; h3</td>
+	<td>exact:Has a doctor diagnosed you or your loved one with COPD?</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.question.active-question &gt; div.inputs &gt; label &gt; span</td>
+	<td>Yes, Diagnosed</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div[2]/div[2]/div[3]/div/label[2]/span</td>
+	<td>No, Undiagnosed</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=q3-2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div[2]/div[2]/div[7]/button[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=div.question.active-question &gt; h4</td>
+	<td>Question 4 of 6</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=button.round-corners.previous</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div[2]/div[2]/div[7]/button[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=div.question.active-question &gt; h3</td>
+	<td>exact:Is the appointment with a current or new doctor?</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.question.active-question &gt; div.inputs &gt; label &gt; span</td>
+	<td>Current doctor</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div[2]/div[2]/div[4]/div/label[2]/span</td>
+	<td>New doctor</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=q4-1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div[2]/div[2]/div[7]/button[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div[2]/div[2]/div[5]/h4</td>
+	<td>Question 5 of 6</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3 &gt; p</td>
+	<td>exact:What are your symptoms? (Optional)</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div[2]/div[2]/div[5]/div/label/span</td>
+	<td>Coughing</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div[2]/div[2]/div[5]/div/label[2]/span</td>
+	<td>Shortness of breath, especially with exertion</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div[2]/div[2]/div[5]/div/label[3]/span</td>
+	<td>Wheezing</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div[2]/div[2]/div[5]/div/label[4]/span</td>
+	<td>Feeling of tightness in the chest</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div[2]/div[2]/div[5]/div/label[5]/span</td>
+	<td>Bringing up mucus</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div[2]/div[2]/div[5]/div/label[6]/span</td>
+	<td>Constant fatigue</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=em</td>
+	<td>exact:Add More?</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=symptom-1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=symptom-3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=s1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=s4</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=s5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=s2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=symptom-1</td>
+	<td>bad mood</td>
+</tr>
+<!--ERROR: Add More text remove button not working    http://screencast.com/t/eJo9tMPen8N-->
+<tr>
+	<td>type</td>
+	<td>id=symptom-2</td>
+	<td>anger</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div[2]/div[2]/div[7]/button[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div[2]/div[2]/div[6]/h4</td>
+	<td>Question 6 of 6</td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=span.question-text</td>
+	<td>exact:What medications are you taking (if any) for COPD? (Optional)</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div[2]/div[2]/div[6]/div/label/span</td>
+	<td>A-Methapred/Solu-Medrol (Methylprednisolone Sodium Succinate Solution for injection)</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div[2]/div[2]/div[6]/div/label[4]/span</td>
+	<td>Azmacort (Triamcinolone Acetonide Pressurized inhalation, suspension)</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div[2]/div[2]/div[6]/div/label[7]/span</td>
+	<td>Brovana (Arformoterol Tartrate Nebulizer solution)</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div[2]/div[2]/div[6]/div/label[8]/span</td>
+	<td>Combivent (Ipratropium Bromide, Albuterol Sulfate Pressurized inhalation, suspension)</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div[2]/div[2]/div[6]/div/label[9]/span</td>
+	<td>Deltasone (Prednisone Oral tablet)</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div[2]/div[2]/div[6]/div/label[15]/span</td>
+	<td>Quibron T/SR (Theophylline, Anhydrous Oral tablet, extended-release)</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div[2]/div[2]/div[6]/div/label[16]/span</td>
+	<td>QVAR (Beclomethasone Dipropionate Pressurized inhalation, solution)</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div[2]/div[2]/div[6]/div/label[19]/span</td>
+	<td>Symbicort (Budesonide, Formoterol Fumarate Pressurized inhalation, powder)</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div[2]/div[2]/div[6]/div/label[22]/span</td>
+	<td>Xopenex (Levalbuterol Hydrochloride Nebulizer solution)</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=d12</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=d9</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=d9</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=d7</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div[2]/div[2]/div[7]/button[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=div.ayag-summary &gt; strong</td>
+	<td>You said...</td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=h2.important-heading</td>
+	<td>Most important questions to ask about COPD</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.ayag-summary</td>
+	<td>You said... APPOINTMENT FOR: <br />Parent DIAGNOSIS: <br />No, Undiagnosed SYMPTOMS: <br />6 reported REASON(S): <br />1 reported CARE PROVIDER: <br />Current doctor MEDICATIONS: <br />2 reported</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.result-item &gt; span.question-text</td>
+	<td>exact:Could my COPD symptoms be caused by another medical condition?</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[@id='results']/div/div/div[2]/ul/li[2]/div/span</td>
+	<td>exact:How is COPD diagnosed?</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[@id='results']/div/div/div[2]/ul/li[3]</td>
+	<td>exact:Can my primary care doctor diagnose COPD or will I need to see a specialist?</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[@id='results']/div/div/div[2]/ul/li[4]/div/span</td>
+	<td>exact:Could COPD be the cause of my fatigue?</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[@id='results']/div/div/div[2]/ul/li[5]/div/span</td>
+	<td>exact:When and how will I learn of my diagnosis?</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[@id='results']/div/div/div[2]/ul/li[6]/div/span</td>
+	<td>exact:What are the symptoms of COPD?</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[@id='results']/div/div/div[2]/ul/li[7]/div/span</td>
+	<td>exact:What are my treatment options for COPD?</td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>selenium.browserbot.getCurrentWindow().scrollTo(400,600)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=button.add-questions.right</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.what-to-discuss</td>
+	<td>What to Discuss Symptoms: CoughingShortness of breath, especially with exertionFeeling of tightness in the chestBringing up mucusbad moodanger Medications: Brovana (Arformoterol Tartrate Nebulizer solution)Maxair (Pirbuterol Acetate Pressurized inhalation, solution)</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.what-to-bring</td>
+	<td>What to Bring Insurance Card Driver's License or ID This Guide and a Pen</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='results']/div/div/div[2]/ul/li[4]/div/a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[@id='results']/div/div/div[2]/ul/li[4]/div/span</td>
+	<td>exact:When and how will I learn of my diagnosis?</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[@id='results']/div/div/div[2]/ul/li[5]/div/span</td>
+	<td>exact:What are the symptoms of COPD?</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[@id='results']/div/div/div[2]/ul/li[6]/div/span</td>
+	<td>exact:What are my treatment options for COPD?</td>
+</tr>
+<!--Add Questions-->
+<tr>
+	<td>click</td>
+	<td>css=button.add-questions.right</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=div.doctor-questions &gt; h2</td>
+	<td>Add Questions</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=#additional-questions &gt; label &gt; span</td>
+	<td>exact:Could COPD be the cause of my fatigue?</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='additional-questions']/label[11]/span</td>
+	<td>exact:How will I know if my treatment plan for COPD is working well or if it needs to be changed?</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='additional-questions']/label[17]/span</td>
+	<td>exact:What are the possible risks, benefits, side effects, and interactions of my COPD medication?</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=cancel-questions</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#additional-questions &gt; label &gt; input[type=&quot;checkbox&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//input[@type='checkbox'])[30]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//input[@type='checkbox'])[31]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//input[@type='checkbox'])[45]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=save-questions</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=h2.important-heading</td>
+	<td>Most important questions to ask about COPD</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='results']/div/div/div[2]/ul/li[7]/div/span</td>
+	<td>exact:Could COPD be the cause of my fatigue?</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='results']/div/div/div[2]/ul/li[8]/div/span</td>
+	<td>exact:What is COPD and what causes it?</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='results']/div/div/div[2]/ul/li[9]/div/span</td>
+	<td>exact:Is COPD curable or controllable?</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='results']/div/div/div[2]/ul/li[10]/div/span</td>
+	<td>exact:What are the possible risks, benefits, side effects, and interactions of my COPD medication?</td>
+</tr>
+</tbody></table>
+</body>
+</html>
