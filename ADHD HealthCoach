@@ -11,7 +11,7 @@
 <thead>
 <tr><td rowspan="1" colspan="3">test1</td></tr>
 </thead><tbody>
-<!--## ERROR if user under private window mode in FF,  result page won't rendering.  Chrome incognito works fine. -->
+<!--## test ERROR if user under private window mode in FF,  result page won't rendering.  Chrome incognito works fine. -->
 <tr>
 	<td>setSpeed</td>
 	<td>700</td>
