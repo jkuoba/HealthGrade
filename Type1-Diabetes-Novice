@@ -13,7 +13,7 @@
 </thead><tbody>
 <tr>
 	<td>setSpeed</td>
-	<td>700</td>
+	<td>600</td>
 	<td></td>
 </tr>
 <tr>
@@ -1033,6 +1033,11 @@
 	<td></td>
 </tr>
 <tr>
+	<td>deleteCookie</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
 	<td>assertElementPresent</td>
 	<td>link=Twitter</td>
 	<td></td>
@@ -1048,21 +1053,6 @@
 	<td></td>
 </tr>
 <tr>
-	<td>close</td>
-	<td></td>
-	<td></td>
-</tr>
-<tr>
-	<td>pause</td>
-	<td>3000</td>
-	<td></td>
-</tr>
-<tr>
-	<td>selectPopUp</td>
-	<td>null</td>
-	<td></td>
-</tr>
-<tr>
 	<td>waitForText</td>
 	<td>id=status</td>
 	<td>exact:I scored 67% on the Healthgrades Type 1 Diabetes Learning Challenge. Can you beat my score? http://ucms-qa.healthgrades.com/learning-challenge/type-1-diabetes-learning-challenge @healthgrades</td>
@@ -1070,6 +1060,21 @@
 <tr>
 	<td>assertElementPresent</td>
 	<td>//input[@value='Log in and Tweet']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>close</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>1000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectPopUp</td>
+	<td>null</td>
 	<td></td>
 </tr>
 <tr>
@@ -1095,11 +1100,6 @@
 <tr>
 	<td>selectPopUp</td>
 	<td>null</td>
-	<td></td>
-</tr>
-<tr>
-	<td>close</td>
-	<td></td>
 	<td></td>
 </tr>
 <tr>
@@ -1170,6 +1170,16 @@
 <tr>
 	<td>click</td>
 	<td>//td/div[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectPopUp</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>close</td>
+	<td></td>
 	<td></td>
 </tr>
 </tbody></table>

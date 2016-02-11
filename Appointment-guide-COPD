@@ -253,15 +253,20 @@
 	<td></td>
 </tr>
 <tr>
+	<td>assertElementPresent</td>
+	<td>id=questions-view-all</td>
+	<td></td>
+</tr>
+<tr>
 	<td>clickAndWait</td>
 	<td>//div[@id='results']/div[3]/button[2]</td>
 	<td></td>
 </tr>
 <!--## ERROR Email might also have problem -->
-<!--## ERROR  print does not function-->
+<!--## ERROR  print does not function, it triggers the download but should haev pop up to user . ( works on Chrome) -->
 <tr>
 	<td>click</td>
-	<td>id=view-all</td>
+	<td>id=questions-view-all</td>
 	<td></td>
 </tr>
 <tr>
@@ -329,7 +334,7 @@
 	<td>css=a.cancel</td>
 	<td></td>
 </tr>
-<!--#####  ERROR Print not functioning  in View All Page-->
+<!--#####  ERROR Print not functioning  in View All Page   ( trigger download but lack of pop up like Chrome)-->
 <tr>
 	<td>clickAndWait</td>
 	<td>//div[@id='results']/div[3]/button[2]</td>

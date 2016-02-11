@@ -285,6 +285,11 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
 	<td>assertText</td>
 	<td>id=emailResponse</td>
 	<td>Results sent to: joseph@perfectsensedigital.com</td>
