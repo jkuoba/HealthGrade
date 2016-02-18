@@ -247,6 +247,11 @@
 	<td>Location</td>
 </tr>
 <tr>
+	<td>type</td>
+	<td>css=input.hgwdgt-f-location</td>
+	<td>20191</td>
+</tr>
+<tr>
 	<td>assertElementPresent</td>
 	<td>link=Search</td>
 	<td></td>
@@ -263,7 +268,12 @@
 </tr>
 <!--QA note: Depending on the GEO location, will have different result.-->
 <tr>
-	<td>assertText</td>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
 	<td>css=div.hgwdgt-total</td>
 	<td>Viewing 1 - 2 of 119 matches for Internal Medicine in Reston, VA</td>
 </tr>

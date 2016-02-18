@@ -12,8 +12,18 @@
 <tr><td rowspan="1" colspan="3">Digestive-Burning Sensation</td></tr>
 </thead><tbody>
 <tr>
+	<td>setSpeed</td>
+	<td>600</td>
+	<td></td>
+</tr>
+<tr>
 	<td>open</td>
 	<td>/healthcoach/digestive-investigator</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>3000</td>
 	<td></td>
 </tr>
 <tr>
@@ -168,6 +178,11 @@
 	<td>Your assessment is complete! We are calculating your results.<br /> Your personalized report and action plan will be ready in just a moment.</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
 	<td>waitForText</td>
 	<td>css=#hc-results &gt; h2</td>
 	<td>Your Digestive Investigator Results</td>
@@ -189,10 +204,11 @@
 </tr>
 <!--## ERROR  See your doctor Soon" dipslay issue   http://screencast.com/t/ldQzNs1fKn8r-->
 <!--## ERROR  Text "Need help for more ..." should  be vertical center in the box  http://screencast.com/t/56imXIRgLA-->
+<!--DEMO ERROR OUT -->
 <tr>
 	<td>assertText</td>
 	<td>css=#hc-results &gt; h3</td>
-	<td>See Your Doctor Soon</td>
+	<td>YOU ARE FINE</td>
 </tr>
 <tr>
 	<td>verifyTextPresent</td>
@@ -268,46 +284,6 @@
 	<td>verifyText</td>
 	<td>css=p.qa-terms</td>
 	<td>THIS TOOL DOES NOT PROVIDE MEDICAL ADVICE. It is intended for informational purposes only. It is not a substitute for professional medical advice, diagnosis or treatment. Never ignore professional medical advice in seeking treatment because of something you have read on the site. If you think you may have a medical emergency, immediately call your doctor or dial 911.</td>
-</tr>
-<tr>
-	<td>gotoIf</td>
-	<td>('${verifyEmailYN}'==&quot;y&quot; ) | ( '${verifyEmailYN}'==&quot;Y&quot; )</td>
-	<td>byPassEmail</td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>link=email</td>
-	<td></td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>id=emailTo</td>
-	<td>joseph@perfectsensedigital.com</td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>id=sendResults</td>
-	<td></td>
-</tr>
-<tr>
-	<td>pause</td>
-	<td>2000</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertText</td>
-	<td>id=emailResponse</td>
-	<td>Results sent to: joseph@perfectsensedigital.com</td>
-</tr>
-<tr>
-	<td>pause</td>
-	<td>2000</td>
-	<td></td>
-</tr>
-<tr>
-	<td>label</td>
-	<td>byPassEmail</td>
-	<td></td>
 </tr>
 <tr>
 	<td>assertElementPresent</td>

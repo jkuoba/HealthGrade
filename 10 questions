@@ -62,6 +62,21 @@
 	<td>© 2000-2015 Krames StayWell, 780 Township Line Road, Yardley, PA 19067. All rights reserved. This information is not intended as a substitute for professional medical care. Always follow your healthcare professional's instructions.</td>
 </tr>
 <tr>
+	<td>store</td>
+	<td>javascript{new Date()}</td>
+	<td>LLL</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${LLL}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>'QAtest_'+storedVars['LLL'] + '@gmail.com'</td>
+	<td>newEmail</td>
+</tr>
+<tr>
 	<td>########</td>
 	<td></td>
 	<td></td>

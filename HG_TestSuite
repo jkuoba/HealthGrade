@@ -8,13 +8,14 @@
 <body>
 <table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
 <tr><td><b>Test Suite</b></td></tr>
+<tr><td><a href="Global Vars ">Global Vars </a></td></tr>
 <tr><td><a href="ADHD HealthCoach">ADHD HealthCoach</a></td></tr>
+<tr><td><a href="Type1-Diabetes-Novice">Type1-Diabetes-Novice</a></td></tr>
 <tr><td><a href="Digestive_investagtor Home">Digestive_investagtor Home</a></td></tr>
 <tr><td><a href="Digestive-Burning Sensation">Digestive-Burning Sensation</a></td></tr>
 <tr><td><a href="Digestive-Bathroom-issues">Digestive-Bathroom-issues</a></td></tr>
 <tr><td><a href="Digestive-Stomach-Upset">Digestive-Stomach-Upset</a></td></tr>
 <tr><td><a href="Bipolar Disorder ">Bipolar Disorder </a></td></tr>
-<tr><td><a href="Type1-Diabetes-Novice">Type1-Diabetes-Novice</a></td></tr>
 <tr><td><a href="Type1-Diabetes-Expert">Type1-Diabetes-Expert</a></td></tr>
 <tr><td><a href="Appointment-guide-COPD">Appointment-guide-COPD</a></td></tr>
 <tr><td><a href="Health Story Submit">Health Story Submit</a></td></tr>

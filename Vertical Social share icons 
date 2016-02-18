@@ -74,12 +74,12 @@
 <tr>
 	<td>type</td>
 	<td>id=email</td>
-	<td>josephkuo1@aol.com</td>
+	<td>perfectqa12@gmail.com</td>
 </tr>
 <tr>
 	<td>type</td>
 	<td>id=pass</td>
-	<td>gracefacebook</td>
+	<td>imperfect</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
@@ -162,14 +162,24 @@
 	<td></td>
 </tr>
 <tr>
-	<td>selectWindow</td>
-	<td>name=share</td>
+	<td>storeElementPresent</td>
+	<td>link=exact:How Much Do You Know About Type 1 Diabetes?</td>
+	<td>YN</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${YN}</td>
 	<td></td>
+</tr>
+<tr>
+	<td>gotoIf</td>
+	<td>'${YN}'==&quot;true&quot;</td>
+	<td>bypassG+SignIn</td>
 </tr>
 <tr>
 	<td>type</td>
 	<td>id=Email</td>
-	<td>joseph@perfectsensedigital.com</td>
+	<td>perfectqa@gmail.com</td>
 </tr>
 <tr>
 	<td>click</td>
@@ -179,11 +189,16 @@
 <tr>
 	<td>type</td>
 	<td>id=Passwd</td>
-	<td>grace2010</td>
+	<td>imperfect!</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
 	<td>id=next</td>
+	<td></td>
+</tr>
+<tr>
+	<td>label</td>
+	<td>bypassG+SignIn</td>
 	<td></td>
 </tr>
 <tr>
@@ -194,6 +209,11 @@
 <tr>
 	<td>assertElementPresent</td>
 	<td>//div/a/img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>name=share</td>
 	<td></td>
 </tr>
 <tr>

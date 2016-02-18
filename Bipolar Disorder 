@@ -13,7 +13,7 @@
 </thead><tbody>
 <tr>
 	<td>setSpeed</td>
-	<td>700</td>
+	<td>600</td>
 	<td></td>
 </tr>
 <tr>
@@ -182,8 +182,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>1000</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>id=qa-n</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>1000</td>
 	<td></td>
 </tr>
 <tr>
@@ -994,6 +1004,11 @@
 	<td></td>
 </tr>
 <tr>
+	<td>gotoIf</td>
+	<td>('${verifyEmailYN}'==&quot;y&quot; ) | ( '${verifyEmailYN}'==&quot;Y&quot; )</td>
+	<td>byPassEmail</td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>css=#hc-takeToolBar-email &gt; div.v-center</td>
 	<td></td>
@@ -1030,7 +1045,12 @@
 	<td></td>
 </tr>
 <tr>
-	<td>clickAndWait</td>
+	<td>label</td>
+	<td>byPassEmail</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
 	<td>css=#hc-takeToolBar-1 &gt; div.v-center</td>
 	<td></td>
 </tr>

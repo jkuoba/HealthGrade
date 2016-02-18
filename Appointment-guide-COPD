@@ -12,6 +12,11 @@
 <tr><td rowspan="1" colspan="3">Appointment-guide-COPD</td></tr>
 </thead><tbody>
 <tr>
+	<td>setSpeed</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
 	<td>open</td>
 	<td>/appointment-guide/copd-appointment-guide</td>
 	<td></td>
@@ -146,7 +151,6 @@
 	<td>id=view-top-10</td>
 	<td></td>
 </tr>
-<!--ERRPR ##  aren't buton be dimmed ???-->
 <tr>
 	<td>waitForText</td>
 	<td>css=h2.top-10-heading</td>
@@ -238,6 +242,11 @@
 	<td></td>
 </tr>
 <tr>
+	<td>gotoIf</td>
+	<td>('${verifyEmailYN}'==&quot;y&quot; ) | ( '${verifyEmailYN}'==&quot;Y&quot; )</td>
+	<td>byPassEmail</td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>//div[@id='results']/div[3]/button[3]</td>
 	<td></td>
@@ -253,17 +262,32 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
 	<td>assertElementPresent</td>
 	<td>id=questions-view-all</td>
 	<td></td>
 </tr>
 <tr>
-	<td>clickAndWait</td>
+	<td>click</td>
 	<td>//div[@id='results']/div[3]/button[2]</td>
 	<td></td>
 </tr>
-<!--## ERROR Email might also have problem -->
-<!--## ERROR  print does not function, it triggers the download but should haev pop up to user . ( works on Chrome) -->
+<tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<!--## ERROR Email might also have problem, please double check-->
+<!--## Issue - Print action triggers the download, no further pop up etc.. ( works on Chrome) -->
+<tr>
+	<td>label</td>
+	<td>byPassEmail</td>
+	<td></td>
+</tr>
 <tr>
 	<td>click</td>
 	<td>id=questions-view-all</td>
@@ -320,6 +344,11 @@
 	<td>Send Questions by Email</td>
 </tr>
 <tr>
+	<td>gotoIf</td>
+	<td>('${verifyEmailYN}'==&quot;y&quot; ) | ( '${verifyEmailYN}'==&quot;Y&quot; )</td>
+	<td>byPassEmail2</td>
+</tr>
+<tr>
 	<td>type</td>
 	<td>id=email-to</td>
 	<td>josephkuo1@aol.com</td>
@@ -330,19 +359,28 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>1000</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>css=a.cancel</td>
 	<td></td>
 </tr>
-<!--#####  ERROR Print not functioning  in View All Page   ( trigger download but lack of pop up like Chrome)-->
+<!--#####  Issue  Print not functioning  in View All Page   ( trigger download but lack of pop up like Chrome)-->
 <tr>
-	<td>clickAndWait</td>
+	<td>click</td>
 	<td>//div[@id='results']/div[3]/button[2]</td>
 	<td></td>
 </tr>
 <!--QA note: Need to add test from questions page jump to qusetionnaire-->
-<!--ERROR : Please clarify "back to questionnaire" button color and label need to clarify-->
 <!--Get Started ------------------------->
+<tr>
+	<td>label</td>
+	<td>byPassEmail2</td>
+	<td></td>
+</tr>
 <tr>
 	<td>click</td>
 	<td>css=button.round-corners.back-to-questionnaire</td>

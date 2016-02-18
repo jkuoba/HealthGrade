@@ -587,56 +587,10 @@
 	<td>id=emailClose</td>
 	<td></td>
 </tr>
-<tr>
-	<td>gotoIf</td>
-	<td>('${verifyEmailYN}'==&quot;y&quot; ) | ( '${verifyEmailYN}'==&quot;Y&quot; )</td>
-	<td>byPassEmail</td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>css=#hc-takeToolBar-email &gt; div.v-center</td>
-	<td></td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>id=emailTo</td>
-	<td>joseph@perfectsensedigital.com</td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>id=sendpdf</td>
-	<td></td>
-</tr>
-<!--## ERROR Please clarify the pop up sent result layout and its expected behavior -->
-<!--## ERROR the mail out pdf file with UI issue -->
-<tr>
-	<td>selectPopUp</td>
-	<td></td>
-	<td></td>
-</tr>
+<!--## QA NOTE:  Disable Email testing -->
 <tr>
 	<td>pause</td>
 	<td>2000</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertText</td>
-	<td>id=emailResponse</td>
-	<td>Results sent to: joseph@perfectsensedigital.com</td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>id=emailClose</td>
-	<td></td>
-</tr>
-<tr>
-	<td>label</td>
-	<td>byPassEmail</td>
-	<td></td>
-</tr>
-<tr>
-	<td>pause</td>
-	<td>4000</td>
 	<td></td>
 </tr>
 <tr>

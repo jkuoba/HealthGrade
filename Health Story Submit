@@ -14,11 +14,16 @@
 <!--QA Note:  Photo Upload cannot be automated, please test it manuelly, and verify it through multiple images and preview page -->
 <tr>
 	<td>setSpeed</td>
-	<td>700</td>
+	<td>600</td>
 	<td></td>
 </tr>
 <tr>
 	<td>deleteCookie</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>deleteAllVisibleCookies</td>
 	<td></td>
 	<td></td>
 </tr>
@@ -248,7 +253,7 @@
 <tr>
 	<td>assertText</td>
 	<td>//form[@id='psForm']/div[7]/div/span[2]</td>
-	<td>The name and location you provide here will be displayed to other users, along with your story.</td>
+	<td>The image you provide here will be displayed to other users, along with your story.</td>
 </tr>
 <tr>
 	<td>verifyText</td>
@@ -506,30 +511,11 @@
 	<td></td>
 </tr>
 <tr>
-	<td>click</td>
-	<td>css=span.close.icon-cancel-circle</td>
-	<td></td>
-</tr>
-<tr>
 	<td>pause</td>
-	<td>2000</td>
+	<td>3000</td>
 	<td></td>
 </tr>
-<tr>
-	<td>click</td>
-	<td>link=Preview My Story</td>
-	<td></td>
-</tr>
-<tr>
-	<td>pause</td>
-	<td>2000</td>
-	<td></td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>name=submitForm</td>
-	<td></td>
-</tr>
+<!--Use case 1 - Existing Account, we only verify the form, since we cannot use same account to submit same story. -->
 <tr>
 	<td>waitForText</td>
 	<td>css=p.auth-intro-text</td>
@@ -560,6 +546,7 @@
 	<td>link=exact:Forgot Password?</td>
 	<td></td>
 </tr>
+<!--Use case 2 - not able to auto fb sign in, please test menually if needed -->
 <tr>
 	<td>assertElementPresent</td>
 	<td>//button[@value='Sign In Using Facebook']</td>
@@ -570,20 +557,66 @@
 	<td>css=button.btnSubmit</td>
 	<td></td>
 </tr>
+<!--Use case 3 -  From Sign Up-->
 <tr>
-	<td>type</td>
-	<td>name=email</td>
+	<td>selectWindow</td>
+	<td>null</td>
 	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Sign Up</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>link=Sign In</td>
+	<td>Sign In</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>javascript{new Date()}</td>
+	<td>LLL</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${LLL}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>storedVars['LLL'].replace(/ /g,'');</td>
+	<td>validEmail</td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>storedVars['validEmail'].replace(/:/g,'');</td>
+	<td>validEmail</td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>storedVars['validEmail'].split(&quot;-&quot;)[0]</td>
+	<td>validEmail</td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>'QAtest_'+ storedVars['validEmail'] + '@gmail.com'</td>
+	<td>newEmail</td>
 </tr>
 <tr>
 	<td>type</td>
 	<td>name=email</td>
-	<td>psdqaauto@gmail.com</td>
+	<td>${newEmail}</td>
 </tr>
 <tr>
 	<td>type</td>
 	<td>name=password</td>
-	<td>Password1</td>
+	<td>QAtesting1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=repeat</td>
+	<td>QAtesting1</td>
 </tr>
 <tr>
 	<td>click</td>
@@ -591,33 +624,28 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>6000</td>
+	<td></td>
+</tr>
+<tr>
 	<td>waitForText</td>
-	<td>//div[@id='contentWrapper']/div[2]/div/div/div[3]/h4</td>
-	<td>Thank you! Your story has been submitted.</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div[4]/h4</td>
+	<td>Thank you!</td>
 </tr>
 <tr>
 	<td>verifyText</td>
-	<td>//div[@id='contentWrapper']/div[2]/div/div/div[3]/p</td>
-	<td>Our editors will review your story before we publish it. We'll notify you when it's live.</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div[4]/p</td>
+	<td>Please verify your email address to submit your story. Once verified, our editors will review your story before it's published. We'll notify you when it's live.</td>
 </tr>
 <tr>
-	<td>assertElementPresent</td>
-	<td>css=span.close.icon-cancel-circle</td>
+	<td>pause</td>
+	<td>3000</td>
 	<td></td>
 </tr>
 <tr>
 	<td>click</td>
-	<td>css=span.close.icon-cancel-circle</td>
-	<td></td>
-</tr>
-<tr>
-	<td>waitForText</td>
-	<td>link=Health Stories</td>
-	<td>Health Stories</td>
-</tr>
-<tr>
-	<td>assertTitle</td>
-	<td>Health Stories</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div[4]/span</td>
 	<td></td>
 </tr>
 </tbody></table>

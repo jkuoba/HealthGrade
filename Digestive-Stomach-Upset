@@ -307,6 +307,11 @@
 	<td>x</td>
 </tr>
 <tr>
+	<td>click</td>
+	<td>link=email</td>
+	<td></td>
+</tr>
+<tr>
 	<td>type</td>
 	<td>id=emailTo</td>
 	<td>josephmail</td>
@@ -320,6 +325,11 @@
 	<td>assertText</td>
 	<td>css=span.red</td>
 	<td>Valid email address required</td>
+</tr>
+<tr>
+	<td>gotoIf</td>
+	<td>('${verifyEmailYN}'==&quot;y&quot; ) | ( '${verifyEmailYN}'==&quot;Y&quot; )</td>
+	<td>byPassEmail</td>
 </tr>
 <tr>
 	<td>click</td>
@@ -337,9 +347,14 @@
 	<td></td>
 </tr>
 <tr>
-	<td>assertText</td>
+	<td>waitForText</td>
 	<td>id=emailResponse</td>
 	<td>Results sent to: joseph@perfectsensedigital.com</td>
+</tr>
+<tr>
+	<td>label</td>
+	<td>byPassEmail</td>
+	<td></td>
 </tr>
 </tbody></table>
 </body>

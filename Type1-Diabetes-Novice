@@ -243,6 +243,31 @@
 </tr>
 <!--QA Note: No need of HG GEO location testing, the default location is Denver, CO 80202-->
 <tr>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.hgpswc-header-location-known &gt; span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=div.hgpswc-header-location-edit &gt; input[type=&quot;text&quot;]</td>
+	<td>20191</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=a.hgpswc-btn-set</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>1000</td>
+	<td></td>
+</tr>
+<tr>
 	<td>assertText</td>
 	<td>link=View all doctors near Reston, VA</td>
 	<td>View all doctors near Reston, VA</td>
@@ -948,7 +973,7 @@
 </tr>
 <tr>
 	<td>pause</td>
-	<td>3000</td>
+	<td>1000</td>
 	<td></td>
 </tr>
 <tr>
@@ -957,8 +982,8 @@
 	<td></td>
 </tr>
 <tr>
-	<td>assertElementPresent</td>
-	<td>css=div.unclickableMask</td>
+	<td>pause</td>
+	<td>3000</td>
 	<td></td>
 </tr>
 <tr>
@@ -989,7 +1014,7 @@
 <tr>
 	<td>type</td>
 	<td>id=email</td>
-	<td>josephkuo1@aol.com</td>
+	<td>perfectqa12@gmail.com</td>
 </tr>
 <tr>
 	<td>click</td>
@@ -999,7 +1024,7 @@
 <tr>
 	<td>type</td>
 	<td>id=pass</td>
-	<td>gracefacebook</td>
+	<td>imperfect</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
@@ -1130,7 +1155,7 @@
 <tr>
 	<td>type</td>
 	<td>id=Email</td>
-	<td>joseph@perfectsensedigital.com</td>
+	<td>perfectqa@gmail.com</td>
 </tr>
 <tr>
 	<td>click</td>
@@ -1140,7 +1165,7 @@
 <tr>
 	<td>type</td>
 	<td>id=Passwd</td>
-	<td>grace2010</td>
+	<td>imperfect!</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
