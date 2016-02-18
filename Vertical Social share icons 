@@ -27,6 +27,11 @@
 	<td>Type 1 Diabetes Learning Challenge</td>
 </tr>
 <tr>
+	<td>assertElementPresent</td>
+	<td>css=img.psd-sharebar-sprite.psd-sharebar-facebookshare</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>css=img.psd-sharebar-sprite.psd-sharebar-facebookshare</td>
 	<td></td>
