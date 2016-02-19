@@ -13,7 +13,7 @@
 </thead><tbody>
 <tr>
 	<td>setSpeed</td>
-	<td>600</td>
+	<td>700</td>
 	<td></td>
 </tr>
 <tr>
@@ -972,28 +972,13 @@
 	<td></td>
 </tr>
 <tr>
-	<td>selectPopUp</td>
-	<td>null</td>
-	<td></td>
-</tr>
-<tr>
-	<td>close</td>
-	<td></td>
-	<td></td>
-</tr>
-<tr>
-	<td>pause</td>
-	<td>1000</td>
-	<td></td>
-</tr>
-<tr>
-	<td>selectPopUp</td>
-	<td>null</td>
-	<td></td>
-</tr>
-<tr>
 	<td>pause</td>
 	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectPopUp</td>
+	<td>null</td>
 	<td></td>
 </tr>
 <tr>
@@ -1013,8 +998,8 @@
 </tr>
 <tr>
 	<td>waitForText</td>
-	<td>css=div.pam.uiBoxYellow</td>
-	<td>You must log in to continue.</td>
+	<td>css=h2.uiHeaderTitle</td>
+	<td>Log into Facebook</td>
 </tr>
 <tr>
 	<td>click</td>
@@ -1052,13 +1037,13 @@
 	<td></td>
 </tr>
 <tr>
-	<td>assertText</td>
-	<td>css=td._51m-._51mw</td>
-	<td>Share on Facebook</td>
+	<td>verifyText</td>
+	<td>css=h2.uiHeaderTitle</td>
+	<td>Post to Facebook</td>
 </tr>
 <tr>
-	<td>click</td>
-	<td>id=u_0_0</td>
+	<td>close</td>
+	<td></td>
 	<td></td>
 </tr>
 <!--tweeter-->
@@ -1088,6 +1073,22 @@
 	<td></td>
 </tr>
 <tr>
+	<td>close</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<!--#ERROR showing extra blank window -->
+<tr>
+	<td>selectPopUp</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
 	<td>waitForText</td>
 	<td>id=status</td>
 	<td>exact:I scored 67% on the Healthgrades Type 1 Diabetes Learning Challenge. Can you beat my score? http://ucms-qa.healthgrades.com/learning-challenge/type-1-diabetes-learning-challenge @healthgrades</td>
@@ -1105,16 +1106,6 @@
 <tr>
 	<td>pause</td>
 	<td>1000</td>
-	<td></td>
-</tr>
-<tr>
-	<td>selectPopUp</td>
-	<td>null</td>
-	<td></td>
-</tr>
-<tr>
-	<td>close</td>
-	<td></td>
 	<td></td>
 </tr>
 <tr>
@@ -1161,6 +1152,11 @@
 	<td>gotoIf</td>
 	<td>'${YN}'==&quot;true&quot;</td>
 	<td>bypassSignIn2</td>
+</tr>
+<tr>
+	<td>selectPopUp</td>
+	<td></td>
+	<td></td>
 </tr>
 <tr>
 	<td>type</td>

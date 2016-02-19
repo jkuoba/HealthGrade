@@ -108,7 +108,7 @@
 </tr>
 <tr>
 	<td>click</td>
-	<td>name=__CANCEL__</td>
+	<td>id=u_0_5</td>
 	<td></td>
 </tr>
 <tr>
@@ -247,6 +247,11 @@
 	<td></td>
 </tr>
 <tr>
+	<td>selectWindow</td>
+	<td>name=share</td>
+	<td></td>
+</tr>
+<tr>
 	<td>storeElementPresent</td>
 	<td>css=span.icon</td>
 	<td>YN</td>
@@ -313,7 +318,7 @@
 </tr>
 <tr>
 	<td>pause</td>
-	<td>2000</td>
+	<td>4000</td>
 	<td></td>
 </tr>
 <tr>
