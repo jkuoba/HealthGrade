@@ -11,6 +11,7 @@
 <thead>
 <tr><td rowspan="1" colspan="3">Vertical Social share icons </td></tr>
 </thead><tbody>
+<!--2/19 4:18 pm -->
 <tr>
 	<td>setSpeed</td>
 	<td>700</td>
@@ -32,13 +33,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>4000</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>css=img.psd-sharebar-sprite.psd-sharebar-facebookshare</td>
 	<td></td>
 </tr>
 <tr>
 	<td>pause</td>
-	<td>2000</td>
+	<td>6000</td>
 	<td></td>
 </tr>
 <tr>
