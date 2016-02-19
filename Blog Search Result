@@ -373,8 +373,13 @@
 	<td></td>
 </tr>
 <tr>
-	<td>clickAndWait</td>
+	<td>click</td>
 	<td>css=li.next-pg &gt; a &gt; span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
 	<td></td>
 </tr>
 <tr>
