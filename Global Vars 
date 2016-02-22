@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="selenium.base" href="http://ucms-qa.healthgrades.com/healthcoach/adult-adhd-healthcoach" />
 <title>Global Vars </title>
 </head>
 <body>
@@ -11,6 +10,7 @@
 <thead>
 <tr><td rowspan="1" colspan="3">Global Vars </td></tr>
 </thead><tbody>
+<!--Please use this Base URL for testing  http://ucms-qa.healthgrades.com-->
 <!--This Script must run first.-->
 <tr>
 	<td>setSpeed</td>
