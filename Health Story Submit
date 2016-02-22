@@ -11,6 +11,7 @@
 <thead>
 <tr><td rowspan="1" colspan="3">Health Story Submit</td></tr>
 </thead><tbody>
+<!--*****************    Please specify your Base URL testing  e.g.,        http://test.healthgrades.com/-->
 <!--QA Note:  Photo Upload cannot be automated, please test it manuelly, and verify it through multiple images and preview page -->
 <tr>
 	<td>setSpeed</td>
@@ -29,7 +30,7 @@
 </tr>
 <tr>
 	<td>open</td>
-	<td>http://test.healthgrades.com/health-stories/submit</td>
+	<td>/health-stories/submit</td>
 	<td></td>
 </tr>
 <tr>
