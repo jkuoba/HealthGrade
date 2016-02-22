@@ -38,7 +38,7 @@
 	<td></td>
 </tr>
 <tr>
-	<td>click</td>
+	<td>clickAt</td>
 	<td>css=img.psd-sharebar-sprite.psd-sharebar-facebookshare</td>
 	<td></td>
 </tr>
@@ -250,11 +250,6 @@
 <tr>
 	<td>selectPopUp</td>
 	<td>null</td>
-	<td></td>
-</tr>
-<tr>
-	<td>selectWindow</td>
-	<td>name=share</td>
 	<td></td>
 </tr>
 <tr>
