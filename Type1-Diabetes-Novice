@@ -966,6 +966,11 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>css=img.psd-sharebar-sprite.psd-sharebar-facebookshare</td>
 	<td></td>

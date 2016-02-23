@@ -112,8 +112,13 @@
 	<td></td>
 </tr>
 <tr>
-	<td>click</td>
-	<td>id=u_0_5</td>
+	<td>selectPopUp</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>close</td>
+	<td>id=u_0_c</td>
 	<td></td>
 </tr>
 <tr>
