@@ -47,6 +47,11 @@
 	<td></td>
 </tr>
 <tr>
+	<td>waitForPopUp</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
 	<td>selectPopUp</td>
 	<td>null</td>
 	<td></td>
@@ -132,6 +137,11 @@
 	<td></td>
 </tr>
 <tr>
+	<td>waitForPopUp</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
 	<td>selectPopUp</td>
 	<td>null</td>
 	<td></td>
@@ -169,6 +179,11 @@
 <tr>
 	<td>click</td>
 	<td>css=img.psd-sharebar-sprite.psd-sharebar-googleshare</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForPopUp</td>
+	<td></td>
 	<td></td>
 </tr>
 <tr>
@@ -248,7 +263,17 @@
 </tr>
 <tr>
 	<td>pause</td>
-	<td>2000</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForPopUp</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>3000</td>
 	<td></td>
 </tr>
 <tr>
@@ -287,6 +312,11 @@
 	<td></td>
 </tr>
 <tr>
+	<td>waitForPopUp</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
 	<td>type</td>
 	<td>id=userEmail</td>
 	<td>perfectqatest@yahoo.com</td>
@@ -309,6 +339,11 @@
 <tr>
 	<td>click</td>
 	<td>css=p.pinDescription</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForPopUp</td>
+	<td></td>
 	<td></td>
 </tr>
 <tr>
