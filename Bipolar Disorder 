@@ -1070,6 +1070,11 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
 	<td>assertText</td>
 	<td>css=p</td>
 	<td>exact:What causes bipolar disorder? How is it diagnosed?</td>
