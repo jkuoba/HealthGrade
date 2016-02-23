@@ -1055,6 +1055,11 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
 	<td>waitForText</td>
 	<td>css=h1</td>
 	<td>10 Questions to Ask Your Doctor About Bipolar Disorder</td>

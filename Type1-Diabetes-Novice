@@ -1036,14 +1036,19 @@
 	<td></td>
 </tr>
 <tr>
+	<td>selectPopUp</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
 	<td>waitForElementPresent</td>
 	<td>css=div.unclickableMask</td>
 	<td></td>
 </tr>
 <tr>
-	<td>verifyText</td>
-	<td>css=h2.uiHeaderTitle</td>
+	<td>assertTitle</td>
 	<td>Post to Facebook</td>
+	<td></td>
 </tr>
 <tr>
 	<td>close</td>
