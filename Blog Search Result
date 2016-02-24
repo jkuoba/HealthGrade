@@ -392,11 +392,6 @@
 	<td></td>
 </tr>
 <tr>
-	<td>assertText</td>
-	<td>css=h3 &gt; a &gt; span</td>
-	<td>Gardening Tips for Allergy Sufferers</td>
-</tr>
-<tr>
 	<td>storeEval</td>
 	<td>selenium.browserbot.getCurrentWindow().scrollTo(400,1000)</td>
 	<td></td>
@@ -415,6 +410,21 @@
 	<td>assertElementPresent</td>
 	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/crop/380x329%2B80%2B1/resize/300x260/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2F34%2Fc0%2Ffd963dd1438bb4ce00a2f66d5a2e%2Fresizes%2F500%2Fallergy-relief-guide-1.jpg')]</td>
 	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div[3]/h4[2]</td>
+	<td>Results 6-9 are displayed</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.search-results-footer.clrfix &gt; h4.search-results-number</td>
+	<td>9 results found</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
