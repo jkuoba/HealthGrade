@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://cnn.ucms-qa.healthgrades.com/" />
+<title>CNN</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">CNN</td></tr>
+</thead><tbody>
+<tr>
+	<td>setSpeed</td>
+	<td>600</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>http://cnn.ucms-qa.healthgrades.com/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=h1.cnn-health-title</td>
+	<td>Health</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=Back to CNN</td>
+	<td>Back to CNN</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=Back to CNN</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=img.img_ad</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=div.disc-mod. &gt; a &gt; img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=This content is selected and managed by the Healthgrades editorial staff and is brought to you by an advertising sponsor.</td>
+	<td>This content is selected and managed by the Healthgrades editorial staff and is brought to you by an advertising sponsor.</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div/div/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/270x150%3E/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2F4e%2Fe8%2F4cde41894a158d33735a4605ae6c%2Fresizes%2F500%2Fimage-franklin-becker-1.jpg')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=div.vertically-centered</td>
+	<td>Cooking with Diabetes Learn how to cook delicious meals for diabetics with celebrity chef Franklin Becker.</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/270x150%3E/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2F4e%2Fe8%2F4cde41894a158d33735a4605ae6c%2Fresizes%2F500%2Fimage-franklin-becker-1.jpg')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>//div[@id='pageHead']/div[4]/div</td>
+	<td>CELEBRITY CHEF FEATURE</td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=h1</td>
+	<td>Cooking with Diabetes</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div/div/div/div/p</td>
+	<td>I first prepared this dish for Dr. Oz. The idea was to incorporate five essential fats in one dish.</td>
+</tr>
+<tr>
+	<td>goBack</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div[2]/div[2]/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/270x150%3E/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2Fb6%2F1b%2Fb497e4a743778bd7e6f9fee6d398%2Fresizes%2F500%2Fimage-women-in-doctors-for-checkup.jpg')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=After an Angioplasty</td>
+	<td>After an Angioplasty</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div[2]/div[2]/div/div/div/div</td>
+	<td>Angioplasty not only reduces your risk of heart attack and stroke, it can also make you feel better.</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div[3]/div[3]/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div[3]/div[3]/div/div/div/div</td>
+	<td>Learn more about managing you MS and improving your physical condition.</td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>selenium.browserbot.getCurrentWindow().scrollTo(400,1000)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div[4]/div[2]/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/crop/372x207%2B51%2B25/resize/270x150%3E/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2F59%2Fd1%2Fed7752e245c4b7ca7124acc9a7e2%2Fistock-000014666039-extrasmall.jpg')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div[4]/div[2]/div/div/div/div</td>
+	<td>MS attacks nerve fibers and myelin. This damage to the central nervous system can cause a wide variety of symptoms.</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Living Well With MS</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=div.page-title.clrfix&nbsp;&nbsp;&nbsp;&gt; h1</td>
+	<td>Living Well With MS</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=h3.lead-header-firstlink</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=p.rte</td>
+	<td>MS attacks nerve fibers and myelin. This damage to the central nervous system can cause a wide variety of symptoms. But with some symptom management strategies and a willingness to adapt, the challenges of MS can be overcome.</td>
+</tr>
+<tr>
+	<td>goBack</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>selenium.browserbot.getCurrentWindow().scrollTo(400,3500)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div[12]/div/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/270x150%3E/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2Fc0%2Ff0%2F1bc068074b61aa157b53c0b12df7%2Fresizes%2F500%2Fimage-man-in-bed-sleeping.jpg')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div[12]/div/div/div/div/div</td>
+	<td>Learn what you can do to get a good night's sleep.</td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>selenium.browserbot.getCurrentWindow().scrollTo(400,5500)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div[19]/div[2]/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/270x150%3E/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2Fbf%2Ffa%2F1ea8033a41e9887d2b6e078523dc%2Fimage-woman-smiling.jpg')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div[19]/div[2]/div/div/div/div</td>
+	<td>You’ve heard the name, now know the facts about Hepatitis C.</td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>selenium.browserbot.getCurrentWindow().scrollTo(400,8000)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=img.img_ad</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=U.S.</td>
+	<td>U.S.</td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>link=Politics</td>
+	<td>Politics</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=Opinion</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=Entertainment</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=Video</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=Sports</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=Style</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=div.edition-picker &gt; a.logo</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=div.current</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.current</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//li[2]/label</td>
+	<td>International</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//ul/li[3]</td>
+	<td>Arabic</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//ul/li[4]</td>
+	<td>Español</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=li.item.item--select</td>
+	<td>Set edition preference</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=span.copyright</td>
+	<td>© 2016 Cable News Network. Turner Broadcasting System, Inc. All Rights Reserved.</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=div.m-copyright-innercontainer</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=searchInputFooter</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=searchInputFooter</td>
+	<td>japan</td>
+</tr>
+<!--QA note: Footer search does not set up properly on QA, please ignore -->
+<!--QA note:  clickAndWait    css=button.search-input__button-->
+</tbody></table>
+</body>
+</html>
