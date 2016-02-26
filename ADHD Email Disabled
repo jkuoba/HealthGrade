@@ -14,7 +14,7 @@
 <!--## ERROR if user under private window mode in FF,  result page won't rendering.  Chrome incognito works fine. -->
 <tr>
 	<td>setSpeed</td>
-	<td>600</td>
+	<td>800</td>
 	<td></td>
 </tr>
 <tr>
@@ -143,12 +143,7 @@
 	<td></td>
 </tr>
 <tr>
-	<td>waitForText</td>
-	<td>css=h4</td>
-	<td>Now we will ask 18 questions about common ADHD symptoms that you may be experiencing in your everyday life. These are similar to the questions a doctor might ask during an office visit. <br /><br />We will use your answers to assess your likelihood of having ADHD and to help create your personal action plan.</td>
-</tr>
-<tr>
-	<td>waitForText</td>
+	<td>assertText</td>
 	<td>id=hcProgressBar</td>
 	<td>14%</td>
 </tr>
@@ -468,19 +463,9 @@
 	<td></td>
 </tr>
 <tr>
-	<td>waitForText</td>
-	<td>css=p</td>
-	<td>Your assessment is complete! We are calculating your results.<br /> Your personalized report and action plan will be ready in just a moment.</td>
-</tr>
-<tr>
 	<td>pause</td>
-	<td>3000</td>
+	<td>5000</td>
 	<td></td>
-</tr>
-<tr>
-	<td>verifyText</td>
-	<td>css=li.nextStep4</td>
-	<td>Managing Your Finances<br /> The impulsive urges that come with ADHD can drain your wallet fast. But there are ways to get control.</td>
 </tr>
 <tr>
 	<td>waitForText</td>
@@ -498,34 +483,9 @@
 	<td>Your answers indicate a HIGH likelihood that you have ADHD.</td>
 </tr>
 <tr>
-	<td>verifyText</td>
-	<td>css=li.nextStep1</td>
-	<td>Review Your Personalized Report Now<br /> We've interpreted your responses and prepared a customized report just for you. See the personalized recommendations on what you should discuss with your doctor and how to prepare for your visit.</td>
-</tr>
-<tr>
-	<td>verifyText</td>
-	<td>css=li.nextStep2</td>
-	<td>Talk to Your Doctor about Treatment Options<br /> Your results suggest that you may have adult ADHD. Talk with your doctor about your symptoms. A variety of treatment options are available to help you live well with ADHD. Your doctor can work with you to find the right treatment. Managing these symptoms can improve your quality of life and lower the stress that ADHD may be causing. Your customized doctor’s report can help you start a conversation with your doctor.</td>
-</tr>
-<tr>
-	<td>waitForText</td>
-	<td>css=li.nextStep3</td>
-	<td>Helpful Tips and Techniques<br /> Many techniques can help you cope with ADHD symptoms. For example, routines and reminders help with forgetfulness. Read 4 Tips to Staying Organized with ADHD.</td>
-</tr>
-<tr>
-	<td>verifyText</td>
-	<td>css=li.nextStep4</td>
-	<td>Managing Your Finances<br /> The impulsive urges that come with ADHD can drain your wallet fast. But there are ways to get control.</td>
-</tr>
-<tr>
 	<td>storeEval</td>
 	<td>selenium.browserbot.getCurrentWindow().scrollTo(400,800)</td>
 	<td></td>
-</tr>
-<tr>
-	<td>assertText</td>
-	<td>css=li.nextStep5</td>
-	<td>Support is the Key to Coping with ADHD<br /> Adult ADHD causes many challenges-and also affects spouses, significant others, and family members. Talking with others who have ADHD can help you work out your feelings and get coping tips. Check out these resources.</td>
 </tr>
 <tr>
 	<td>assertText</td>

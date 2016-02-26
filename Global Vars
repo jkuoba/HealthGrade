@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Global Vars </title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Global Vars </td></tr>
+</thead><tbody>
+<!--Please use this Base URL for testing  http://ucms-qa.healthgrades.com-->
+<!--This Script must run first.-->
+<tr>
+	<td>setSpeed</td>
+	<td>600</td>
+	<td></td>
+</tr>
+<tr>
+	<td>label</td>
+	<td>askAgain</td>
+	<td></td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>y</td>
+	<td>verifyEmailYN</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${verifyEmailYN}</td>
+	<td></td>
+</tr>
+<!--storeEval   prompt("Skip Email Testing?  Y/N" )    verifyEmailYN  for interactive purpose -->
+<tr>
+	<td>gotoIf</td>
+	<td>('${verifyEmailYN}' !=&quot;y&quot; ) &amp; ( '${verifyEmailYN}'!=&quot;Y&quot; ) &amp; ('${verifyEmailYN}' !=&quot;n&quot; ) &amp; ( '${verifyEmailYN}'!=&quot;N&quot; )</td>
+	<td>askAgain</td>
+</tr>
+</tbody></table>
+</body>
+</html>
