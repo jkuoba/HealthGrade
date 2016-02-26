@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Digestive-Burning Sensation</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Digestive-Burning Sensation</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/healthcoach/digestive-investigator</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.hc-label</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=h4</td>
+	<td>exact:What is your gender?</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=label &gt; h4</td>
+	<td>exact:What is your age?</td>
+</tr>
+<!--QA Note: if image got error again. it means the image being replaced.  If so we might need to change the way to verify image.  http://screencast.com/t/ezrum3vTjHk9-->
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=img[alt=&quot;//d26ua9paks4zq.cloudfront.net/ce/67/5f92a83b4f7b926a7cea1521a4a8/digestive-detective-age-gender.jpg&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.cst-radio</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=QAssetID:10670|QNodeID:7|QNodeTypeID:35|QAlgoID:3495</td>
+	<td>label=40-49</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=qa-n</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=qa-p</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=qa-n</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=h4</td>
+	<td>exact:Where is the burning the strongest?</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.hc-label</td>
+	<td>Stomach</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[starts-with(@id, 'hcw')]/div/div/div/div[3]/form/div/div/div/div[4]/div[2]</td>
+	<td>Rectum</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.cst-radio</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.cst-radio</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[starts-with(@id, 'hcw')]/div/div/div/div[3]/form/div/div/div/div[4]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[starts-with(@id, 'hcw')]/div/div/div/div[3]/form/div/div/div/div[3]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.cst-radio</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=qa-n</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=h4</td>
+	<td>exact:Have you had this burning feeling on most days during the previous three months?</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.cst-radio</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=qa-n</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h4</td>
+	<td>exact:Are any of the following symptoms also present?</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=td.frst</td>
+	<td>Violent vomiting followed by chest pain</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=tr.evenRow. &gt; td.frst</td>
+	<td>Vomiting blood or material that looks like coffee grounds</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[starts-with(@id, 'hcw')]/div/div/div/div[3]/form/div/div/div/table/tbody/tr[3]/td</td>
+	<td>Recent swallowing of something that can burn, like household cleaning products</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.cst-radio</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[starts-with(@id, 'hcw')]/div/div/div/div[3]/form/div/div/div/table/tbody/tr[2]/td[3]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[starts-with(@id, 'hcw')]/div/div/div/div[3]/form/div/div/div/table/tbody/tr[3]/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=qa-n</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>4000</td>
+	<td> </td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=#hc-results &gt; h2</td>
+	<td>Your Digestive Investigator Results</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=img.spResImg</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=#hc-results &gt; h2</td>
+	<td>Your Digestive Investigator Results</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=#hc-results &gt; b</td>
+	<td>make an appointment with a doctor right away</td>
+</tr>
+<!--## ERROR  See your doctor Soon" dipslay issue   http://screencast.com/t/ldQzNs1fKn8r-->
+<!--## ERROR  Text "Need help for more ..." should  be vertical center in the box  http://screencast.com/t/56imXIRgLA-->
+<tr>
+	<td>assertText</td>
+	<td>css=#hc-results &gt; h3</td>
+	<td>See Your Doctor Soon</td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Need help for more digestive symptoms? <br />Take the Digestive Investigator again.</td>
+	<td> </td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=startAgain</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[@id='hc-results']/h3[2]</td>
+	<td>You reported:</td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>selenium.browserbot.getCurrentWindow().scrollTo(300,600)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=td.e24TableRowHeader</td>
+	<td>Violent vomiting followed by chest pain</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=td.e24TableCellSelected</td>
+	<td>x</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='hc-results']/table/tbody/tr[2]/td</td>
+	<td>Vomiting blood or material that looks like coffee grounds</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='hc-results']/table/tbody/tr[2]/td[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='hc-results']/table/tbody/tr[2]/td[3]</td>
+	<td>x</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='hc-results']/table/tbody/tr[3]/td</td>
+	<td>Recent swallowing of something that can burn, like household cleaning products</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='hc-results']/table/tbody/tr[3]/td[2]</td>
+	<td>x</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=r-email</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=r-print</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=p.qa-review</td>
+	<td>Medically Reviewed By: Andre J Ognibene MD MACP on April 1, 2015</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=p.qa-terms</td>
+	<td>THIS TOOL DOES NOT PROVIDE MEDICAL ADVICE. It is intended for informational purposes only. It is not a substitute for professional medical advice, diagnosis or treatment. Never ignore professional medical advice in seeking treatment because of something you have read on the site. If you think you may have a medical emergency, immediately call your doctor or dial 911.</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=r-print</td>
+	<td></td>
+</tr>
+<!--QA Note: start over again -->
+<tr>
+	<td>clickAndWait</td>
+	<td>id=startAgain</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForTitle</td>
+	<td>Digestive Investigator</td>
+	<td></td>
+</tr>
+<!---->
+</tbody></table>
+</body>
+</html>

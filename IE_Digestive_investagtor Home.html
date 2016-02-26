@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Digestive_investagtor Home</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Digestive_investagtor Home</td></tr>
+</thead><tbody>
+<tr>
+	<td>setSpeed</td>
+	<td>700</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/healthcoach/digestive-investigator</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Digestive Investigator</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=h1</td>
+	<td>Digestive Investigator</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=a.logoImg</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=multi_search_textbox</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=multi_search_location_textbox</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>name=submitSearch</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=View All &quot;Digestive Health Center&quot; Articles</td>
+	<td>View All &quot;Digestive Health Center&quot; Articles</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=span.thumbupText</td>
+	<td>exact:Was this helpful?</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=img[alt=&quot;Digestive Investigator - Healthgrades&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.hcIntroCont &gt; p</td>
+	<td>exact:Heartburn or hemorrhoids? Diarrhea or lactose intolerance?</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.hcIntroCont &gt; h3</td>
+	<td>Select your digestive symptoms and get practical advice for feeling better.</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.hc-label</td>
+	<td>Burning Sensation</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.ans.c21117 &gt; div.hc-label</td>
+	<td>Bathroom Issues</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.ans.c21118 &gt; div.hc-label</td>
+	<td>Stomach Upset/Gas</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=p.qa-review</td>
+	<td>Medically Reviewed By: Andre J Ognibene MD MACP on April 1, 2015</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=p.qa-terms</td>
+	<td>THIS TOOL DOES NOT PROVIDE MEDICAL ADVICE. It is intended for informational purposes only. It is not a substitute for professional medical advice, diagnosis or treatment. Never ignore professional medical advice in seeking treatment because of something you have read on the site. If you think you may have a medical emergency, immediately call your doctor or dial 911.</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=This content is selected and managed by the Healthgrades editorial staff and is brought to you by an advertising sponsor.</td>
+	<td>This content is selected and managed by the Healthgrades editorial staff and is brought to you by an advertising sponsor.</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=This content is selected and managed by the Healthgrades editorial staff and is brought to you by an advertising sponsor.</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.disc-overlay.open &gt; p</td>
+	<td>This content is created or selected by the Healthgrades editorial team and is funded by an advertising sponsor. The content is subject to the Healthgrades medical review process for accuracy, balance and objectivity. The content is not edited or otherwise influenced by the advertisers appearing on this page except with the possible suggestion of the broad topic area. For more information, read the HealthGrades advertising policy.</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=span.close</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/article/div[2]/div[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>selenium.browserbot.getCurrentWindow().scrollTo(800,800)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/article/div[5]/div/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.asset-details &gt; span</td>
+	<td>Medical Reviewers: Andre J Ognibene MD MACP</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/article/div[6]/span[2]</td>
+	<td>Last Review Date: Apr 1, 2015</td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=div.linkText</td>
+	<td>View Sources</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=span.icon-expand-alt</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=ol &gt; li</td>
+	<td>American Red Cross First Aid and Safety Handbook. American Red Cross and Kathleen A Handal MD.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/article/div[6]/div/div/ol/li[2]</td>
+	<td>Take Care of Yourself: The Complete Illustrated Guide to Medical Self-Care. Donald Vickery.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/article/div[6]/div/div/ol/li[3]</td>
+	<td>Mayo Clinic Medical Manual. Edited by Guilherme H. M. Oliveira, Gillian C. Nesbitt, Joseph G. Murphy.</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=span.icon-collapse-alt</td>
+	<td></td>
+</tr>
+<!--QA Note: testing "You Might Also Like" section-->
+<tr>
+	<td>storeEval</td>
+	<td>selenium.browserbot.getCurrentWindow().scrollTo(300,1000)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.card-package. &gt; h3</td>
+	<td>You Might Also Like</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/270x150%3E/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2F37%2F15%2F3ac4ccef43b2bca02192889c0def%2Fresizes%2F500%2FRA-SS-chest%2520pain.jpg')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.vertically-centered &gt; h3 &gt; a &gt; span</td>
+	<td>Putting Out the Fire of Heartburn</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.cpb</td>
+	<td>Heartburn is a daily problem for about 10 percent of Americans.&nbsp;&nbsp;And at least twice that many suffer occasional bouts.</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/270x150%3E/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2F41%2Fb5%2F761608b44584b21e9c19a65a1db1%2Fresizes%2F500%2F10-things-to-know-about-lactose-intolerance-1.jpg')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div/div/div[2]/div/div/h3/a/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div/div/div[2]/div/div/div/a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div/div/div[3]/div/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div/div/div[4]/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>selenium.browserbot.getCurrentWindow().scrollTo(300,1400)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=div-gpt-ad-belowbottom1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=Providers by Specialty</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=Conditions</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=Hospital and Group Practices</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=Procedures</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=a.ftLogo</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[@id='hgsw-footer']/div/div/ul/li[2]</td>
+	<td>For Providers Promote Your Practice FAQs Log In to Your Account</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[@id='hgsw-footer']/div/div/ul/li[3]</td>
+	<td>For Partners Healthgrades for Hospitals Hospital Client Log In Advertise With Us Quality Use Guidelines</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[@id='hgsw-footer']/div/div/ul/li[4]</td>
+	<td>About Us TEST Our Company Press Room Careers Site Map Privacy Policy Advertising Policy HG Blog Regional Pocket Guides</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.ftShare.ie8 &gt; div</td>
+	<td>Connect With Us</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=span.ftIcon-fb</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=span.ftIcon-tw</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=a[title=&quot;Follow Healthgrades on Google+&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=span.ftIcon-pin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=a[title=&quot;Follow Healthgrades on LinkedIn&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='hgsw-footer']/div[2]/p[2]</td>
+	<td>Use of this website and any information contained herein is governed by the Healthgrades User Agreement.</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=span.icon-angle-left</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>css=div.content &gt; span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.content &gt; span</td>
+	<td>8 Tasty Sources of Fiber</td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>//a[2]/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//a[2]/div/div</td>
+	<td>NEXT ARTICLE: Lactose Intolerance: No Milk, No Problem</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//body/a[2]/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>selenium.browserbot.getCurrentWindow().scrollTo(300,100)</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
