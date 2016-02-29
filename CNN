@@ -227,9 +227,9 @@
 	<td>U.S.</td>
 </tr>
 <tr>
-	<td>waitForText</td>
-	<td>link=Politics</td>
-	<td>Politics</td>
+	<td>assertText</td>
+	<td>css=img.nav-menu__img-politics</td>
+	<td></td>
 </tr>
 <tr>
 	<td>assertElementPresent</td>
@@ -248,12 +248,17 @@
 </tr>
 <tr>
 	<td>assertElementPresent</td>
-	<td>link=Sports</td>
+	<td>css=img.nav-menu__img-bleacher</td>
 	<td></td>
 </tr>
 <tr>
 	<td>assertElementPresent</td>
-	<td>link=Style</td>
+	<td>css=img.nav-menu__img-style</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=More…</td>
 	<td></td>
 </tr>
 <tr>

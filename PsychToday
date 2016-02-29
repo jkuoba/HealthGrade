@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://psychtoday.ucms-qa.healthgrades.com/" />
+<title>PsychToday</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">PsychToday</td></tr>
+</thead><tbody>
+<tr>
+	<td>setSpeed</td>
+	<td>600</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=div.page-title.clrfix&nbsp;&nbsp;&nbsp;&gt; h1</td>
+	<td>Healthguides</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=This content is selected and managed by the Healthgrades editorial staff and is brought to you by an advertising sponsor.</td>
+	<td>This content is selected and managed by the Healthgrades editorial staff and is brought to you by an advertising sponsor.</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=img.img_ad</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=h1.logo &gt; a &gt; span.ir</td>
+	<td>Psychology Today</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//li[@id='om-leaf-om-u1-918020154-1']/span</td>
+	<td>Find a Therapist</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//li[@id='om-leaf-om-u1-918020154-2']/span</td>
+	<td>Topics</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//li[@id='om-leaf-om-u1-918020154-3']/span</td>
+	<td>Get Help</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//li[@id='om-leaf-om-u1-918020154-4']/span</td>
+	<td>Magazine</td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>link=Tests</td>
+	<td>Tests</td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>//li[@id='om-leaf-om-u1-918020154-6']/span</td>
+	<td>Experts</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//li[@id='om-leaf-om-u1-918020154-7']/span</td>
+	<td></td>
+</tr>
+<!--QA Note: Header drop down link -->
+<tr>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>//li[@id='om-leaf-om-u1-918020154-1']/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=TNav_Therapist</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>//div[@id='hero-inner']/div/div/div/h1</td>
+	<td>Find a Therapist</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=searchField</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>id=headerSubBrand</td>
+	<td>Therapists</td>
+</tr>
+<tr>
+	<td>goBack</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=TNav_Treatment</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>//div[@id='hero-inner']/div/div/div/h1</td>
+	<td>Find a Treatment Center</td>
+</tr>
+<tr>
+	<td>goBack</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=TNav_TherapistLogin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=div.hidden-xs &gt; h1</td>
+	<td>Welcome Back</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='loginPage']/div/div/div/div</td>
+	<td>Welcome Back Psychology Today is the #1 source of referrals online</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=edit-user_name</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=edit-password</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>name=edit[submit]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='loginPage']/div/div/div/div[3]</td>
+	<td>exact:Not yet a member? Join Us Today!</td>
+</tr>
+<tr>
+	<td>goBack</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Sleep</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=h1.page__title</td>
+	<td>Sleep</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=h2.block__title.main__title</td>
+	<td>More Posts on Sleep</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=block-pt-topics-topics-menu</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=div.block__content &gt; div &gt; h2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.block__content &gt; div &gt; h2</td>
+	<td>Find a Therapist Who Can Help WIth Sleep and Insomnia</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=#block-pt-td-fat-cities &gt; div.block__content &gt; div.item-list</td>
+	<td></td>
+</tr>
+<tr>
+	<td>goBack</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Anger</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=h1.page__title</td>
+	<td>Anger</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=h2.blog__title</td>
+	<td>Managing Anger</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.block__content &gt; div &gt; h2</td>
+	<td>Find an Anger Management Therapist</td>
+</tr>
+<tr>
+	<td>goBack</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Subscribe</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=p</td>
+	<td>YES! Please send me a FREE preview issue of Psychology Today. If I like what I see, I'll pay for the remainder of my subscription and save up to 55% off of the newsstand price. If Psychology Today is not for me, I'll just write &quot;cancel&quot; on my bill and return it. I will owe nothing and can keep the trial issue.</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=block-pt-subscriptions-options</td>
+	<td></td>
+</tr>
+<tr>
+	<td>goBack</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Tests</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=h1.page__title</td>
+	<td>Tests</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=Eating Disorders and Emotional Eating Test</td>
+	<td>Eating Disorders and Emotional Eating Test</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=a &gt; img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=li.pager-current</td>
+	<td>Page 1</td>
+</tr>
+<!--QA note: there is pagination UI issue, but was told this is not related to our works -->
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=block-pt-stats-most-popular</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=img.img_ad</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.subtext</td>
+	<td>If you purchased one of our Psych Tests and were interrupted you can resume your session at any time. Use the transaction number which was provided via email to log in here. If you did not receive this email or have lost your transaction number, choose the &quot;Help with a Self Test&quot; option on our feedback page.</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=img.svg</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Experts by Topic</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=h1.page__title</td>
+	<td>Meet The Experts</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=a.active-trail.active</td>
+	<td></td>
+</tr>
+<tr>
+	<td>goBack</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-search-block-form--2</td>
+	<td>pain</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=edit-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=h1.page__title</td>
+	<td>Search</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>xpath=(//input[@id='edit-search-block-form--2'])[2]</td>
+	<td>pain</td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=h3.title &gt; a</td>
+	<td>Chronic Pain</td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>link=The Neuroscience of Mindfulness Meditation and Pain Relief</td>
+	<td>The Neuroscience of Mindfulness Meditation and Pain Relief</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=The Pleasant Truths About Pain</td>
+	<td>The Pleasant Truths About Pain</td>
+</tr>
+<tr>
+	<td>goBack</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>selenium.browserbot.getCurrentWindow().scrollTo(400,300)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>selenium.browserbot.getCurrentWindow().scrollTo(400,600)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>selenium.browserbot.getCurrentWindow().scrollTo(400,1000)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>selenium.browserbot.getCurrentWindow().scrollTo(400,1400)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>selenium.browserbot.getCurrentWindow().scrollTo(400,2300)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>selenium.browserbot.getCurrentWindow().scrollTo(400,7500)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=div-gpt-ad-belowbottom1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=img.svg</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//img[@alt='Twitter']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//img[@alt='Google Plus']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=div.logo_item &gt; a &gt; img.svg</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//img[@alt='HealthProfs.com']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.block__content &gt; p</td>
+	<td>Psychology Today © 1991-2016 Sussex Publishers, LLC | HealthProfs.com © 2002-2016 Sussex Directories, Inc.</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=About</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=Privacy Policy</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=Terms</td>
+	<td></td>
+</tr>
+<!--Verify the existing of the social bar -->
+<tr>
+	<td>storeEval</td>
+	<td>selenium.browserbot.getCurrentWindow().scrollTo(0,0)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=img.psd-sharebar-sprite.psd-sharebar-facebookshare</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=img.psd-sharebar-sprite.psd-sharebar-twittershare</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=img.psd-sharebar-sprite.psd-sharebar-googleshare</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=img.psd-sharebar-sprite.psd-sharebar-pinterestshare</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=img.psd-sharebar-sprite.psd-sharebar-emailshare</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=img.psd-sharebar-sprite.psd-sharebar-print</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
