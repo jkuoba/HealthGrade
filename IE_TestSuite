@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+  <title>Test Suite</title>
+</head>
+<body>
+<table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
+<tr><td><b>Test Suite</b></td></tr>
+<tr><td><a href="IE_ADHD.html">IE_ADHD</a></td></tr>
+<tr><td><a href="IE_Appointment-guide-COPD.html">IE_Appointment-guide-COPD</a></td></tr>
+<tr><td><a href="IE_Bipolar Disorder.html">IE_Bipolar Disorder</a></td></tr>
+<tr><td><a href="IE_Digestive_investagtor Home.html">IE_Digestive_investagtor Home</a></td></tr>
+<tr><td><a href="IE_Digestive-Bathroom-issues.html">IE_Digestive-Bathroom-issues</a></td></tr>
+<tr><td><a href="IE_Digestive-Burning Sensation.html">IE_Digestive-Burning Sensation</a></td></tr>
+<tr><td><a href="IE_Digestive-Stomach-Upset.html">IE_Digestive-Stomach-Upset</a></td></tr>
+<tr><td><a href="IE_Type1-Diabetes-Expert.html">IE_Type1-Diabetes-Expert</a></td></tr>
+<tr><td><a href="IE_Type1-Diabetes-Novice.html">IE_Type1-Diabetes-Novice</a></td></tr>
+</tbody></table>
+</body>
+</html>
