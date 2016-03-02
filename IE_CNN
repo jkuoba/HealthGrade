@@ -152,6 +152,11 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
 	<td>waitForText</td>
 	<td>css=div.page-title.clrfix&nbsp;&nbsp;&nbsp;&gt; h1</td>
 	<td>Living Well With MS</td>
