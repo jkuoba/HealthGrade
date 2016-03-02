@@ -134,51 +134,6 @@
 	<td></td>
 </tr>
 <tr>
-	<td>pause</td>
-	<td>3000</td>
-	<td></td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>id=edit-search-block-form--2</td>
-	<td>pain</td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>id=edit-submit--2</td>
-	<td></td>
-</tr>
-<tr>
-	<td>waitForText</td>
-	<td>css=h1.page__title</td>
-	<td>Search</td>
-</tr>
-<tr>
-	<td>verifyValue</td>
-	<td>xpath=(//input[@id='edit-search-block-form--2'])[2]</td>
-	<td>pain</td>
-</tr>
-<tr>
-	<td>waitForText</td>
-	<td>css=h3.title &gt; a</td>
-	<td>Chronic Pain</td>
-</tr>
-<tr>
-	<td>waitForText</td>
-	<td>link=The Neuroscience of Mindfulness Meditation and Pain Relief</td>
-	<td>The Neuroscience of Mindfulness Meditation and Pain Relief</td>
-</tr>
-<tr>
-	<td>verifyText</td>
-	<td>link=The Pleasant Truths About Pain</td>
-	<td>The Pleasant Truths About Pain</td>
-</tr>
-<tr>
-	<td>open</td>
-	<td>/</td>
-	<td></td>
-</tr>
-<tr>
 	<td>storeEval</td>
 	<td>selenium.browserbot.getCurrentWindow().scrollTo(400,300)</td>
 	<td></td>
