@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://test.healthgrades.com/about/" />
+<title>About Page</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">About Page</td></tr>
+</thead><tbody>
+<!--#ERROR move page to the left, system not able to automatically adjust the position to center -->
+<!--#Issue  Header Nav - Careers. does not keep the menu bar as other tab page.  WAD ?-->
+<tr>
+	<td>setSpeed</td>
+	<td>600</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/about/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>id=contentWrapper</td>
+	<td>.cms-textAlign-left{text-align:left;}.cms-textAlign-center{text-align:center;}.cms-textAlign-right{text-align:right;}<br /><br /><br /> At Healthgrades, our mission is to help consumers find the right doctor and the right hospital, for the right care.<br /><br /> <br /> <br /> More than one million people a day rely upon Healthgrades to research, compare and connect with physicians and other healthcare professionals. <br /> We provide consumers with the information they need to make more informed decisions, including information about the provider’s experience, patient satisfaction and hospital quality.&nbsp;&nbsp;<br /> Physicians and healthcare professionals rely upon Healthgrades, as well, to accurately represent their practice online, make them more relevant and discoverable, and connect them with consumers. <br /> From our headquarters in Denver and offices in Atlanta, Madison, Raleigh, and New York City, we are dedicated to delivering solutions that bring a new level of transparency to healthcare.</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=li.selected &gt; a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=li.selected &gt; a</td>
+	<td>About Us</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=(//a[contains(text(),'Leadership Team')])[2]</td>
+	<td>Leadership Team</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=(//a[contains(text(),'Quality &amp; Transparency')])[2]</td>
+	<td>Quality &amp; Transparency</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>xpath=(//a[contains(text(),'Press Room')])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=(//a[contains(text(),'Press Room')])[2]</td>
+	<td>Press Room</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=(//a[contains(text(),'Careers')])[2]</td>
+	<td>Careers</td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>xpath=(//a[contains(text(),'Contact Us')])[2]</td>
+	<td>Contact Us</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=(//a[contains(text(),'Leadership Team')])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=li.selected &gt; a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=img[alt=&quot;Scott Booker&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=Scott Booker</td>
+	<td>Scott Booker</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/130x175/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2Ff1%2Fb4%2F86c9582a4c3fba1828c3f587a3e5%2Fresizes%2F500%2Fimage-evan-marks.jpg')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=Evan Marks</td>
+	<td>Evan Marks</td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>selenium.browserbot.getCurrentWindow().scrollTo(400,2000)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[@id='contentWrapper']/div[2]/h3</td>
+	<td>Board of Managers</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=(//a[contains(text(),'Quality &amp; Transparency')])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=h1</td>
+	<td>Quality &amp; Transparency</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=div.americasBestDriver</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=div.hgc-social-connection</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=div.hgc-press-contact</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=div.hgc-press-release</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=(//a[contains(text(),'Press Room')])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=h1</td>
+	<td>Press Room</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3</td>
+	<td>PRESS RELEASES</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=div.hgc-press-list-module</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=(//a[contains(text(),'Contact Us')])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h1</td>
+	<td>Contact Us</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=h3</td>
+	<td>Healthgrades Feedback Form</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=p</td>
+	<td>Please Note: Your message will be received by Healthgrades customer support and will not be sent to physicians or hospitals featured on this website.</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=div.hgc-social-connection</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=div.hgc-press-release</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=a.ftLogo</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//a[contains(text(),'Careers')])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=h2</td>
+	<td>Help millions of people each day find the right doctor and make quality healthcare decisions.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3</td>
+	<td>Why I work for Healthgrades</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/about/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=li.selected &gt; a</td>
+	<td>About Us</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=div.americasBestDriver</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=div.americasBestDriver</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.blurb &gt; p</td>
+	<td>At Healthgrades, our mission is to help consumers find the right doctor and the right hospital, for the right care.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.col.single &gt; p</td>
+	<td>More than one million people a day rely upon Healthgrades to research, compare and connect with physicians and other healthcare professionals.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/p[2]</td>
+	<td>We provide consumers with the information they need to make more informed decisions, including information about the provider’s experience, patient satisfaction and hospital quality.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/p[3]</td>
+	<td>Physicians and healthcare professionals rely upon Healthgrades, as well, to accurately represent their practice online, make them more relevant and discoverable, and connect them with consumers.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/p[4]</td>
+	<td>From our headquarters in Denver and offices in Atlanta, Madison, Raleigh, and New York City, we are dedicated to delivering solutions that bring a new level of transparency to healthcare.</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=div.hgc-social-connection</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=div.hgc-press-release</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>selenium.browserbot.getCurrentWindow().scrollTo(400,2000)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=Providers by Specialty</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=Hospital and Group Practices</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=Procedures</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=Conditions</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=a.ftLogo</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=li.shut &gt; span</td>
+	<td>For Patients</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='hgsw-footer']/div/div/ul/li[2]/span</td>
+	<td>For Providers</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='hgsw-footer']/div/div/ul/li[3]/span</td>
+	<td>For Partners</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='hgsw-footer']/div/div/ul/li[4]/span</td>
+	<td>About Us TEST</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>xpath=(//a[contains(text(),'Health Guides')])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=Log In to Your Account</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=Quality Use Guidelines</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=Regional Pocket Guides</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.ftShare.ie8 &gt; div</td>
+	<td>Connect With Us</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=div.ftShare.ie8</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='hgsw-footer']/div[2]/p[2]</td>
+	<td>Use of this website and any information contained herein is governed by the Healthgrades User Agreement.</td>
+</tr>
+<tr>
+	<td>close</td>
+	<td></td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

@@ -32,11 +32,6 @@
 	<td>This content is selected and managed by the Healthgrades editorial staff and is brought to you by an advertising sponsor.</td>
 </tr>
 <tr>
-	<td>assertElementPresent</td>
-	<td>css=img.img_ad</td>
-	<td></td>
-</tr>
-<tr>
 	<td>assertText</td>
 	<td>css=h1.logo &gt; a &gt; span.ir</td>
 	<td>Psychology Today</td>
@@ -85,171 +80,6 @@
 <tr>
 	<td>mouseOver</td>
 	<td>//li[@id='om-leaf-om-u1-918020154-1']/span</td>
-	<td></td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>id=TNav_Therapist</td>
-	<td></td>
-</tr>
-<tr>
-	<td>waitForText</td>
-	<td>//div[@id='hero-inner']/div/div/div/h1</td>
-	<td>Find a Therapist</td>
-</tr>
-<tr>
-	<td>assertElementPresent</td>
-	<td>id=searchField</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertText</td>
-	<td>id=headerSubBrand</td>
-	<td>Therapists</td>
-</tr>
-<tr>
-	<td>goBack</td>
-	<td></td>
-	<td></td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>id=TNav_Treatment</td>
-	<td></td>
-</tr>
-<tr>
-	<td>waitForText</td>
-	<td>//div[@id='hero-inner']/div/div/div/h1</td>
-	<td>Find a Treatment Center</td>
-</tr>
-<tr>
-	<td>goBack</td>
-	<td></td>
-	<td></td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>id=TNav_TherapistLogin</td>
-	<td></td>
-</tr>
-<tr>
-	<td>waitForText</td>
-	<td>css=div.hidden-xs &gt; h1</td>
-	<td>Welcome Back</td>
-</tr>
-<tr>
-	<td>verifyText</td>
-	<td>//div[@id='loginPage']/div/div/div/div</td>
-	<td>Welcome Back Psychology Today is the #1 source of referrals online</td>
-</tr>
-<tr>
-	<td>assertElementPresent</td>
-	<td>id=edit-user_name</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertElementPresent</td>
-	<td>id=edit-password</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertElementPresent</td>
-	<td>name=edit[submit]</td>
-	<td></td>
-</tr>
-<tr>
-	<td>verifyText</td>
-	<td>//div[@id='loginPage']/div/div/div/div[3]</td>
-	<td>exact:Not yet a member? Join Us Today!</td>
-</tr>
-<tr>
-	<td>goBack</td>
-	<td></td>
-	<td></td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>link=Sleep</td>
-	<td></td>
-</tr>
-<tr>
-	<td>waitForText</td>
-	<td>css=h1.page__title</td>
-	<td>Sleep</td>
-</tr>
-<tr>
-	<td>assertText</td>
-	<td>css=h2.block__title.main__title</td>
-	<td>More Posts on Sleep</td>
-</tr>
-<tr>
-	<td>assertElementPresent</td>
-	<td>id=block-pt-topics-topics-menu</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertElementPresent</td>
-	<td>css=div.block__content &gt; div &gt; h2</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertText</td>
-	<td>css=div.block__content &gt; div &gt; h2</td>
-	<td>Find a Therapist Who Can Help WIth Sleep and Insomnia</td>
-</tr>
-<tr>
-	<td>assertElementPresent</td>
-	<td>css=#block-pt-td-fat-cities &gt; div.block__content &gt; div.item-list</td>
-	<td></td>
-</tr>
-<tr>
-	<td>goBack</td>
-	<td></td>
-	<td></td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>link=Anger</td>
-	<td></td>
-</tr>
-<tr>
-	<td>waitForText</td>
-	<td>css=h1.page__title</td>
-	<td>Anger</td>
-</tr>
-<tr>
-	<td>assertText</td>
-	<td>css=h2.blog__title</td>
-	<td>Managing Anger</td>
-</tr>
-<tr>
-	<td>assertText</td>
-	<td>css=div.block__content &gt; div &gt; h2</td>
-	<td>Find an Anger Management Therapist</td>
-</tr>
-<tr>
-	<td>goBack</td>
-	<td></td>
-	<td></td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>link=Subscribe</td>
-	<td></td>
-</tr>
-<tr>
-	<td>waitForText</td>
-	<td>css=p</td>
-	<td>YES! Please send me a FREE preview issue of Psychology Today. If I like what I see, I'll pay for the remainder of my subscription and save up to 55% off of the newsstand price. If Psychology Today is not for me, I'll just write &quot;cancel&quot; on my bill and return it. I will owe nothing and can keep the trial issue.</td>
-</tr>
-<tr>
-	<td>assertElementPresent</td>
-	<td>id=block-pt-subscriptions-options</td>
-	<td></td>
-</tr>
-<tr>
-	<td>goBack</td>
-	<td></td>
 	<td></td>
 </tr>
 <tr>
@@ -304,26 +134,6 @@
 	<td></td>
 </tr>
 <tr>
-	<td>clickAndWait</td>
-	<td>link=Experts by Topic</td>
-	<td></td>
-</tr>
-<tr>
-	<td>waitForText</td>
-	<td>css=h1.page__title</td>
-	<td>Meet The Experts</td>
-</tr>
-<tr>
-	<td>assertElementPresent</td>
-	<td>css=a.active-trail.active</td>
-	<td></td>
-</tr>
-<tr>
-	<td>goBack</td>
-	<td></td>
-	<td></td>
-</tr>
-<tr>
 	<td>pause</td>
 	<td>3000</td>
 	<td></td>
@@ -334,7 +144,7 @@
 	<td>pain</td>
 </tr>
 <tr>
-	<td>clickAndWait</td>
+	<td>click</td>
 	<td>id=edit-submit--2</td>
 	<td></td>
 </tr>
@@ -364,8 +174,8 @@
 	<td>The Pleasant Truths About Pain</td>
 </tr>
 <tr>
-	<td>goBack</td>
-	<td></td>
+	<td>open</td>
+	<td>/</td>
 	<td></td>
 </tr>
 <tr>
@@ -482,6 +292,11 @@
 <tr>
 	<td>storeEval</td>
 	<td>selenium.browserbot.getCurrentWindow().scrollTo(0,0)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>close</td>
+	<td></td>
 	<td></td>
 </tr>
 </tbody></table>
