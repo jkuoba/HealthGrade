@@ -57,19 +57,9 @@
 	<td>This content is selected and managed by the Healthgrades editorial staff and is brought to you by an advertising sponsor.</td>
 </tr>
 <tr>
-	<td>assertElementPresent</td>
-	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div/div/div/div</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertElementPresent</td>
-	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/270x150%3E/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2F4e%2Fe8%2F4cde41894a158d33735a4605ae6c%2Fresizes%2F500%2Fimage-franklin-becker-1.jpg')]</td>
-	<td></td>
-</tr>
-<tr>
-	<td>waitForText</td>
-	<td>css=div.vertically-centered</td>
-	<td>Cooking with Diabetes Learn how to cook delicious meals for diabetics with celebrity chef Franklin Becker.</td>
+	<td>verifyText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div/div[2]/div/div/div/div</td>
+	<td>Learn how to cook delicious meals for diabetics with celebrity chef Franklin Becker.</td>
 </tr>
 <tr>
 	<td>click</td>
@@ -112,9 +102,19 @@
 	<td>After an Angioplasty</td>
 </tr>
 <tr>
+	<td>waitForText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div/div[2]/div/div/div/div</td>
+	<td>Learn how to cook delicious meals for diabetics with celebrity chef Franklin Becker.</td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div/div[2]/div/div/div/div</td>
+	<td>Learn how to cook delicious meals for diabetics with celebrity chef Franklin Becker.</td>
+</tr>
+<tr>
 	<td>verifyText</td>
 	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div[2]/div[2]/div/div/div/div</td>
-	<td>Angioplasty not only reduces your risk of heart attack and stroke, it can also make you feel better.</td>
+	<td>Learn how to improve your breathing with COPD.</td>
 </tr>
 <tr>
 	<td>assertElementPresent</td>
@@ -124,7 +124,7 @@
 <tr>
 	<td>assertText</td>
 	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div[3]/div[3]/div/div/div/div</td>
-	<td>Learn more about managing you MS and improving your physical condition.</td>
+	<td>Here's what you need to know to manage your blood glucose and ward off other...</td>
 </tr>
 <tr>
 	<td>storeEval</td>
@@ -144,7 +144,7 @@
 <tr>
 	<td>verifyText</td>
 	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div[4]/div[2]/div/div/div/div</td>
-	<td>MS attacks nerve fibers and myelin. This damage to the central nervous system can cause a wide variety of symptoms.</td>
+	<td>Psoriasis treatments are escalated based on the severity of psoriasis and your...</td>
 </tr>
 <tr>
 	<td>click</td>
@@ -189,7 +189,7 @@
 <tr>
 	<td>verifyText</td>
 	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div[12]/div/div/div/div/div</td>
-	<td>Learn what you can do to get a good night's sleep.</td>
+	<td>Watery eyes, runny nose, sneezing, and itching mean your immune system is overreacting to an otherwise harmless substance.</td>
 </tr>
 <tr>
 	<td>storeEval</td>
@@ -205,11 +205,6 @@
 	<td>assertElementPresent</td>
 	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/270x150%3E/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2Fbf%2Ffa%2F1ea8033a41e9887d2b6e078523dc%2Fimage-woman-smiling.jpg')]</td>
 	<td></td>
-</tr>
-<tr>
-	<td>verifyText</td>
-	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div[19]/div[2]/div/div/div/div</td>
-	<td>You’ve heard the name, now know the facts about Hepatitis C.</td>
 </tr>
 <tr>
 	<td>storeEval</td>

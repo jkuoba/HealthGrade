@@ -253,6 +253,11 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
 	<td>clickAndWait</td>
 	<td>link=Tests</td>
 	<td></td>
@@ -281,11 +286,6 @@
 <tr>
 	<td>assertElementPresent</td>
 	<td>id=block-pt-stats-most-popular</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertElementPresent</td>
-	<td>css=img.img_ad</td>
 	<td></td>
 </tr>
 <tr>
@@ -324,13 +324,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
 	<td>type</td>
 	<td>id=edit-search-block-form--2</td>
 	<td>pain</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
-	<td>id=edit-submit</td>
+	<td>id=edit-submit--2</td>
 	<td></td>
 </tr>
 <tr>
@@ -391,11 +396,6 @@
 <tr>
 	<td>storeEval</td>
 	<td>selenium.browserbot.getCurrentWindow().scrollTo(400,7500)</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertElementPresent</td>
-	<td>id=div-gpt-ad-belowbottom1</td>
 	<td></td>
 </tr>
 <tr>
@@ -477,6 +477,11 @@
 <tr>
 	<td>assertElementPresent</td>
 	<td>css=img.psd-sharebar-sprite.psd-sharebar-print</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>selenium.browserbot.getCurrentWindow().scrollTo(0,0)</td>
 	<td></td>
 </tr>
 </tbody></table>

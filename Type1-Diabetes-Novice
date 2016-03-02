@@ -1006,9 +1006,9 @@
 	<td>bypassSignIn</td>
 </tr>
 <tr>
-	<td>waitForText</td>
-	<td>css=h2.uiHeaderTitle</td>
-	<td>Log into Facebook</td>
+	<td>assertTitle</td>
+	<td>Log into Facebook | Facebook</td>
+	<td></td>
 </tr>
 <tr>
 	<td>click</td>
@@ -1032,7 +1032,7 @@
 </tr>
 <tr>
 	<td>clickAndWait</td>
-	<td>id=u_0_2</td>
+	<td>id=loginbutton</td>
 	<td></td>
 </tr>
 <tr>

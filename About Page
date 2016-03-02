@@ -244,18 +244,23 @@
 	<td></td>
 </tr>
 <tr>
-	<td>verifyText</td>
-	<td>id=headerTitle</td>
-	<td>ABOUT US</td>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
 </tr>
 <tr>
-	<td>verifyText</td>
-	<td>css=span</td>
-	<td>About Healthgrades</td>
+	<td>assertText</td>
+	<td>css=div.layout-980-responsive.clrfix</td>
+	<td>About Us Leadership Team Quality &amp; Transparency Press Room Careers Contact Us <br /> .cms-textAlign-left{text-align:left;}.cms-textAlign-center{text-align:center;}.cms-textAlign-right{text-align:right;}<br /><br /><br /> At Healthgrades, our mission is to help consumers find the right doctor and the right hospital, for the right care.<br /><br /> <br /> <br /> More than one million people a day rely upon Healthgrades to research, compare and connect with physicians and other healthcare professionals. <br /> We provide consumers with the information they need to make more informed decisions, including information about the provider’s experience, patient satisfaction and hospital quality.&nbsp;&nbsp;<br /> Physicians and healthcare professionals rely upon Healthgrades, as well, to accurately represent their practice online, make them more relevant and discoverable, and connect them with consumers. <br /> From our headquarters in Denver and offices in Atlanta, Madison, Raleigh, and New York City, we are dedicated to delivering solutions that bring a new level of transparency to healthcare. <br /> <br /> <br /> <br /> Connect With Us <br /> Recent Press Releases Healthgrades Announces 2016 Distinguished Hospital Award for Clinical Excellence™ Recipients Jan 19, 2016 New Related Report Finds Significant Differences in the Rates of Improvement in the Treatment of Sepsis for Distinguished Hospital Recipients<br /><br /> read full article Healthgrades Appoints Scott Booker as Chief Executive Officer and to Healthgrades Board of Directors Jan 12, 2016 Healthgrades, the leading online resource for comprehensive information about physicians and hospitals, today announced that Scott Booker has been appointed Chief Executive Officer and a member of the Board of Directors, effective immediately. Mr. Booker succeeds Roger Holstein, who will assume the role of Vice Chairman of the Healthgrades Board and return to Vestar Capital Partners, the private equity firm that is the majority stakeholder of Healthgrades, to focus his efforts as a Managing Director there.&nbsp;&nbsp;<br /><br /><br /> read full article The Associated Press joins with Healthgrades to provide health information to publishers Dec 17, 2015 The Associated Press has launched a new Digital News Experience (DNE) with Healthgrades, the leading website for for guiding Americans to the right doctor, right hospital, right care, to provide newspapers, broadcasters and other publishers with health information for their websites.<br /><br /> read full article</td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=li.selected &gt; a</td>
+	<td>About Us</td>
 </tr>
 <tr>
 	<td>assertElementPresent</td>
-	<td>css=#00000147-212d-dec6-a7ef-bd2d91940000 &gt; a &gt; span</td>
+	<td>css=div.americasBestDriver</td>
 	<td></td>
 </tr>
 <tr>
