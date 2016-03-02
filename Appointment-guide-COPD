@@ -808,9 +808,14 @@
 	<td>Most important questions to ask about COPD</td>
 </tr>
 <tr>
-	<td>assertText</td>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
 	<td>css=div.ayag-summary</td>
-	<td>You said... APPOINTMENT FOR: <br />Parent DIAGNOSIS: <br />No, Undiagnosed SYMPTOMS: <br />6 reported REASON(S): <br />1 reported CARE PROVIDER: <br />Current doctor MEDICATIONS: <br />2 reported</td>
+	<td>You said... Appointment for: <br />Parent Diagnosis: <br />No, Undiagnosed Symptoms: <br />6 reported Reason(s): <br />1 reported Care Provider: <br />Current doctor Medications <br />2 reported</td>
 </tr>
 <tr>
 	<td>assertText</td>

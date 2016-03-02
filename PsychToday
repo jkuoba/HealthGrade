@@ -334,8 +334,13 @@
 	<td>pain</td>
 </tr>
 <tr>
+	<td>selectWindow</td>
+	<td>name=share</td>
+	<td></td>
+</tr>
+<tr>
 	<td>clickAndWait</td>
-	<td>id=edit-submit--2</td>
+	<td>id=edit-submit</td>
 	<td></td>
 </tr>
 <tr>
