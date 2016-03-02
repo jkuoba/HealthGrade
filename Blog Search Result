@@ -279,7 +279,7 @@
 <tr>
 	<td>waitForText</td>
 	<td>css=div.hgwdgt-total</td>
-	<td>Viewing 1 - 2 of 120 matches for Internal Medicine in Reston, VA</td>
+	<td>Viewing 1 - 2 of 119 matches for Internal Medicine in Reston, VA</td>
 </tr>
 <tr>
 	<td>assertElementPresent</td>

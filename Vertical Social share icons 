@@ -353,7 +353,7 @@
 </tr>
 <tr>
 	<td>click</td>
-	<td>//button[@type='button']</td>
+	<td>xpath=(//button[@type='button'])[2]</td>
 	<td></td>
 </tr>
 <tr>
