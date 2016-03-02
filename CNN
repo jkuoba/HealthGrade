@@ -87,6 +87,11 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
 	<td>assertElementPresent</td>
 	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div[2]/div[2]/div/div</td>
 	<td></td>
@@ -122,11 +127,6 @@
 	<td></td>
 </tr>
 <tr>
-	<td>assertText</td>
-	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div[3]/div[3]/div/div/div/div</td>
-	<td>Here's what you need to know to manage your blood glucose and ward off other...</td>
-</tr>
-<tr>
 	<td>storeEval</td>
 	<td>selenium.browserbot.getCurrentWindow().scrollTo(400,1000)</td>
 	<td></td>
@@ -137,14 +137,14 @@
 	<td></td>
 </tr>
 <tr>
-	<td>verifyText</td>
-	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/crop/372x207%2B51%2B25/resize/270x150%3E/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2F59%2Fd1%2Fed7752e245c4b7ca7124acc9a7e2%2Fistock-000014666039-extrasmall.jpg')]</td>
+	<td>assertElementPresent</td>
+	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/270x150%3E/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2Ffc%2F94%2F37e0e9f0465ba309c5796447119f%2Fresizes%2F500%2Fimage-woman-in-living-room-listening-to-mp3-player.jpg')]</td>
 	<td></td>
 </tr>
 <tr>
 	<td>verifyText</td>
-	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div[4]/div[2]/div/div/div/div</td>
-	<td>Psoriasis treatments are escalated based on the severity of psoriasis and your...</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div[4]/div/div/div/div/div</td>
+	<td>Learn more about managing you MS and improving your physical condition.</td>
 </tr>
 <tr>
 	<td>click</td>
@@ -209,6 +209,11 @@
 <tr>
 	<td>storeEval</td>
 	<td>selenium.browserbot.getCurrentWindow().scrollTo(400,8000)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>3000</td>
 	<td></td>
 </tr>
 <tr>
