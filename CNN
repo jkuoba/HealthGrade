@@ -59,7 +59,7 @@
 <tr>
 	<td>verifyText</td>
 	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div/div[2]/div/div/div/div</td>
-	<td>Learn how to cook delicious meals for diabetics with celebrity chef Franklin Becker.</td>
+	<td>Find the rheumatoid arthritis treatment that works for you.</td>
 </tr>
 <tr>
 	<td>click</td>
@@ -107,19 +107,9 @@
 	<td>After an Angioplasty</td>
 </tr>
 <tr>
-	<td>waitForText</td>
+	<td>assertText</td>
 	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div/div[2]/div/div/div/div</td>
-	<td>Learn how to cook delicious meals for diabetics with celebrity chef Franklin Becker.</td>
-</tr>
-<tr>
-	<td>waitForText</td>
-	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div/div[2]/div/div/div/div</td>
-	<td>Learn how to cook delicious meals for diabetics with celebrity chef Franklin Becker.</td>
-</tr>
-<tr>
-	<td>verifyText</td>
-	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div[2]/div[2]/div/div/div/div</td>
-	<td>Learn how to improve your breathing with COPD.</td>
+	<td>Find the rheumatoid arthritis treatment that works for you.</td>
 </tr>
 <tr>
 	<td>assertElementPresent</td>
@@ -143,7 +133,7 @@
 </tr>
 <tr>
 	<td>verifyText</td>
-	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div[4]/div/div/div/div/div</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div[4]/div[2]/div/div/div/div</td>
 	<td>Learn more about managing you MS and improving your physical condition.</td>
 </tr>
 <tr>
@@ -185,11 +175,6 @@
 	<td>assertElementPresent</td>
 	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/270x150%3E/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2Fc0%2Ff0%2F1bc068074b61aa157b53c0b12df7%2Fresizes%2F500%2Fimage-man-in-bed-sleeping.jpg')]</td>
 	<td></td>
-</tr>
-<tr>
-	<td>verifyText</td>
-	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div[12]/div/div/div/div/div</td>
-	<td>Watery eyes, runny nose, sneezing, and itching mean your immune system is overreacting to an otherwise harmless substance.</td>
 </tr>
 <tr>
 	<td>storeEval</td>
