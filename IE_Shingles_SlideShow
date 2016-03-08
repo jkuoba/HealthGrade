@@ -214,6 +214,11 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
 	<td>type</td>
 	<td>css=div.hgpswc-header-location-edit &gt; input[type=&quot;text&quot;]</td>
 	<td>22030</td>
@@ -221,6 +226,11 @@
 <tr>
 	<td>click</td>
 	<td>css=a.hgpswc-btn-set</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
 	<td></td>
 </tr>
 <tr>
@@ -244,18 +254,38 @@
 	<td></td>
 </tr>
 <tr>
-	<td>click</td>
-	<td>css=div.hgpswc-next</td>
+	<td>pause</td>
+	<td>2000</td>
 	<td></td>
 </tr>
 <tr>
 	<td>click</td>
 	<td>css=div.hgpswc-next</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.hgpswc-next</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
 	<td></td>
 </tr>
 <tr>
 	<td>click</td>
 	<td>css=div.hgpswc-previous</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
 	<td></td>
 </tr>
 <tr>
