@@ -18,7 +18,7 @@
 </tr>
 <tr>
 	<td>open</td>
-	<td>/right-care/shingles/12-things-to-know-about-shingles</td>
+	<td>http://test.healthgrades.com/right-care/shingles/12-things-to-know-about-shingles</td>
 	<td></td>
 </tr>
 <tr>
@@ -356,8 +356,13 @@
 <!--Test the slide show functionality-->
 <!--Ensure Thumbnails and replay hoving text working -->
 <tr>
+	<td>close</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
 	<td>open</td>
-	<td>/right-care/shingles/12-things-to-know-about-shingles</td>
+	<td>http://test.healthgrades.com/right-care/shingles/12-things-to-know-about-shingles</td>
 	<td></td>
 </tr>
 <tr>
