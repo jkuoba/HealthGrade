@@ -356,18 +356,13 @@
 <!--Test the slide show functionality-->
 <!--Ensure Thumbnails and replay hoving text working -->
 <tr>
-	<td>close</td>
-	<td></td>
-	<td></td>
-</tr>
-<tr>
 	<td>open</td>
-	<td>http://test.healthgrades.com/right-care/shingles/12-things-to-know-about-shingles</td>
+	<td>/right-care/shingles/12-things-to-know-about-shingles</td>
 	<td></td>
 </tr>
 <tr>
-	<td>storeEval</td>
-	<td>selenium.browserbot.getCurrentWindow().scrollTo(300,100)</td>
+	<td>pause</td>
+	<td>5000</td>
 	<td></td>
 </tr>
 <tr>
