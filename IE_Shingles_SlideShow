@@ -386,6 +386,11 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
 	<td>waitForText</td>
 	<td>css=#ss-3 &gt; h2</td>
 	<td>exact:3. Had chickenpox? You're at risk</td>
@@ -398,6 +403,11 @@
 <tr>
 	<td>click</td>
 	<td>css=#ss-3 &gt; div.ss-nav-wrapper.clrfix &gt; div.ss-nav &gt; div.ss-next &gt; a.icon-angle-right</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
 	<td></td>
 </tr>
 <tr>
@@ -416,6 +426,11 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
 	<td>waitForText</td>
 	<td>css=#ss-5 &gt; h2</td>
 	<td>5. Next, a telltale rash develops</td>
@@ -423,6 +438,11 @@
 <tr>
 	<td>click</td>
 	<td>css=#ss-5 &gt; div.ss-nav-wrapper.clrfix &gt; div.ss-nav &gt; div.ss-next &gt; a.icon-angle-right</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
 	<td></td>
 </tr>
 <tr>
@@ -441,6 +461,11 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
 	<td>waitForText</td>
 	<td>css=#ss-7 &gt; h2</td>
 	<td>7. The condition is typically short-lived</td>
@@ -453,6 +478,11 @@
 <tr>
 	<td>click</td>
 	<td>css=#ss-7 &gt; div.ss-nav-wrapper.clrfix &gt; div.ss-nav &gt; div.ss-next &gt; a.icon-angle-right</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
 	<td></td>
 </tr>
 <tr>
@@ -471,6 +501,11 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
 	<td>verifyText</td>
 	<td>css=#ss-9 &gt; h2</td>
 	<td>9. Other complications can also be serious</td>
@@ -483,6 +518,11 @@
 <tr>
 	<td>click</td>
 	<td>css=#ss-9 &gt; div.ss-nav-wrapper.clrfix &gt; div.ss-nav &gt; div.ss-next &gt; a.icon-angle-right</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
 	<td></td>
 </tr>
 <tr>
@@ -501,6 +541,11 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
 	<td>waitForText</td>
 	<td>css=#ss-11 &gt; h2</td>
 	<td>11. Fast treatment prevents complications</td>
@@ -516,6 +561,11 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
 	<td>waitForText</td>
 	<td>css=#ss-12 &gt; h2</td>
 	<td>12. Shingles isn't contagious</td>
@@ -528,6 +578,11 @@
 <tr>
 	<td>click</td>
 	<td>css=#ss-12 &gt; div.ss-nav-wrapper.clrfix &gt; div.ss-nav &gt; div.ss-next &gt; a.icon-angle-right</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
 	<td></td>
 </tr>
 <tr>
