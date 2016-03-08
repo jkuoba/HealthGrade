@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://test.healthgrades.com/right-care/shingles/12-things-to-know-about-shingles" />
+<title>Shingles-Slideshow</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Shingles-Slideshow</td></tr>
+</thead><tbody>
+<tr>
+	<td>setSpeed</td>
+	<td>700</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/right-care/shingles/12-things-to-know-about-shingles</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>12 Things to Know About Shingles</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=div.banner-ad.clrfix</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=Main</td>
+	<td>Main</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=Shingles</td>
+	<td>Shingles</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='pageHead']/div[3]/ul/li[3]</td>
+	<td>12 Things to Know About Shingles</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=View All &quot;Shingles&quot; Articles</td>
+	<td>View All &quot;Shingles&quot; Articles</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='pageHead']/div[4]/div/div/p[2]</td>
+	<td>Kuzma, Cindy;</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=p.by</td>
+	<td>By</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.ss-counter</td>
+	<td>1 of 13</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=h2</td>
+	<td>1. It's caused by the chickenpox bug</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.ss-caption &gt; #Slide01 &gt; #Slide01 &gt; p</td>
+	<td>Those red, itchy bumps are practically a rite of passage in childhood. But even when they fade, the body's battle with the varicella-zoster virus may not be over. The bug lies dormant in many grown-ups' bodies, eventually causing a painful neurological condition called shingles.</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[@id='slideshow-0']/div/div[3]/div/span</td>
+	<td>exact:Was this helpful?</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[@id='slideshow-0']/div/div[3]/div/a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.ss-mReview.clrfix &gt; p</td>
+	<td>Medically Reviewed By: William C. Lloyd III, MD, FACS | Last Review Date: May 15, 2015</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='slideshow-0']/div/div[4]/p[2]</td>
+	<td>© 2015 Healthgrades Operating Company, Inc. All rights reserved. May not be reproduced or reprinted without permission from Healthgrades Operating Company, Inc. Use of this information is governed by the Healthgrades User Agreement.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.linkText</td>
+	<td>View Sources</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.zone</td>
+	<td>ADVERTISEMENT</td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>selenium.browserbot.getCurrentWindow().scrollTo(300,800)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.linkText</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.linkText</td>
+	<td>Close Sources</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=OnlineSources</td>
+	<td>Shingles. American Academy of Family Physicians. January 2011. http://familydoctor.org/familydoctor/en/diseases-conditions/shingles.printerview.all.html</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=(//span[@id='OnlineSources'])[5]</td>
+	<td>exact:Shingles: Signs and symptoms. American Academy of Dermatology. 2012. http://www.aad.org/skin-conditions/dermatology-a-to-z/shingles/signs-symptoms/shingles-signs-and-sym...</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=(//span[@id='OnlineSources'])[10]</td>
+	<td>Shingles, National Institute on Aging. 2009. http://www.nia.nih.gov/print/health/publication/shingles</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=(//span[@id='OnlineSources'])[11]</td>
+	<td>exact:Shingles: Hope Through Research. National Institute of Neurological Disorders and Stroke. 2011. http://www.ninds.nih.gov/disorders/shingles/detail_shingles.htm?css=print</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.linkText</td>
+	<td></td>
+</tr>
+<!--Verify the additional contents-->
+<tr>
+	<td>assertText</td>
+	<td>css=h3</td>
+	<td>You Might Also Like</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div[2]/div/div/div/div/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div[2]/div/div/div/div[2]/div/div/h3</td>
+	<td>At Your Appointment</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div[2]/div/div/div/div[2]/div/div/h4</td>
+	<td>Questions to Ask Your Doctor About Shingles</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=Get Started</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/105x105/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2F98%2F8d%2F4d28b02e47699a37cbec7bc05b04%2Fresizes%2F500%2Fimage-old-hispanic-couple.jpg')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.vertically-centered &gt; h3 &gt; a &gt; span</td>
+	<td>exact:New to Medicare? 10 Things You Should Know</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/105x105/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2F20%2Fbf%2F35d5c1eb4995ba892d579648f107%2Fresizes%2F500%2Fzytiga-SS-vaccines.jpg')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div[2]/div/div/div/div[4]/div/div/div/h3/a/span</td>
+	<td>exact:Who Needs the Shingles Vaccine?</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.hgpswc-header-title</td>
+	<td>Find a Great Local Doctor</td>
+</tr>
+<!--find a local doctor-->
+<tr>
+	<td>storeEval</td>
+	<td>selenium.browserbot.getCurrentWindow().scrollTo(300,1200)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.hgpswc-header-location-known &gt; span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=div.hgpswc-header-location-edit &gt; input[type=&quot;text&quot;]</td>
+	<td>22030</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=a.hgpswc-btn-set</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.hgpswc-profile-name</td>
+	<td>Dr. Chung Woo, MD</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[@id='physicianWidget']/div/div/div[2]/ul/li/div[3]/a/div</td>
+	<td>Dr. Laura Asher, MD</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[@id='physicianWidget']/div/div/div[2]/ul/li/div[3]/a/div[3]/div/div/div/img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.hgpswc-next</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.hgpswc-next</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.hgpswc-next</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.hgpswc-previous</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='physicianWidget']/div/div/div[2]/ul/li[3]/div[2]/a/div</td>
+	<td>Dr. Jacob Joseph, MD</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='physicianWidget']/div/div/div[2]/ul/li[3]/div[2]/a/div[2]</td>
+	<td>Geriatric Medicine, Emergency Medicine, Family Medicine</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.hgpswc-previous</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=View all doctors near Fairfax, VA</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>selenium.browserbot.getCurrentWindow().scrollTo(300,1800)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[@id='contentWrapper']/div[2]/div/div[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=a.ftLogo</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=li.shut &gt; span</td>
+	<td>For Patients</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[@id='hgsw-footer']/div/div/ul/li[2]/span</td>
+	<td>For Providers</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[@id='hgsw-footer']/div/div/ul/li[3]/span</td>
+	<td>For Partners</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[@id='hgsw-footer']/div/div/ul/li[4]/span</td>
+	<td>About Us TEST</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.ftShare.ie8 &gt; div</td>
+	<td>Connect With Us</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='hgsw-footer']/div[2]/p[2]</td>
+	<td>Use of this website and any information contained herein is governed by the Healthgrades User Agreement.</td>
+</tr>
+<!--Test the slide show functionality-->
+<!--Ensure Thumbnails and replay hoving text working -->
+<tr>
+	<td>open</td>
+	<td>/right-care/shingles/12-things-to-know-about-shingles</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>selenium.browserbot.getCurrentWindow().scrollTo(300,100)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.ss-next-button &gt; span.icon-angle-right</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=#ss-2 &gt; h2</td>
+	<td>2. One million Americans are affected yearly</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.ss-caption &gt; #Slide02 &gt; p</td>
+	<td>Shingles is common, and the older you get, the greater your risk. By age 80, one in two adults will have had the condition. About half of all cases occur in adults age 60 or older, and only 5% affect children.</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#ss-2 &gt; div.ss-nav-wrapper.clrfix &gt; div.ss-nav &gt; div.ss-next &gt; a.icon-angle-right</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=#ss-3 &gt; h2</td>
+	<td>exact:3. Had chickenpox? You're at risk</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.ss-caption &gt; #Slide03 &gt; p</td>
+	<td>It's hard to reach adulthood without being exposed to the varicella-zoster virus. Almost everyone has chickenpox at some point, even if the case is so mild it goes unnoticed. And children who had chickenpox before age 1 may get shingles before they are adults.</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#ss-3 &gt; div.ss-nav-wrapper.clrfix &gt; div.ss-nav &gt; div.ss-next &gt; a.icon-angle-right</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=#ss-4 &gt; h2</td>
+	<td>4. Early signs include pain and burning</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.ss-caption &gt; #Slide04 &gt; p</td>
+	<td>In adults, the varicella-zoster virus lingers in nerve cells. Doctors aren't sure how it gets reactivated in some people. But when it does, the first indication is often a painful burning or tingling on one side of the body.</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#ss-4 &gt; div.ss-nav-wrapper.clrfix &gt; div.ss-nav &gt; div.ss-next &gt; a.icon-angle-right</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=#ss-5 &gt; h2</td>
+	<td>5. Next, a telltale rash develops</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#ss-5 &gt; div.ss-nav-wrapper.clrfix &gt; div.ss-nav &gt; div.ss-next &gt; a.icon-angle-right</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=#ss-6 &gt; h2</td>
+	<td>6. Other symptoms span your body</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.ss-caption &gt; #Slide06 &gt; p</td>
+	<td>Shingles can also cause fever, chills, headache, and upset stomach. Shingles infections that affect the ear may cause muscle weakness in the face. Outbreaks on the face or eyes can cause hearing or vision problems.</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#ss-6 &gt; div.ss-nav-wrapper.clrfix &gt; div.ss-nav &gt; div.ss-next &gt; a.icon-angle-right</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=#ss-7 &gt; h2</td>
+	<td>7. The condition is typically short-lived</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.ss-caption &gt; #Slide07 &gt; p</td>
+	<td>Pain from shingles is often severe and debilitating. But most cases clear up within a few weeks. After the blisters dry up, they often leave no scars. What's more, after you have shingles once, you are unlikely to get it again.</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#ss-7 &gt; div.ss-nav-wrapper.clrfix &gt; div.ss-nav &gt; div.ss-next &gt; a.icon-angle-right</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=#ss-8 &gt; h2</td>
+	<td>8. In some people, pain can linger</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.ss-caption &gt; #Slide08 &gt; p</td>
+	<td>In about one in 10 people, the pain of shingles does not go away along with the rash. This condition is called postherpetic neuralgia. Severe cases can be debilitating and lead to depression, insomnia, anxiety, and weight loss. The pain usually goes away on its own within a year.</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#ss-8 &gt; div.ss-nav-wrapper.clrfix &gt; div.ss-nav &gt; div.ss-next &gt; a.icon-angle-right</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=#ss-9 &gt; h2</td>
+	<td>9. Other complications can also be serious</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.ss-caption &gt; #Slide09 &gt; p</td>
+	<td>Rare but serious side effects of shingles include permanent vision loss or hearing problems, pneumonia, brain inflammation, scarring from infected blisters, or stroke. Even more rarely, the disease can be fatal. Most often, these issues occur in people with compromised immune systems, including those with cancer, major organ transplantation, or HIV.</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#ss-9 &gt; div.ss-nav-wrapper.clrfix &gt; div.ss-nav &gt; div.ss-next &gt; a.icon-angle-right</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=#ss-10 &gt; h2</td>
+	<td>10. There's a shingles vaccine</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.ss-caption &gt; #Slide10 &gt; p</td>
+	<td>In 2006, the Food and Drug Administration approved a vaccine that can help prevent shingles in older adults who have had chickenpox. Immunized people are half as likely to develop shingles, and their cases tend to be less severe. Ask your doctor if the vaccine is right for you.</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#ss-10 &gt; div.ss-nav-wrapper.clrfix &gt; div.ss-nav &gt; div.ss-next &gt; a.icon-angle-right</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=#ss-11 &gt; h2</td>
+	<td>11. Fast treatment prevents complications</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.ss-caption &gt; #Slide11 &gt; p</td>
+	<td>There's no cure for shingles. But there's evidence that taking antiviral medications such as acyclovir, valcyclovir, or famciclovir within 72 hours of the appearance of the rash can speed recovery and reduce the risk of lasting pain. Other treatments include anti-inflammatory steroids and rest.</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#ss-11 &gt; div.ss-nav-wrapper.clrfix &gt; div.ss-nav &gt; div.ss-next &gt; a.icon-angle-right</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=#ss-12 &gt; h2</td>
+	<td>12. Shingles isn't contagious</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.ss-caption &gt; #Slide12 &gt; p</td>
+	<td>You can't get shingles from someone else. However, a person with a shingles rash can give chickenpox to someone who has never had it. Health experts now recommend that all children age 18 months to teenagers get the chickenpox vaccine to reduce their risk for both conditions.</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#ss-12 &gt; div.ss-nav-wrapper.clrfix &gt; div.ss-nav &gt; div.ss-next &gt; a.icon-angle-right</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=Replay Slideshow</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=#ss-13 &gt; div.clrfix &gt; div.ss-nav &gt; div.ss-counter</td>
+	<td>13 of 13</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=a &gt; img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3 &gt; a &gt; span</td>
+	<td>Talking With Your Doctor About Shingles Treatment</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/105x105/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2F20%2Fbf%2F35d5c1eb4995ba892d579648f107%2Fresizes%2F500%2Fzytiga-SS-vaccines.jpg')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='ss-13']/div[2]/ul/li/div[2]/div</td>
+	<td>exact:Who Needs the Shingles Vaccine? Copy needed</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/105x105/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2Fdc%2Fdf%2Fe77afb68450b90f11f5fe7577963%2Fresizes%2F500%2F12-shingles-5.jpg')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='ss-13']/div[2]/ul/li[2]/div/div/h3/a/span</td>
+	<td>Symptoms of Shingles</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/105x105/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2F06%2F84%2F22cb8a6a4702b2587f71b10b4e12%2Fresizes%2F500%2F8-self-care-tips-for-managing-diabetic-neuropathy-4.jpg')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='ss-13']/div[2]/ul/li[2]/div[2]/div/h3/a/span</td>
+	<td>A Closer Look at Blisters</td>
+</tr>
+<!--Jumping slide testing -->
+<tr>
+	<td>click</td>
+	<td>link=Replay Slideshow</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ss-view-thumbs</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ss-closeThumbs</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ss-view-thumbs</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/100x66/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2Fba%2F6d%2Ffd62069143f29e70481bb090a466%2Fresizes%2F500%2F12-shingles-12.jpg')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=#ss-12 &gt; div.ss-nav-wrapper.clrfix &gt; div.ss-nav &gt; div.ss-counter</td>
+	<td>12 of 13</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#ss-12 &gt; div.ss-nav-wrapper.clrfix &gt; #ss-view-thumbs</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/100x66/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2Fab%2Fc6%2Fa0c134244de7a2a8d32a0b392e84%2Fresizes%2F500%2F12-shingles-9.jpg')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=#ss-9 &gt; div.ss-nav-wrapper.clrfix &gt; div.ss-nav &gt; div.ss-counter</td>
+	<td>9 of 13</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#ss-9 &gt; div.ss-nav-wrapper.clrfix &gt; #ss-view-thumbs</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/crop/403x266%2B95%2B41/resize/100x66/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2Fc1%2Fda%2Fe11e19f54e3e8712f4792b37133f%2Fresizes%2F500%2Fbaby-with-chickenpox-585x390.jpg')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=#ss-3 &gt; div.ss-nav-wrapper.clrfix &gt; div.ss-nav &gt; div.ss-counter</td>
+	<td>3 of 13</td>
+</tr>
+<!--arrow key testing -->
+<tr>
+	<td>click</td>
+	<td>css=#ss-3 &gt; div.ss-nav-wrapper.clrfix &gt; div.ss-nav &gt; div.ss-next &gt; a.icon-angle-right</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#ss-4 &gt; div.ss-nav-wrapper.clrfix &gt; div.ss-nav &gt; div.ss-next &gt; a.icon-angle-right</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#ss-5 &gt; div.ss-nav-wrapper.clrfix &gt; div.ss-nav &gt; div.ss-next &gt; a.icon-angle-right</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#ss-6 &gt; div.ss-nav-wrapper.clrfix &gt; div.ss-nav &gt; div.ss-next &gt; a.icon-angle-right</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#ss-7 &gt; div.ss-nav-wrapper.clrfix &gt; div.ss-nav &gt; div.ss-next &gt; a.icon-angle-right</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#ss-8 &gt; div.ss-nav-wrapper.clrfix &gt; div.ss-nav &gt; div.ss-next &gt; a.icon-angle-right</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#ss-9 &gt; div.ss-nav-wrapper.clrfix &gt; div.ss-nav &gt; div.ss-back &gt; a.icon-angle-left</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#ss-8 &gt; div.ss-nav-wrapper.clrfix &gt; div.ss-nav &gt; div.ss-back &gt; a.icon-angle-left</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#ss-7 &gt; div.ss-nav-wrapper.clrfix &gt; div.ss-nav &gt; div.ss-back &gt; a.icon-angle-left</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#ss-6 &gt; div.ss-nav-wrapper.clrfix &gt; div.ss-nav &gt; div.ss-back &gt; a.icon-angle-left</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#ss-5 &gt; div.ss-nav-wrapper.clrfix &gt; #ss-view-thumbs</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/100x66/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2Fb8%2Faa%2F3b1e0c0e42479a6af61d698b8556%2Fresizes%2F500%2F12-shingles-2.jpg')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=#ss-2 &gt; div.ss-nav-wrapper.clrfix &gt; div.ss-nav &gt; div.ss-counter</td>
+	<td>2 of 13</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#ss-2 &gt; div.ss-nav-wrapper.clrfix &gt; #ss-view-thumbs</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=span.ec-thumb</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=#ss-13 &gt; div.clrfix &gt; div.ss-nav &gt; div.ss-counter</td>
+	<td>13 of 13</td>
+</tr>
+</tbody></table>
+</body>
+</html>
