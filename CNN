@@ -59,27 +59,17 @@
 <tr>
 	<td>verifyText</td>
 	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div/div[2]/div/div/div/div</td>
-	<td>Find the rheumatoid arthritis treatment that works for you.</td>
+	<td>Take care of the common cold and get back on your feet.</td>
 </tr>
 <tr>
 	<td>click</td>
-	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/270x150%3E/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2F4e%2Fe8%2F4cde41894a158d33735a4605ae6c%2Fresizes%2F500%2Fimage-franklin-becker-1.jpg')]</td>
+	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/crop/496x276%2B1%2B16/resize/270x150%3E/quality/75/?url=https%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2F02%2F2d%2F88e238d4456d980f54d69202d211%2Fresizes%2F500%2Fimage-gettyimages-177258371-couple-relaxing-outside.jpg')]</td>
 	<td></td>
 </tr>
 <tr>
 	<td>waitForText</td>
-	<td>//div[@id='pageHead']/div[4]/div</td>
-	<td>CELEBRITY CHEF FEATURE</td>
-</tr>
-<tr>
-	<td>waitForText</td>
 	<td>css=h1</td>
-	<td>Cooking with Diabetes</td>
-</tr>
-<tr>
-	<td>verifyText</td>
-	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div/div/div/div/p</td>
-	<td>I first prepared this dish for Dr. Oz. The idea was to incorporate five essential fats in one dish.</td>
+	<td>Health</td>
 </tr>
 <tr>
 	<td>goBack</td>
@@ -97,19 +87,9 @@
 	<td></td>
 </tr>
 <tr>
-	<td>assertElementPresent</td>
-	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/270x150%3E/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2Fb6%2F1b%2Fb497e4a743778bd7e6f9fee6d398%2Fresizes%2F500%2Fimage-women-in-doctors-for-checkup.jpg')]</td>
-	<td></td>
-</tr>
-<tr>
 	<td>assertText</td>
 	<td>link=After an Angioplasty</td>
 	<td>After an Angioplasty</td>
-</tr>
-<tr>
-	<td>assertText</td>
-	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div/div[2]/div/div/div/div</td>
-	<td>Find the rheumatoid arthritis treatment that works for you.</td>
 </tr>
 <tr>
 	<td>assertElementPresent</td>
@@ -128,13 +108,8 @@
 </tr>
 <tr>
 	<td>assertElementPresent</td>
-	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/270x150%3E/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2Ffc%2F94%2F37e0e9f0465ba309c5796447119f%2Fresizes%2F500%2Fimage-woman-in-living-room-listening-to-mp3-player.jpg')]</td>
+	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/270x150%3E/quality/75/?url=https%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2Fe5%2F95%2F990829fd460da6d16b5eea07cccd%2Fresizes%2F500%2F209305.jpg')]</td>
 	<td></td>
-</tr>
-<tr>
-	<td>verifyText</td>
-	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div[4]/div[2]/div/div/div/div</td>
-	<td>Learn more about managing you MS and improving your physical condition.</td>
 </tr>
 <tr>
 	<td>click</td>
@@ -173,7 +148,7 @@
 </tr>
 <tr>
 	<td>assertElementPresent</td>
-	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/270x150%3E/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2Fc0%2Ff0%2F1bc068074b61aa157b53c0b12df7%2Fresizes%2F500%2Fimage-man-in-bed-sleeping.jpg')]</td>
+	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/270x150%3E/quality/75/?url=https%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2Fa1%2Fb4%2F002246a64189a1d7f35aab5774f5%2F0000013c-eef3-d9b2-abbd-efff72f40000')]</td>
 	<td></td>
 </tr>
 <tr>
@@ -188,7 +163,7 @@
 </tr>
 <tr>
 	<td>assertElementPresent</td>
-	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/270x150%3E/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2Fbf%2Ffa%2F1ea8033a41e9887d2b6e078523dc%2Fimage-woman-smiling.jpg')]</td>
+	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/270x150%3E/quality/75/?url=https%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2F8a%2Fc1%2F60dbf95f40e19058c113b6195da4%2Fresizes%2F500%2Forthopedic-specialist-slide8-738x399-isk-000023496166.jpg')]</td>
 	<td></td>
 </tr>
 <tr>

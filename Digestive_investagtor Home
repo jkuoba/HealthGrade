@@ -197,8 +197,13 @@
 	<td>You Might Also Like</td>
 </tr>
 <tr>
+	<td>selectWindow</td>
+	<td>name=hRxl6whf</td>
+	<td></td>
+</tr>
+<tr>
 	<td>assertElementPresent</td>
-	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/270x150%3E/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2F37%2F15%2F3ac4ccef43b2bca02192889c0def%2Fresizes%2F500%2FRA-SS-chest%2520pain.jpg')]</td>
+	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/270x150%3E/quality/75/?url=https%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2F37%2F15%2F3ac4ccef43b2bca02192889c0def%2Fresizes%2F500%2FRA-SS-chest%2520pain.jpg')]</td>
 	<td></td>
 </tr>
 <tr>
@@ -213,7 +218,7 @@
 </tr>
 <tr>
 	<td>assertElementPresent</td>
-	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/270x150%3E/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2F41%2Fb5%2F761608b44584b21e9c19a65a1db1%2Fresizes%2F500%2F10-things-to-know-about-lactose-intolerance-1.jpg')]</td>
+	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/270x150%3E/quality/75/?url=https%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2F41%2Fb5%2F761608b44584b21e9c19a65a1db1%2Fresizes%2F500%2F10-things-to-know-about-lactose-intolerance-1.jpg')]</td>
 	<td></td>
 </tr>
 <tr>

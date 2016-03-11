@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="selenium.base" href="http://test.healthgrades.com" />
+<link rel="selenium.base" href="http://test.healthgrades.com/right-care/shingles/12-things-to-know-about-shingles" />
 <title>Shingles-Slideshow</title>
 </head>
 <body>
@@ -174,18 +174,13 @@
 </tr>
 <tr>
 	<td>assertElementPresent</td>
-	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/105x105/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2F98%2F8d%2F4d28b02e47699a37cbec7bc05b04%2Fresizes%2F500%2Fimage-old-hispanic-couple.jpg')]</td>
+	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/105x105/quality/75/?url=https%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2F98%2F8d%2F4d28b02e47699a37cbec7bc05b04%2Fresizes%2F500%2Fimage-old-hispanic-couple.jpg')]</td>
 	<td></td>
 </tr>
 <tr>
 	<td>verifyText</td>
 	<td>css=div.vertically-centered &gt; h3 &gt; a &gt; span</td>
 	<td>exact:New to Medicare? 10 Things You Should Know</td>
-</tr>
-<tr>
-	<td>assertElementPresent</td>
-	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/105x105/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2F20%2Fbf%2F35d5c1eb4995ba892d579648f107%2Fresizes%2F500%2Fzytiga-SS-vaccines.jpg')]</td>
-	<td></td>
 </tr>
 <tr>
 	<td>verifyText</td>
@@ -357,12 +352,22 @@
 <!--Ensure Thumbnails and replay hoving text working -->
 <tr>
 	<td>open</td>
+	<td>/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
 	<td>/right-care/shingles/12-things-to-know-about-shingles</td>
 	<td></td>
 </tr>
 <tr>
 	<td>pause</td>
-	<td>5000</td>
+	<td>2000</td>
 	<td></td>
 </tr>
 <tr>
@@ -606,8 +611,13 @@
 	<td>Talking With Your Doctor About Shingles Treatment</td>
 </tr>
 <tr>
+	<td>selectWindow</td>
+	<td>name=zizKaMfg</td>
+	<td></td>
+</tr>
+<tr>
 	<td>assertElementPresent</td>
-	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/105x105/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2F20%2Fbf%2F35d5c1eb4995ba892d579648f107%2Fresizes%2F500%2Fzytiga-SS-vaccines.jpg')]</td>
+	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/105x105/quality/75/?url=https%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2F45%2F5a%2F5b3e1a4a47c5a05e06b21b897f8a%2Fresizes%2F500%2Fimage-doctor-writing-prescription-with-medicine-bottles.jpg')]</td>
 	<td></td>
 </tr>
 <tr>
@@ -617,7 +627,7 @@
 </tr>
 <tr>
 	<td>assertElementPresent</td>
-	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/105x105/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2Fdc%2Fdf%2Fe77afb68450b90f11f5fe7577963%2Fresizes%2F500%2F12-shingles-5.jpg')]</td>
+	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/105x105/quality/75/?url=https%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2F20%2Fbf%2F35d5c1eb4995ba892d579648f107%2Fresizes%2F500%2Fzytiga-SS-vaccines.jpg')]</td>
 	<td></td>
 </tr>
 <tr>
@@ -627,7 +637,7 @@
 </tr>
 <tr>
 	<td>assertElementPresent</td>
-	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/105x105/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2F06%2F84%2F22cb8a6a4702b2587f71b10b4e12%2Fresizes%2F500%2F8-self-care-tips-for-managing-diabetic-neuropathy-4.jpg')]</td>
+	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/105x105/quality/75/?url=https%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2F20%2Fbf%2F35d5c1eb4995ba892d579648f107%2Fresizes%2F500%2Fzytiga-SS-vaccines.jpg')]</td>
 	<td></td>
 </tr>
 <tr>
@@ -639,6 +649,11 @@
 <tr>
 	<td>click</td>
 	<td>link=Replay Slideshow</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=ss-view-thumbs</td>
 	<td></td>
 </tr>
 <tr>
@@ -678,7 +693,7 @@
 </tr>
 <tr>
 	<td>click</td>
-	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/100x66/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2Fba%2F6d%2Ffd62069143f29e70481bb090a466%2Fresizes%2F500%2F12-shingles-12.jpg')]</td>
+	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/100x66/quality/75/?url=https%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2Fba%2F6d%2Ffd62069143f29e70481bb090a466%2Fresizes%2F500%2F12-shingles-12.jpg')]</td>
 	<td></td>
 </tr>
 <tr>
@@ -703,7 +718,7 @@
 </tr>
 <tr>
 	<td>click</td>
-	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/100x66/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2Fab%2Fc6%2Fa0c134244de7a2a8d32a0b392e84%2Fresizes%2F500%2F12-shingles-9.jpg')]</td>
+	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/100x66/quality/75/?url=https%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2Fab%2Fc6%2Fa0c134244de7a2a8d32a0b392e84%2Fresizes%2F500%2F12-shingles-9.jpg')]</td>
 	<td></td>
 </tr>
 <tr>
@@ -728,7 +743,7 @@
 </tr>
 <tr>
 	<td>click</td>
-	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/crop/403x266%2B95%2B41/resize/100x66/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2Fc1%2Fda%2Fe11e19f54e3e8712f4792b37133f%2Fresizes%2F500%2Fbaby-with-chickenpox-585x390.jpg')]</td>
+	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/crop/403x266%2B95%2B41/resize/100x66/quality/75/?url=https%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2Fc1%2Fda%2Fe11e19f54e3e8712f4792b37133f%2Fresizes%2F500%2Fbaby-with-chickenpox-585x390.jpg')]</td>
 	<td></td>
 </tr>
 <tr>
@@ -849,7 +864,7 @@
 </tr>
 <tr>
 	<td>click</td>
-	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/100x66/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2Fb8%2Faa%2F3b1e0c0e42479a6af61d698b8556%2Fresizes%2F500%2F12-shingles-2.jpg')]</td>
+	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/100x66/quality/75/?url=https%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2Fb8%2Faa%2F3b1e0c0e42479a6af61d698b8556%2Fresizes%2F500%2F12-shingles-2.jpg')]</td>
 	<td></td>
 </tr>
 <tr>

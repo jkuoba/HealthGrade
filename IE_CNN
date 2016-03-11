@@ -59,37 +59,7 @@
 <tr>
 	<td>verifyText</td>
 	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div/div[2]/div/div/div/div</td>
-	<td>Find the rheumatoid arthritis treatment that works for you.</td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/270x150%3E/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2F4e%2Fe8%2F4cde41894a158d33735a4605ae6c%2Fresizes%2F500%2Fimage-franklin-becker-1.jpg')]</td>
-	<td></td>
-</tr>
-<tr>
-	<td>waitForText</td>
-	<td>//div[@id='pageHead']/div[4]/div</td>
-	<td>CELEBRITY CHEF FEATURE</td>
-</tr>
-<tr>
-	<td>waitForText</td>
-	<td>css=h1</td>
-	<td>Cooking with Diabetes</td>
-</tr>
-<tr>
-	<td>verifyText</td>
-	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div/div/div/div/p</td>
-	<td>I first prepared this dish for Dr. Oz. The idea was to incorporate five essential fats in one dish.</td>
-</tr>
-<tr>
-	<td>open</td>
-	<td>http://cnn.ucms-qa.healthgrades.com/</td>
-	<td></td>
-</tr>
-<tr>
-	<td>pause</td>
-	<td>3000</td>
-	<td></td>
+	<td>Take care of the common cold and get back on your feet.</td>
 </tr>
 <tr>
 	<td>assertElementPresent</td>
@@ -98,18 +68,13 @@
 </tr>
 <tr>
 	<td>assertElementPresent</td>
-	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/270x150%3E/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2Fb6%2F1b%2Fb497e4a743778bd7e6f9fee6d398%2Fresizes%2F500%2Fimage-women-in-doctors-for-checkup.jpg')]</td>
+	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/270x150%3E/quality/75/?url=https%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2Fb6%2F1b%2Fb497e4a743778bd7e6f9fee6d398%2Fresizes%2F500%2Fimage-women-in-doctors-for-checkup.jpg')]</td>
 	<td></td>
 </tr>
 <tr>
 	<td>assertText</td>
 	<td>link=After an Angioplasty</td>
 	<td>After an Angioplasty</td>
-</tr>
-<tr>
-	<td>assertText</td>
-	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div/div[2]/div/div/div/div</td>
-	<td>Find the rheumatoid arthritis treatment that works for you.</td>
 </tr>
 <tr>
 	<td>assertElementPresent</td>
@@ -124,11 +89,6 @@
 <tr>
 	<td>assertElementPresent</td>
 	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div[4]/div[2]/div/div</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertElementPresent</td>
-	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/270x150%3E/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2Ffc%2F94%2F37e0e9f0465ba309c5796447119f%2Fresizes%2F500%2Fimage-woman-in-living-room-listening-to-mp3-player.jpg')]</td>
 	<td></td>
 </tr>
 <tr>
@@ -177,16 +137,6 @@
 	<td></td>
 </tr>
 <tr>
-	<td>assertElementPresent</td>
-	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/270x150%3E/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2Fc0%2Ff0%2F1bc068074b61aa157b53c0b12df7%2Fresizes%2F500%2Fimage-man-in-bed-sleeping.jpg')]</td>
-	<td></td>
-</tr>
-<tr>
-	<td>waitForText</td>
-	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div[4]/div[2]/div/div/div/div</td>
-	<td>Learn more about managing you MS and improving your physical condition.</td>
-</tr>
-<tr>
 	<td>storeEval</td>
 	<td>selenium.browserbot.getCurrentWindow().scrollTo(400,5500)</td>
 	<td></td>
@@ -194,11 +144,6 @@
 <tr>
 	<td>assertElementPresent</td>
 	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div[19]/div[2]/div/div</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertElementPresent</td>
-	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/270x150%3E/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2Fbf%2Ffa%2F1ea8033a41e9887d2b6e078523dc%2Fimage-woman-smiling.jpg')]</td>
 	<td></td>
 </tr>
 <tr>
