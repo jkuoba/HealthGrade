@@ -351,28 +351,18 @@
 <!--Test the slide show functionality-->
 <!--Ensure Thumbnails and replay hoving text working -->
 <tr>
-	<td>open</td>
-	<td>/</td>
-	<td></td>
-</tr>
-<tr>
-	<td>pause</td>
-	<td>3000</td>
-	<td></td>
-</tr>
-<tr>
-	<td>open</td>
-	<td>/right-care/shingles/12-things-to-know-about-shingles</td>
-	<td></td>
-</tr>
-<tr>
-	<td>pause</td>
-	<td>2000</td>
+	<td>storeEval</td>
+	<td>selenium.browserbot.getCurrentWindow().scrollTo(400,300)</td>
 	<td></td>
 </tr>
 <tr>
 	<td>click</td>
 	<td>css=div.ss-next-button &gt; span.icon-angle-right</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#ss-2 &gt; div.ss-nav-wrapper.clrfix &gt; div.ss-nav &gt; div.ss-next &gt; a.icon-angle-right</td>
 	<td></td>
 </tr>
 <tr>
@@ -384,11 +374,6 @@
 	<td>verifyText</td>
 	<td>css=div.ss-caption &gt; #Slide02 &gt; p</td>
 	<td>Shingles is common, and the older you get, the greater your risk. By age 80, one in two adults will have had the condition. About half of all cases occur in adults age 60 or older, and only 5% affect children.</td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>css=#ss-2 &gt; div.ss-nav-wrapper.clrfix &gt; div.ss-nav &gt; div.ss-next &gt; a.icon-angle-right</td>
-	<td></td>
 </tr>
 <tr>
 	<td>pause</td>
