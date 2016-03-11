@@ -611,11 +611,6 @@
 	<td>Talking With Your Doctor About Shingles Treatment</td>
 </tr>
 <tr>
-	<td>selectWindow</td>
-	<td>name=zizKaMfg</td>
-	<td></td>
-</tr>
-<tr>
 	<td>assertElementPresent</td>
 	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/105x105/quality/75/?url=https%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2F45%2F5a%2F5b3e1a4a47c5a05e06b21b897f8a%2Fresizes%2F500%2Fimage-doctor-writing-prescription-with-medicine-bottles.jpg')]</td>
 	<td></td>
@@ -752,6 +747,11 @@
 	<td>3 of 13</td>
 </tr>
 <!--arrow key testing -->
+<tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
 <tr>
 	<td>click</td>
 	<td>css=#ss-3 &gt; div.ss-nav-wrapper.clrfix &gt; div.ss-nav &gt; div.ss-next &gt; a.icon-angle-right</td>
