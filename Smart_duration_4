@@ -23,17 +23,17 @@
 </tr>
 <tr>
 	<td>assertText</td>
-	<td>//tr[2]/td[3]</td>
-	<td>24</td>
+	<td>//tr[4]/td[3]</td>
+	<td>1</td>
 </tr>
 <tr>
 	<td>storeText</td>
-	<td>//tr[2]/td[3]</td>
+	<td>//tr[4]/td[3]</td>
 	<td>CurrentTrackHit</td>
 </tr>
 <tr>
 	<td>storeText</td>
-	<td>//tr[2]/td[3]</td>
+	<td>//tr[4]/td[3]</td>
 	<td>NewTrackHit</td>
 </tr>
 <tr>
@@ -68,7 +68,7 @@
 </tr>
 <tr>
 	<td>waitForElementPresent</td>
-	<td>//tr[2]/td[3]</td>
+	<td>//tr[4]/td[3]</td>
 	<td></td>
 </tr>
 <tr>
@@ -78,7 +78,7 @@
 </tr>
 <tr>
 	<td>storeText</td>
-	<td>//tr[2]/td[3]</td>
+	<td>//tr[4]/td[3]</td>
 	<td>NewTrackHit</td>
 </tr>
 <tr>
