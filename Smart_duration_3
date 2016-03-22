@@ -24,7 +24,7 @@
 <tr>
 	<td>assertText</td>
 	<td>//tr[3]/td[3]</td>
-	<td>59</td>
+	<td>64</td>
 </tr>
 <tr>
 	<td>storeText</td>

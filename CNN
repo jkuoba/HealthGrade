@@ -57,18 +57,23 @@
 	<td>This content is selected and managed by the Healthgrades editorial staff and is brought to you by an advertising sponsor.</td>
 </tr>
 <tr>
-	<td>verifyText</td>
+	<td>assertElementPresent</td>
 	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div/div[2]/div/div/div/div</td>
-	<td>Take care of the common cold and get back on your feet.</td>
+	<td></td>
 </tr>
 <tr>
 	<td>click</td>
-	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/crop/496x276%2B1%2B16/resize/270x150%3E/quality/75/?url=https%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2F02%2F2d%2F88e238d4456d980f54d69202d211%2Fresizes%2F500%2Fimage-gettyimages-177258371-couple-relaxing-outside.jpg')]</td>
+	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/270x150%3E/quality/75/?url=https%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2F1c%2Fbb%2Ff396102c4a2d860b0400ea6f571c%2Fresizes%2F500%2F9-tips-for-taking-insulin-7.jpg')]</td>
 	<td></td>
 </tr>
 <tr>
 	<td>waitForText</td>
-	<td>css=h1</td>
+	<td>css=h1.cnn-health-title</td>
+	<td>Health</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=h1.cnn-health-title</td>
 	<td>Health</td>
 </tr>
 <tr>

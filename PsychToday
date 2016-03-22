@@ -67,6 +67,11 @@
 	<td>Tests</td>
 </tr>
 <tr>
+	<td>clickAndWait</td>
+	<td>id=edit-submit--2</td>
+	<td></td>
+</tr>
+<tr>
 	<td>waitForText</td>
 	<td>//li[@id='om-leaf-om-u1-918020154-6']/span</td>
 	<td>Experts</td>
@@ -335,7 +340,7 @@
 </tr>
 <tr>
 	<td>clickAndWait</td>
-	<td>id=edit-submit</td>
+	<td>id=edit-submit--2</td>
 	<td></td>
 </tr>
 <tr>
@@ -451,32 +456,17 @@
 </tr>
 <tr>
 	<td>assertElementPresent</td>
-	<td>css=img.psd-sharebar-sprite.psd-sharebar-facebookshare</td>
+	<td>css=img.svg</td>
 	<td></td>
 </tr>
 <tr>
 	<td>assertElementPresent</td>
-	<td>css=img.psd-sharebar-sprite.psd-sharebar-twittershare</td>
+	<td>//img[@alt='Twitter']</td>
 	<td></td>
 </tr>
 <tr>
 	<td>assertElementPresent</td>
-	<td>css=img.psd-sharebar-sprite.psd-sharebar-googleshare</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertElementPresent</td>
-	<td>css=img.psd-sharebar-sprite.psd-sharebar-pinterestshare</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertElementPresent</td>
-	<td>css=img.psd-sharebar-sprite.psd-sharebar-emailshare</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertElementPresent</td>
-	<td>css=img.psd-sharebar-sprite.psd-sharebar-print</td>
+	<td>//img[@alt='Google Plus']</td>
 	<td></td>
 </tr>
 <tr>

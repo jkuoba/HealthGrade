@@ -197,11 +197,6 @@
 	<td>You Might Also Like</td>
 </tr>
 <tr>
-	<td>selectWindow</td>
-	<td>name=hRxl6whf</td>
-	<td></td>
-</tr>
-<tr>
 	<td>assertElementPresent</td>
 	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/270x150%3E/quality/75/?url=https%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2F37%2F15%2F3ac4ccef43b2bca02192889c0def%2Fresizes%2F500%2FRA-SS-chest%2520pain.jpg')]</td>
 	<td></td>
@@ -279,7 +274,7 @@
 <tr>
 	<td>assertText</td>
 	<td>css=ul.ftMenu &gt; li.shut</td>
-	<td>For Patients Find the Right Doctor Find the Right Hospital Hospital Quality Quality &amp; Transparency Our Health Right Diagnosis Sign Up Log In Review Doctors Health Guides</td>
+	<td>For Patients Find the Right Doctor Find the Right Hospital Hospital Quality Quality &amp; Transparency Our Health Right Diagnosis Sign Up Log In Review Doctors Health Guides Health Stories</td>
 </tr>
 <tr>
 	<td>assertText</td>
@@ -294,7 +289,7 @@
 <tr>
 	<td>assertText</td>
 	<td>//div[@id='hgsw-footer']/div/div/ul/li[4]</td>
-	<td>About Us TEST Our Company Press Room Careers Site Map Privacy Policy Advertising Policy HG Blog Regional Pocket Guides</td>
+	<td>About Us Our Company Press Room Careers Site Map Privacy Policy Advertising Policy HG Blog Regional Pocket Guides</td>
 </tr>
 <tr>
 	<td>assertText</td>

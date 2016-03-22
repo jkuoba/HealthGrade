@@ -90,7 +90,7 @@
 </tr>
 <tr>
 	<td>assertElementPresent</td>
-	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/130x175/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2Ff1%2Fb4%2F86c9582a4c3fba1828c3f587a3e5%2Fresizes%2F500%2Fimage-evan-marks.jpg')]</td>
+	<td>css=img[alt=&quot;Scott Booker&quot;]</td>
 	<td></td>
 </tr>
 <tr>
@@ -351,7 +351,7 @@
 <tr>
 	<td>verifyText</td>
 	<td>//div[@id='hgsw-footer']/div/div/ul/li[4]/span</td>
-	<td>About Us TEST</td>
+	<td>About Us</td>
 </tr>
 <tr>
 	<td>assertElementPresent</td>

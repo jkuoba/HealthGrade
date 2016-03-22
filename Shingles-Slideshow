@@ -43,7 +43,7 @@
 </tr>
 <tr>
 	<td>verifyText</td>
-	<td>//div[@id='pageHead']/div[3]/ul/li[3]</td>
+	<td>css=h1</td>
 	<td>12 Things to Know About Shingles</td>
 </tr>
 <tr>
@@ -57,14 +57,14 @@
 	<td>By<br /> .cms-textAlign-left{text-align:left;}.cms-textAlign-center{text-align:center;}.cms-textAlign-right{text-align:right;}Kuzma, Cindy;</td>
 </tr>
 <tr>
-	<td>verifyText</td>
-	<td>//div[@id='pageHead']/div[4]/div/div/p[2]</td>
-	<td>Kuzma, Cindy;</td>
-</tr>
-<tr>
 	<td>assertText</td>
 	<td>css=p.by</td>
 	<td>By</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[@id='pageHead']/div[2]/div[3]/div/div/p[2]</td>
+	<td>Kuzma, Cindy;</td>
 </tr>
 <tr>
 	<td>assertText</td>
@@ -179,7 +179,7 @@
 </tr>
 <tr>
 	<td>assertElementPresent</td>
-	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/105x105/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2F98%2F8d%2F4d28b02e47699a37cbec7bc05b04%2Fresizes%2F500%2Fimage-old-hispanic-couple.jpg')]</td>
+	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/105x105/quality/75/?url=https%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2F98%2F8d%2F4d28b02e47699a37cbec7bc05b04%2Fresizes%2F500%2Fimage-old-hispanic-couple.jpg')]</td>
 	<td></td>
 </tr>
 <tr>
@@ -189,7 +189,7 @@
 </tr>
 <tr>
 	<td>assertElementPresent</td>
-	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/105x105/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2F20%2Fbf%2F35d5c1eb4995ba892d579648f107%2Fresizes%2F500%2Fzytiga-SS-vaccines.jpg')]</td>
+	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/105x105/quality/75/?url=https%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2F20%2Fbf%2F35d5c1eb4995ba892d579648f107%2Fresizes%2F500%2Fzytiga-SS-vaccines.jpg')]</td>
 	<td></td>
 </tr>
 <tr>
@@ -316,7 +316,7 @@
 <tr>
 	<td>assertText</td>
 	<td>//div[@id='hgsw-footer']/div/div/ul/li[4]/span</td>
-	<td>About Us TEST</td>
+	<td>About Us</td>
 </tr>
 <tr>
 	<td>assertText</td>
@@ -465,6 +465,11 @@
 	<td></td>
 </tr>
 <tr>
+	<td>verifyText</td>
+	<td>css=h1</td>
+	<td>12 Things to Know About Shingles</td>
+</tr>
+<tr>
 	<td>waitForText</td>
 	<td>css=#ss-10 &gt; h2</td>
 	<td>10. There's a shingles vaccine</td>
@@ -531,7 +536,7 @@
 </tr>
 <tr>
 	<td>assertElementPresent</td>
-	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/105x105/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2F20%2Fbf%2F35d5c1eb4995ba892d579648f107%2Fresizes%2F500%2Fzytiga-SS-vaccines.jpg')]</td>
+	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/105x105/quality/75/?url=https%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2F20%2Fbf%2F35d5c1eb4995ba892d579648f107%2Fresizes%2F500%2Fzytiga-SS-vaccines.jpg')]</td>
 	<td></td>
 </tr>
 <tr>
@@ -541,7 +546,7 @@
 </tr>
 <tr>
 	<td>assertElementPresent</td>
-	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/105x105/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2Fdc%2Fdf%2Fe77afb68450b90f11f5fe7577963%2Fresizes%2F500%2F12-shingles-5.jpg')]</td>
+	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/105x105/quality/75/?url=https%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2Fdc%2Fdf%2Fe77afb68450b90f11f5fe7577963%2Fresizes%2F500%2F12-shingles-5.jpg')]</td>
 	<td></td>
 </tr>
 <tr>
@@ -551,7 +556,7 @@
 </tr>
 <tr>
 	<td>assertElementPresent</td>
-	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/105x105/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2F06%2F84%2F22cb8a6a4702b2587f71b10b4e12%2Fresizes%2F500%2F8-self-care-tips-for-managing-diabetic-neuropathy-4.jpg')]</td>
+	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/105x105/quality/75/?url=https%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2F06%2F84%2F22cb8a6a4702b2587f71b10b4e12%2Fresizes%2F500%2F8-self-care-tips-for-managing-diabetic-neuropathy-4.jpg')]</td>
 	<td></td>
 </tr>
 <tr>
@@ -602,7 +607,7 @@
 </tr>
 <tr>
 	<td>click</td>
-	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/100x66/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2Fba%2F6d%2Ffd62069143f29e70481bb090a466%2Fresizes%2F500%2F12-shingles-12.jpg')]</td>
+	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/100x66/quality/75/?url=https%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2Fba%2F6d%2Ffd62069143f29e70481bb090a466%2Fresizes%2F500%2F12-shingles-12.jpg')]</td>
 	<td></td>
 </tr>
 <tr>
@@ -627,7 +632,7 @@
 </tr>
 <tr>
 	<td>click</td>
-	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/100x66/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2Fab%2Fc6%2Fa0c134244de7a2a8d32a0b392e84%2Fresizes%2F500%2F12-shingles-9.jpg')]</td>
+	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/100x66/quality/75/?url=https%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2Fab%2Fc6%2Fa0c134244de7a2a8d32a0b392e84%2Fresizes%2F500%2F12-shingles-9.jpg')]</td>
 	<td></td>
 </tr>
 <tr>
@@ -652,7 +657,7 @@
 </tr>
 <tr>
 	<td>click</td>
-	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/crop/403x266%2B95%2B41/resize/100x66/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2Fc1%2Fda%2Fe11e19f54e3e8712f4792b37133f%2Fresizes%2F500%2Fbaby-with-chickenpox-585x390.jpg')]</td>
+	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/crop/403x266%2B95%2B41/resize/100x66/quality/75/?url=https%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2Fc1%2Fda%2Fe11e19f54e3e8712f4792b37133f%2Fresizes%2F500%2Fbaby-with-chickenpox-585x390.jpg')]</td>
 	<td></td>
 </tr>
 <tr>
@@ -777,34 +782,19 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
 	<td>verifyText</td>
 	<td>css=div.ss-caption &gt; #Slide05 &gt; p</td>
 	<td>One to five days later, a rash of red bumps appears, usually in the same spot as the pain. Soon these bumps turn into fluid-filled blisters, usually on the trunk of the body, around the chest or back. They can also strike the face, eyes, and ears.</td>
 </tr>
 <tr>
-	<td>click</td>
-	<td>id=ss-view-thumbs</td>
-	<td></td>
-</tr>
-<tr>
-	<td>pause</td>
-	<td>2000</td>
-	<td></td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>css=a &gt; img</td>
-	<td></td>
-</tr>
-<tr>
-	<td>pause</td>
-	<td>2000</td>
-	<td></td>
-</tr>
-<tr>
 	<td>waitForText</td>
 	<td>css=div.ss-counter</td>
-	<td>1 of 13</td>
+	<td>5 of 13</td>
 </tr>
 </tbody></table>
 </body>

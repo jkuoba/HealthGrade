@@ -1006,8 +1006,8 @@
 	<td>bypassSignIn</td>
 </tr>
 <tr>
-	<td>assertTitle</td>
-	<td>Log into Facebook | Facebook</td>
+	<td>pause</td>
+	<td>3000</td>
 	<td></td>
 </tr>
 <tr>

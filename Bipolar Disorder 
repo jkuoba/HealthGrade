@@ -895,7 +895,7 @@
 </tr>
 <tr>
 	<td>storeAttribute</td>
-	<td>css=div.hc-risk-scale &gt; img@src</td>
+	<td>css=div.hc-risk-scale&gt;img@src</td>
 	<td>high</td>
 </tr>
 <tr>
@@ -905,7 +905,7 @@
 </tr>
 <tr>
 	<td>storeEval</td>
-	<td>var isEqual = new Boolean(); isEqual = (&quot;${high}&quot; == 'http://o.mm-health.com/images/assessments/risk-scale-high-250-220.png');</td>
+	<td>var isEqual = new Boolean(); isEqual = (&quot;${high}&quot; == 'https://healthguides.healthgrades.com/assets/images/healthcoach/risk-scale-high-250-220.png');</td>
 	<td>isEqual</td>
 </tr>
 <tr>
