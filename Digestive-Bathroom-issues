@@ -11,6 +11,11 @@
 <tr><td rowspan="1" colspan="3">Digestive-Bathroom-issues</td></tr>
 </thead><tbody>
 <tr>
+	<td>setSpeed</td>
+	<td>700</td>
+	<td></td>
+</tr>
+<tr>
 	<td>open</td>
 	<td>/healthcoach/digestive-investigator</td>
 	<td></td>

@@ -211,11 +211,6 @@
 	<td>Avoiding gluten during seasonal celebrations doesn’t have to dampen your holiday cheer.</td>
 </tr>
 <tr>
-	<td>assertElementPresent</td>
-	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/300x260/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2F07%2F95%2Fdcc5f7de4e89b440851968e7ccc5%2Fresizes%2F500%2Fimage-crohns-disease-biologics-food-group-of-people-laughing.jpg')]</td>
-	<td></td>
-</tr>
-<tr>
 	<td>assertText</td>
 	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div[2]/div[4]/div/h3/a/span</td>
 	<td>Choosing the Right Clothes for Sensitive Skin</td>
@@ -279,7 +274,7 @@
 <tr>
 	<td>waitForText</td>
 	<td>css=div.hgwdgt-total</td>
-	<td>Viewing 1 - 2 of 119 matches for Internal Medicine in Reston, VA</td>
+	<td>Viewing 1 - 2 of 117 matches for Internal Medicine in Reston, VA</td>
 </tr>
 <tr>
 	<td>assertElementPresent</td>
@@ -328,7 +323,7 @@
 </tr>
 <tr>
 	<td>assertElementPresent</td>
-	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/crop/319x276%2B90%2B1/resize/300x260/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2Fc5%2F94%2F53b1206b4deb8023017b7335565b%2Fistock-000019683716-extrasmall.jpg')]</td>
+	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/crop/319x276%2B90%2B1/resize/300x260/quality/75/?url=https%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2Fc5%2F94%2F53b1206b4deb8023017b7335565b%2Fistock-000019683716-extrasmall.jpg')]</td>
 	<td></td>
 </tr>
 <tr>
@@ -408,7 +403,7 @@
 </tr>
 <tr>
 	<td>assertElementPresent</td>
-	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/crop/380x329%2B80%2B1/resize/300x260/quality/75/?url=http%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2F34%2Fc0%2Ffd963dd1438bb4ce00a2f66d5a2e%2Fresizes%2F500%2Fallergy-relief-guide-1.jpg')]</td>
+	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/crop/380x329%2B80%2B1/resize/300x260/quality/75/?url=https%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2F34%2Fc0%2Ffd963dd1438bb4ce00a2f66d5a2e%2Fresizes%2F500%2Fallergy-relief-guide-1.jpg')]</td>
 	<td></td>
 </tr>
 <tr>

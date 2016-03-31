@@ -804,6 +804,11 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
 	<td>assertText</td>
 	<td>css=h4</td>
 	<td>exact:Has she already been evaluated by a doctor for her current altered mood?</td>

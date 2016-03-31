@@ -204,9 +204,9 @@
 	<td></td>
 </tr>
 <tr>
-	<td>waitForText</td>
-	<td>css=h2</td>
-	<td>Help millions of people each day find the right doctor and make quality healthcare decisions.</td>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
 </tr>
 <tr>
 	<td>verifyText</td>
@@ -321,7 +321,7 @@
 <tr>
 	<td>verifyText</td>
 	<td>//div[@id='hgsw-footer']/div/div/ul/li[4]/span</td>
-	<td>About Us TEST</td>
+	<td>About Us</td>
 </tr>
 <tr>
 	<td>assertElementPresent</td>
