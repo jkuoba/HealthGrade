@@ -397,7 +397,7 @@
 </tr>
 <tr>
 	<td>click</td>
-	<td>id=ss-view-thumbs</td>
+	<td>css=#ss-3 &gt; div.ss-nav-wrapper.clrfix &gt; #ss-view-thumbs</td>
 	<td></td>
 </tr>
 <tr>
