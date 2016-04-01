@@ -291,12 +291,12 @@
 <tr>
 	<td>verifyText</td>
 	<td>//div[@id='physicianWidget']/div/div/div[2]/ul/li[3]/div[2]/a/div</td>
-	<td>Dr. Jacob Joseph, MD</td>
+	<td>Dr. Olympia Dallas, MD</td>
 </tr>
 <tr>
 	<td>verifyText</td>
 	<td>//div[@id='physicianWidget']/div/div/div[2]/ul/li[3]/div[2]/a/div[2]</td>
-	<td>Geriatric Medicine, Emergency Medicine, Family Medicine</td>
+	<td>Family Medicine</td>
 </tr>
 <tr>
 	<td>click</td>
@@ -362,7 +362,7 @@
 </tr>
 <tr>
 	<td>click</td>
-	<td>css=div.ss-next-button &gt; span.icon-angle-right</td>
+	<td>css=a.icon-angle-right</td>
 	<td></td>
 </tr>
 <tr>
@@ -891,6 +891,22 @@
 	<td>assertText</td>
 	<td>css=#ss-13 &gt; div.clrfix &gt; div.ss-nav &gt; div.ss-counter</td>
 	<td>13 of 13</td>
+</tr>
+<!--adsadadsfadsf-->
+<tr>
+	<td>click</td>
+	<td>css=a.icon-angle-right</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#ss-2 &gt; div.ss-nav-wrapper.clrfix &gt; div.ss-nav &gt; div.ss-back &gt; a.icon-angle-left</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#ss-3 &gt; div.ss-nav-wrapper.clrfix &gt; div.ss-nav &gt; div.ss-next &gt; a.icon-angle-right</td>
+	<td></td>
 </tr>
 </tbody></table>
 </body>
