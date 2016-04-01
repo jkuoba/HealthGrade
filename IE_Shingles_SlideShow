@@ -391,8 +391,13 @@
 	<td>It's hard to reach adulthood without being exposed to the varicella-zoster virus. Almost everyone has chickenpox at some point, even if the case is so mild it goes unnoticed. And children who had chickenpox before age 1 may get shingles before they are adults.</td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
-	<td>css=#ss-3 &gt; div.ss-nav-wrapper.clrfix &gt; div.ss-nav &gt; div.ss-next &gt; a.icon-angle-right</td>
+	<td>id=ss-view-thumbs</td>
 	<td></td>
 </tr>
 <tr>
@@ -401,178 +406,8 @@
 	<td></td>
 </tr>
 <tr>
-	<td>waitForText</td>
-	<td>css=#ss-4 &gt; h2</td>
-	<td>4. Early signs include pain and burning</td>
-</tr>
-<tr>
-	<td>verifyText</td>
-	<td>css=div.ss-caption &gt; #Slide04 &gt; p</td>
-	<td>In adults, the varicella-zoster virus lingers in nerve cells. Doctors aren't sure how it gets reactivated in some people. But when it does, the first indication is often a painful burning or tingling on one side of the body.</td>
-</tr>
-<tr>
 	<td>click</td>
-	<td>css=#ss-4 &gt; div.ss-nav-wrapper.clrfix &gt; div.ss-nav &gt; div.ss-next &gt; a.icon-angle-right</td>
-	<td></td>
-</tr>
-<tr>
-	<td>pause</td>
-	<td>2000</td>
-	<td></td>
-</tr>
-<tr>
-	<td>waitForText</td>
-	<td>css=#ss-5 &gt; h2</td>
-	<td>5. Next, a telltale rash develops</td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>css=#ss-5 &gt; div.ss-nav-wrapper.clrfix &gt; div.ss-nav &gt; div.ss-next &gt; a.icon-angle-right</td>
-	<td></td>
-</tr>
-<tr>
-	<td>pause</td>
-	<td>2000</td>
-	<td></td>
-</tr>
-<tr>
-	<td>waitForText</td>
-	<td>css=#ss-6 &gt; h2</td>
-	<td>6. Other symptoms span your body</td>
-</tr>
-<tr>
-	<td>verifyText</td>
-	<td>css=div.ss-caption &gt; #Slide06 &gt; p</td>
-	<td>Shingles can also cause fever, chills, headache, and upset stomach. Shingles infections that affect the ear may cause muscle weakness in the face. Outbreaks on the face or eyes can cause hearing or vision problems.</td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>css=#ss-6 &gt; div.ss-nav-wrapper.clrfix &gt; div.ss-nav &gt; div.ss-next &gt; a.icon-angle-right</td>
-	<td></td>
-</tr>
-<tr>
-	<td>pause</td>
-	<td>2000</td>
-	<td></td>
-</tr>
-<tr>
-	<td>waitForText</td>
-	<td>css=#ss-7 &gt; h2</td>
-	<td>7. The condition is typically short-lived</td>
-</tr>
-<tr>
-	<td>verifyText</td>
-	<td>css=div.ss-caption &gt; #Slide07 &gt; p</td>
-	<td>Pain from shingles is often severe and debilitating. But most cases clear up within a few weeks. After the blisters dry up, they often leave no scars. What's more, after you have shingles once, you are unlikely to get it again.</td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>css=#ss-7 &gt; div.ss-nav-wrapper.clrfix &gt; div.ss-nav &gt; div.ss-next &gt; a.icon-angle-right</td>
-	<td></td>
-</tr>
-<tr>
-	<td>pause</td>
-	<td>2000</td>
-	<td></td>
-</tr>
-<tr>
-	<td>waitForText</td>
-	<td>css=#ss-8 &gt; h2</td>
-	<td>8. In some people, pain can linger</td>
-</tr>
-<tr>
-	<td>verifyText</td>
-	<td>css=div.ss-caption &gt; #Slide08 &gt; p</td>
-	<td>In about one in 10 people, the pain of shingles does not go away along with the rash. This condition is called postherpetic neuralgia. Severe cases can be debilitating and lead to depression, insomnia, anxiety, and weight loss. The pain usually goes away on its own within a year.</td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>css=#ss-8 &gt; div.ss-nav-wrapper.clrfix &gt; div.ss-nav &gt; div.ss-next &gt; a.icon-angle-right</td>
-	<td></td>
-</tr>
-<tr>
-	<td>pause</td>
-	<td>2000</td>
-	<td></td>
-</tr>
-<tr>
-	<td>verifyText</td>
-	<td>css=#ss-9 &gt; h2</td>
-	<td>9. Other complications can also be serious</td>
-</tr>
-<tr>
-	<td>verifyText</td>
-	<td>css=div.ss-caption &gt; #Slide09 &gt; p</td>
-	<td>Rare but serious side effects of shingles include permanent vision loss or hearing problems, pneumonia, brain inflammation, scarring from infected blisters, or stroke. Even more rarely, the disease can be fatal. Most often, these issues occur in people with compromised immune systems, including those with cancer, major organ transplantation, or HIV.</td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>css=#ss-9 &gt; div.ss-nav-wrapper.clrfix &gt; div.ss-nav &gt; div.ss-next &gt; a.icon-angle-right</td>
-	<td></td>
-</tr>
-<tr>
-	<td>pause</td>
-	<td>2000</td>
-	<td></td>
-</tr>
-<tr>
-	<td>waitForText</td>
-	<td>css=#ss-10 &gt; h2</td>
-	<td>10. There's a shingles vaccine</td>
-</tr>
-<tr>
-	<td>verifyText</td>
-	<td>css=div.ss-caption &gt; #Slide10 &gt; p</td>
-	<td>In 2006, the Food and Drug Administration approved a vaccine that can help prevent shingles in older adults who have had chickenpox. Immunized people are half as likely to develop shingles, and their cases tend to be less severe. Ask your doctor if the vaccine is right for you.</td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>css=#ss-10 &gt; div.ss-nav-wrapper.clrfix &gt; div.ss-nav &gt; div.ss-next &gt; a.icon-angle-right</td>
-	<td></td>
-</tr>
-<tr>
-	<td>pause</td>
-	<td>2000</td>
-	<td></td>
-</tr>
-<tr>
-	<td>waitForText</td>
-	<td>css=#ss-11 &gt; h2</td>
-	<td>11. Fast treatment prevents complications</td>
-</tr>
-<tr>
-	<td>verifyText</td>
-	<td>css=div.ss-caption &gt; #Slide11 &gt; p</td>
-	<td>There's no cure for shingles. But there's evidence that taking antiviral medications such as acyclovir, valcyclovir, or famciclovir within 72 hours of the appearance of the rash can speed recovery and reduce the risk of lasting pain. Other treatments include anti-inflammatory steroids and rest.</td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>css=#ss-11 &gt; div.ss-nav-wrapper.clrfix &gt; div.ss-nav &gt; div.ss-next &gt; a.icon-angle-right</td>
-	<td></td>
-</tr>
-<tr>
-	<td>pause</td>
-	<td>2000</td>
-	<td></td>
-</tr>
-<tr>
-	<td>waitForText</td>
-	<td>css=#ss-12 &gt; h2</td>
-	<td>12. Shingles isn't contagious</td>
-</tr>
-<tr>
-	<td>verifyText</td>
-	<td>css=div.ss-caption &gt; #Slide12 &gt; p</td>
-	<td>You can't get shingles from someone else. However, a person with a shingles rash can give chickenpox to someone who has never had it. Health experts now recommend that all children age 18 months to teenagers get the chickenpox vaccine to reduce their risk for both conditions.</td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>css=#ss-12 &gt; div.ss-nav-wrapper.clrfix &gt; div.ss-nav &gt; div.ss-next &gt; a.icon-angle-right</td>
-	<td></td>
-</tr>
-<tr>
-	<td>pause</td>
-	<td>2000</td>
+	<td>css=span.ec-thumb</td>
 	<td></td>
 </tr>
 <tr>
@@ -876,22 +711,6 @@
 	<td>assertText</td>
 	<td>css=#ss-13 &gt; div.clrfix &gt; div.ss-nav &gt; div.ss-counter</td>
 	<td>13 of 13</td>
-</tr>
-<!--adsadadsfadsf-->
-<tr>
-	<td>click</td>
-	<td>css=a.icon-angle-right</td>
-	<td></td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>css=#ss-2 &gt; div.ss-nav-wrapper.clrfix &gt; div.ss-nav &gt; div.ss-back &gt; a.icon-angle-left</td>
-	<td></td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>css=#ss-3 &gt; div.ss-nav-wrapper.clrfix &gt; div.ss-nav &gt; div.ss-next &gt; a.icon-angle-right</td>
-	<td></td>
 </tr>
 </tbody></table>
 </body>
