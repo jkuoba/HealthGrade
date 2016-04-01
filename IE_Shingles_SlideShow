@@ -52,11 +52,6 @@
 	<td>View All &quot;Shingles&quot; Articles</td>
 </tr>
 <tr>
-	<td>verifyText</td>
-	<td>css=div.enhanced-author.clrfix</td>
-	<td>By<br /> .cms-textAlign-left{text-align:left;}.cms-textAlign-center{text-align:center;}.cms-textAlign-right{text-align:right;}Kuzma, Cindy;</td>
-</tr>
-<tr>
 	<td>assertText</td>
 	<td>css=p.by</td>
 	<td>By</td>
@@ -176,11 +171,6 @@
 	<td>assertElementPresent</td>
 	<td>//img[contains(@src,'https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/thumbnail/105x105/quality/75/?url=https%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2F98%2F8d%2F4d28b02e47699a37cbec7bc05b04%2Fresizes%2F500%2Fimage-old-hispanic-couple.jpg')]</td>
 	<td></td>
-</tr>
-<tr>
-	<td>verifyText</td>
-	<td>css=h1</td>
-	<td>12 Things to Know About Shingles</td>
 </tr>
 <tr>
 	<td>verifyText</td>
@@ -367,17 +357,7 @@
 </tr>
 <tr>
 	<td>pause</td>
-	<td>3000</td>
-	<td></td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>css=#ss-2 &gt; div.ss-nav-wrapper.clrfix &gt; div.ss-nav &gt; div.ss-next &gt; a.icon-angle-right</td>
-	<td></td>
-</tr>
-<tr>
-	<td>pause</td>
-	<td>3000</td>
+	<td>5000</td>
 	<td></td>
 </tr>
 <tr>
@@ -393,6 +373,11 @@
 <tr>
 	<td>pause</td>
 	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#ss-2 &gt; div.ss-nav-wrapper.clrfix &gt; div.ss-nav &gt; div.ss-next &gt; a.icon-angle-right</td>
 	<td></td>
 </tr>
 <tr>
