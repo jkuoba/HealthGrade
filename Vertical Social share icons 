@@ -154,7 +154,7 @@
 <tr>
 	<td>assertText</td>
 	<td>id=status</td>
-	<td>exact:How Much Do You Know About Type 1 Diabetes? http://ucms-qa.healthgrades.com/learning-challenge/type-1-diabetes-learning-challenge</td>
+	<td>How Much Do You Know About Type 1 Diabetes? http://healthguides-test.healthgrades.com/learning-challenge/type-1-diabetes-learning-challenge</td>
 </tr>
 <tr>
 	<td>assertElementPresent</td>

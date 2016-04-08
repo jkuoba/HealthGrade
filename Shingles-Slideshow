@@ -249,13 +249,28 @@
 	<td></td>
 </tr>
 <tr>
-	<td>click</td>
-	<td>css=div.hgpswc-next</td>
+	<td>pause</td>
+	<td>2000</td>
 	<td></td>
 </tr>
 <tr>
 	<td>click</td>
 	<td>css=div.hgpswc-next</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.hgpswc-next</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
 	<td></td>
 </tr>
 <tr>
@@ -266,12 +281,12 @@
 <tr>
 	<td>verifyText</td>
 	<td>//div[@id='physicianWidget']/div/div/div[2]/ul/li[3]/div[2]/a/div</td>
-	<td>Dr. Jacob Joseph, MD</td>
+	<td>Dr. Olympia Dallas, MD</td>
 </tr>
 <tr>
 	<td>verifyText</td>
 	<td>//div[@id='physicianWidget']/div/div/div[2]/ul/li[3]/div[2]/a/div[2]</td>
-	<td>Geriatric Medicine, Emergency Medicine, Family Medicine</td>
+	<td>Family Medicine</td>
 </tr>
 <tr>
 	<td>click</td>
