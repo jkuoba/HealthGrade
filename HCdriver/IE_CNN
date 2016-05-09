@@ -59,7 +59,7 @@
 <tr>
 	<td>verifyText</td>
 	<td>//div[@id='contentWrapper']/div[2]/div/div/div/div/div[2]/div/div/div/div</td>
-	<td>Understand your treatment options for plaque psoriasis with expert advice from doctors.</td>
+	<td>Find the right treatment for your diabetes with the help of experts.</td>
 </tr>
 <tr>
 	<td>assertElementPresent</td>

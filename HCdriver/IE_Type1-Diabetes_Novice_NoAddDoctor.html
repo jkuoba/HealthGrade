@@ -3,16 +3,17 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Type1-Diabetes-Expert</title>
+<link rel="selenium.base" href="http://ucms-preprod.healthgrades.com" />
+<title>IE_Type1-Diabetes_Novice_AddDoctor</title>
 </head>
 <body>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3">Type1-Diabetes-Expert</td></tr>
+<tr><td rowspan="1" colspan="3">IE_Type1-Diabetes_Novice_AddDoctor</td></tr>
 </thead><tbody>
 <tr>
 	<td>setSpeed</td>
-	<td>700</td>
+	<td>800</td>
 	<td></td>
 </tr>
 <tr>
@@ -26,23 +27,74 @@
 	<td>Type 1 Diabetes Learning Challenge</td>
 </tr>
 <tr>
+	<td>verifyText</td>
+	<td>css=h3</td>
+	<td>exact:How Much Do You Know About Type 1 Diabetes?</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.footCreds &gt; span</td>
+	<td>Medical Reviewer: William C. Lloyd III, MD, FACS</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=span.updated</td>
+	<td>Last Annual Review Date: Oct 14, 2014</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.copyright &gt; p</td>
+	<td>© 2016 Healthgrades Operating Company, Inc. All rights reserved. May not be reproduced or reprinted without permission from Healthgrades Operating Company, Inc. Use of this information is governed by the Healthgrades User Agreement.</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=span.icon-expand-alt</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=exact:http://www.fda.gov/medicaldevices/productsandmedicalprocedures/InVitroDiagnostics/GlucoseTestingDevi...</td>
+	<td>exact:http://www.fda.gov/medicaldevices/productsandmedicalprocedures/InVitroDiagnostics/GlucoseTestingDevi...</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=exact:http://www.joslin.org/info/is_low_blood_glucose_hypoglycemia_dangerous.html</td>
+	<td>exact:http://www.joslin.org/info/is_low_blood_glucose_hypoglycemia_dangerous.html</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='lc-page']/div[5]/div/ol/li[11]</td>
+	<td>What You Should Know About Type 1 Diabetes. American Academy of Family Physicians. http://www.aafp.org/afp/1999/1101/p1997.html. Accessed October 8, 2014.</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=span.icon-collapse-alt</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>selenium.browserbot.getCurrentWindow().scrollTo(400,400)</td>
+	<td></td>
+</tr>
+<!--QA Note:  Novice test starting point-->
+<tr>
+	<td>open</td>
+	<td>/learning-challenge/type-1-diabetes-learning-challenge</td>
+	<td></td>
+</tr>
+<tr>
 	<td>pause</td>
-	<td>4000</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertElementPresent</td>
-	<td>link=Novice ›</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertElementPresent</td>
-	<td>link=Expert ›</td>
+	<td>3000</td>
 	<td></td>
 </tr>
 <tr>
 	<td>click</td>
-	<td>link=Expert ›</td>
+	<td>link=Novice ›</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>3000</td>
 	<td></td>
 </tr>
 <tr>
@@ -57,12 +109,32 @@
 </tr>
 <tr>
 	<td>verifyText</td>
+	<td>//button[@value='00000149-873f-de38-a959-cfbfca800000']</td>
+	<td>B. Young adults</td>
+</tr>
+<tr>
+	<td>verifyText</td>
 	<td>//button[@value='00000149-8740-de38-a959-cff74f400000']</td>
 	<td>C. Adults of any age</td>
 </tr>
 <tr>
+	<td>verifyText</td>
+	<td>css=button.ans-btn.correct</td>
+	<td>D. All of the above</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.lm-cheats &gt; span</td>
+	<td>exact:Cheats:</td>
+</tr>
+<tr>
 	<td>assertElementPresent</td>
 	<td>link=Remove Answer</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=Skip Question</td>
 	<td></td>
 </tr>
 <tr>
@@ -72,18 +144,23 @@
 </tr>
 <tr>
 	<td>click</td>
-	<td>css=button.ans-btn.correct</td>
+	<td>//button[@value='00000149-8740-de38-a959-cff74f400000']</td>
 	<td></td>
 </tr>
 <tr>
-	<td>waitForText</td>
-	<td>css=div.lm-correct &gt; h4</td>
-	<td>Correct!</td>
+	<td>assertText</td>
+	<td>css=div.lm-incorrect &gt; h4</td>
+	<td>Incorrect!</td>
 </tr>
 <tr>
-	<td>assertText</td>
+	<td>verifyText</td>
 	<td>css=b</td>
 	<td>The correct answer is D. All of the above</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='lm-widget']/div/div[2]/div[2]/div/div[2]/p[3]</td>
+	<td>Type 1 diabetes usually affects children and young adults. In fact, it used to be called juvenile diabetes. But doctors now know type 1 diabetes can affect children and adults of all ages.</td>
 </tr>
 <tr>
 	<td>click</td>
@@ -92,11 +169,11 @@
 </tr>
 <tr>
 	<td>pause</td>
-	<td>2500</td>
+	<td>2000</td>
 	<td></td>
 </tr>
 <tr>
-	<td>assertText</td>
+	<td>verifyText</td>
 	<td>//div[@id='lm-widget']/div/div[2]/div[2]/div/div/h4/p[2]</td>
 	<td>exact:What health problem can result from having type 1 diabetes?</td>
 </tr>
@@ -122,26 +199,26 @@
 </tr>
 <tr>
 	<td>click</td>
-	<td>link=Remove Answer</td>
-	<td></td>
-</tr>
-<tr>
-	<td>pause</td>
-	<td>2500</td>
-	<td></td>
-</tr>
-<tr>
-	<td>click</td>
 	<td>css=button.ans-btn.correct</td>
 	<td></td>
 </tr>
 <tr>
-	<td>verifyText</td>
+	<td>assertText</td>
+	<td>//div[@id='lm-widget']/div/div[2]/div[2]/div/div[2]/h3/p[2]</td>
+	<td>exact:What health problem can result from having type 1 diabetes?</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.lm-correct &gt; h4</td>
+	<td>Correct!</td>
+</tr>
+<tr>
+	<td>assertText</td>
 	<td>css=b</td>
 	<td>The correct answer is B. Kidney failure</td>
 </tr>
 <tr>
-	<td>verifyText</td>
+	<td>assertText</td>
 	<td>//div[@id='lm-widget']/div/div[2]/div[2]/div/div[2]/p[3]</td>
 	<td>People with type 1 diabetes are also at risk of developing heart disease, stroke, high blood pressure, blindness, and nerve damage. Controlling blood sugar levels is the best way to prevent these complications.</td>
 </tr>
@@ -152,7 +229,7 @@
 </tr>
 <tr>
 	<td>pause</td>
-	<td>3000</td>
+	<td>2000</td>
 	<td></td>
 </tr>
 <tr>
@@ -182,18 +259,23 @@
 </tr>
 <tr>
 	<td>click</td>
-	<td>//button[@value='00000149-8ad9-de38-a959-cbff0de30000']</td>
+	<td>css=button.ans-btn.correct</td>
 	<td></td>
 </tr>
 <tr>
 	<td>waitForText</td>
-	<td>css=div.lm-incorrect &gt; h4</td>
-	<td>Incorrect!</td>
+	<td>css=div.lm-correct &gt; h4</td>
+	<td>Correct!</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=h1</td>
+	<td>Type 1 Diabetes Learning Challenge</td>
 </tr>
 <tr>
 	<td>verifyText</td>
-	<td>//div[@id='lm-widget']/div/div[2]/div[2]/div/div[2]/p[3]</td>
-	<td>Regular exercise helps control blood sugar levels. It increases insulin sensitivity, so your body doesn’t need as much insulin to use blood sugar for energy. It also strengthens your cardiovascular system. Talk with your doctor about exercises that are right for you.</td>
+	<td>css=b</td>
+	<td>The correct answer is C. Exercise regularly</td>
 </tr>
 <tr>
 	<td>click</td>
@@ -202,7 +284,7 @@
 </tr>
 <tr>
 	<td>pause</td>
-	<td>4000</td>
+	<td>2000</td>
 	<td></td>
 </tr>
 <tr>
@@ -222,7 +304,7 @@
 </tr>
 <tr>
 	<td>verifyText</td>
-	<td>//button[@value='00000149-8ae2-de38-a959-cbf7ed8e0000']</td>
+	<td>//button[contains(.,'C.	Control blood pressure and cholesterol levels ')]</td>
 	<td>C. Control blood pressure and cholesterol levels</td>
 </tr>
 <tr>
@@ -232,26 +314,16 @@
 </tr>
 <tr>
 	<td>click</td>
-	<td>link=Get a Clue</td>
+	<td>css=li.removable &gt; button.ans-btn</td>
 	<td></td>
 </tr>
 <tr>
-	<td>assertText</td>
-	<td>//div[@id='lm-widget']/div/div[2]/div[2]/div/div/div/p[2]</td>
-	<td>There are many facets to a healthy lifestyle.</td>
+	<td>waitForText</td>
+	<td>css=div.lm-incorrect &gt; h4</td>
+	<td>Incorrect!</td>
 </tr>
 <tr>
-	<td>click</td>
-	<td>css=span.lm-close</td>
-	<td></td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>css=button.ans-btn.correct</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertText</td>
+	<td>verifyText</td>
 	<td>css=b</td>
 	<td>The correct answer is D. All of the above</td>
 </tr>
@@ -266,17 +338,12 @@
 	<td></td>
 </tr>
 <tr>
-	<td>selectWindow</td>
-	<td>null</td>
-	<td></td>
-</tr>
-<tr>
 	<td>pause</td>
-	<td>4000</td>
+	<td>2000</td>
 	<td></td>
 </tr>
 <tr>
-	<td>verifyText</td>
+	<td>assertText</td>
 	<td>//div[@id='lm-widget']/div/div[2]/div[2]/div/div/h4/p[2]</td>
 	<td>exact:What is the best type of carbohydrate for people with type 1 diabetes?</td>
 </tr>
@@ -287,13 +354,33 @@
 </tr>
 <tr>
 	<td>verifyText</td>
+	<td>css=button.ans-btn.correct</td>
+	<td>B. Complex carbohydrates</td>
+</tr>
+<tr>
+	<td>verifyText</td>
 	<td>//button[@value='00000149-8ae5-de38-a959-cbf7feed0000']</td>
 	<td>C. The type of carbohydrate doesn’t matter</td>
 </tr>
 <tr>
+	<td>verifyText</td>
+	<td>//button[@value='00000149-8ae5-de38-a959-cbf789bf0000']</td>
+	<td>D. People with type 1 diabetes should not eat carbohydrates</td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>//button[@value='00000149-8ae5-de38-a959-cbf789bf0000']</td>
+	<td>D. People with type 1 diabetes should not eat carbohydrates</td>
+</tr>
+<tr>
 	<td>click</td>
-	<td>css=button.ans-btn.correct</td>
+	<td>//button[@value='00000149-8ae5-de38-a959-cbf789bf0000']</td>
 	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=div.lm-incorrect &gt; h4</td>
+	<td>Incorrect!</td>
 </tr>
 <tr>
 	<td>verifyText</td>
@@ -310,15 +397,11 @@
 	<td>link=Next ›</td>
 	<td></td>
 </tr>
+<!--QA Note: Remove Answer Testing-->
 <tr>
 	<td>pause</td>
-	<td>3000</td>
+	<td>2000</td>
 	<td></td>
-</tr>
-<tr>
-	<td>verifyText</td>
-	<td>//div[@id='lm-widget']/div/div[2]/div[2]/div/div/h4/p[2]</td>
-	<td>exact:How often can people with type 1 diabetes eat sweets?</td>
 </tr>
 <tr>
 	<td>verifyText</td>
@@ -342,8 +425,39 @@
 </tr>
 <tr>
 	<td>click</td>
+	<td>link=Remove Answer</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
 	<td>link=Skip Question</td>
 	<td></td>
+</tr>
+<!--QA Note: Get a Clue testing -->
+<tr>
+	<td>click</td>
+	<td>link=Get a Clue</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[@id='lm-widget']/div/div[2]/div[2]/div/div/div/p[2]</td>
+	<td>People with type 1 diabetes should save sweet treats and desserts for special occasions.</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=span.lm-close</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Skip Question</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='lm-widget']/div/div[2]/div[2]/div/div[2]/h3/p[2]</td>
+	<td>exact:How often can people with type 1 diabetes eat sweets?</td>
 </tr>
 <tr>
 	<td>verifyText</td>
@@ -362,7 +476,7 @@
 </tr>
 <tr>
 	<td>pause</td>
-	<td>3000</td>
+	<td>2000</td>
 	<td></td>
 </tr>
 <tr>
@@ -372,8 +486,18 @@
 </tr>
 <tr>
 	<td>verifyText</td>
+	<td>css=button.ans-btn</td>
+	<td>A. Lifestyle changes</td>
+</tr>
+<tr>
+	<td>verifyText</td>
 	<td>//button[@value='00000149-8aed-de38-a959-cbffe1490000']</td>
 	<td>B. Oral medicines</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=button.ans-btn.correct</td>
+	<td>C. Insulin therapy</td>
 </tr>
 <tr>
 	<td>verifyText</td>
@@ -386,9 +510,14 @@
 	<td></td>
 </tr>
 <tr>
-	<td>verifyText</td>
-	<td>//div[@id='lm-widget']/div/div[2]/div[2]/div/div[2]/p[3]</td>
-	<td>Replacing insulin that the pancreas can no longer make is the main treatment for type 1 diabetes. People with type 1 diabetes give themselves insulin as an injection or through an insulin pump. Oral diabetes medicines don’t work in type 1 diabetes.</td>
+	<td>waitForText</td>
+	<td>css=div.lm-correct &gt; h4</td>
+	<td>Correct!</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=b</td>
+	<td>The correct answer is C. Insulin therapy</td>
 </tr>
 <tr>
 	<td>click</td>
@@ -397,7 +526,7 @@
 </tr>
 <tr>
 	<td>pause</td>
-	<td>3000</td>
+	<td>2000</td>
 	<td></td>
 </tr>
 <tr>
@@ -411,84 +540,19 @@
 	<td>A. Hypoglycemia</td>
 </tr>
 <tr>
-	<td>waitForText</td>
+	<td>verifyText</td>
+	<td>//button[@value='00000149-8af1-de38-a959-cbf7efe40000']</td>
+	<td>B. Hypocalcemia</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//button[@value='00000149-8af1-de38-a959-cbf700070000']</td>
+	<td>C. Hypokalemia</td>
+</tr>
+<tr>
+	<td>verifyText</td>
 	<td>css=li.removable &gt; button.ans-btn</td>
 	<td>D. Anemia</td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>css=button.ans-btn.correct</td>
-	<td></td>
-</tr>
-<tr>
-	<td>verifyText</td>
-	<td>css=b</td>
-	<td>The correct answer is A. Hypoglycemia</td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>link=Next ›</td>
-	<td></td>
-</tr>
-<tr>
-	<td>pause</td>
-	<td>2500</td>
-	<td></td>
-</tr>
-<tr>
-	<td>verifyText</td>
-	<td>//div[@id='lm-widget']/div/div[2]/div[2]/div/div/h4/p[2]</td>
-	<td>exact:How can people with type 1 diabetes tell when their blood sugar is too low?</td>
-</tr>
-<tr>
-	<td>verifyText</td>
-	<td>css=li.removable &gt; button.ans-btn</td>
-	<td>B. They have trouble speaking and moving, and they can’t think clearly</td>
-</tr>
-<tr>
-	<td>waitForText</td>
-	<td>//button[@value='00000149-8af5-de38-a959-cbf7ebf40000']</td>
-	<td>C. Their blood sugar measures below 70 mg/dL</td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>css=button.ans-btn.correct</td>
-	<td></td>
-</tr>
-<tr>
-	<td>pause</td>
-	<td>2000</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertText</td>
-	<td>//div[@id='lm-widget']/div/div[2]/div[2]/div/div[2]/p[3]</td>
-	<td>Recognizing low blood sugar is key to treating it quickly and avoiding problems. It’s important to verify a low blood sugar level by checking it with a glucose monitor. If the reading is low, take steps to bring it back to normal.</td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>link=Next ›</td>
-	<td></td>
-</tr>
-<tr>
-	<td>pause</td>
-	<td>3000</td>
-	<td></td>
-</tr>
-<tr>
-	<td>verifyText</td>
-	<td>//div[@id='lm-widget']/div/div[2]/div[2]/div/div/h4/p[2]</td>
-	<td>exact:How do people with type 1 diabetes monitor their blood sugar levels?</td>
-</tr>
-<tr>
-	<td>verifyText</td>
-	<td>css=button.ans-btn.correct</td>
-	<td>B. With a glucose monitor</td>
-</tr>
-<tr>
-	<td>verifyText</td>
-	<td>css=li.removable &gt; button.ans-btn</td>
-	<td>D. With a stethoscope</td>
 </tr>
 <tr>
 	<td>click</td>
@@ -502,8 +566,113 @@
 </tr>
 <tr>
 	<td>verifyText</td>
+	<td>css=b</td>
+	<td>The correct answer is A. Hypoglycemia</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='lm-widget']/div/div[2]/div[2]/div/div[2]/p[3]</td>
+	<td>For most people with type 1 diabetes, hypoglycemia—or low blood sugar—is usually just a temporary inconvenience. They quickly recognize the signs and treat themselves with sugar pills, juice or candy. To be safe, make sure those around you know what to look for and how to help you if your blood sugar falls too low.</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Next ›</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=button.ans-btn</td>
+	<td>A. They feel shaky and sweaty, and their hearts race</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=li.removable &gt; button.ans-btn</td>
+	<td>B. They have trouble speaking and moving, and they can’t think clearly</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//button[@value='00000149-8af5-de38-a959-cbf7ebf40000']</td>
+	<td>C. Their blood sugar measures below 70 mg/dL</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=button.ans-btn.correct</td>
+	<td>D. All of the above</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=button.ans-btn.correct</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=b</td>
+	<td>The correct answer is D. All of the above</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='lm-widget']/div/div[2]/div[2]/div/div[2]/p[3]</td>
+	<td>Recognizing low blood sugar is key to treating it quickly and avoiding problems. It’s important to verify a low blood sugar level by checking it with a glucose monitor. If the reading is low, take steps to bring it back to normal.</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Next ›</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='lm-widget']/div/div[2]/div[2]/div/div/h4/p[2]</td>
+	<td>exact:How do people with type 1 diabetes monitor their blood sugar levels?</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=button.ans-btn</td>
+	<td>A. With a calorie counter</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=button.ans-btn.correct</td>
+	<td>B. With a glucose monitor</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//button[@value='00000149-8afb-de38-a959-cbff14c10000']</td>
+	<td>C. With a pulse oximeter</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=li.removable &gt; button.ans-btn</td>
+	<td>D. With a stethoscope</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=button.ans-btn.correct</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
 	<td>//div[@id='lm-widget']/div/div[2]/div[2]/div/div[2]/p[3]</td>
 	<td>There are two types of glucose monitors. Blood glucose meters check blood sugar levels periodically with a finger stick. Continuous glucose monitors constantly monitor glucose levels using a tiny sensor. They both have advantages and disadvantages. Ask your doctor which one is right for you.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.lm-correct &gt; h4</td>
+	<td>Correct!</td>
 </tr>
 <tr>
 	<td>click</td>
@@ -511,14 +680,34 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
 	<td>waitForText</td>
+	<td>css=div.lm-results &gt; h3</td>
+	<td>Your Results</td>
+</tr>
+<tr>
+	<td>assertText</td>
 	<td>css=div.lm-score</td>
-	<td>Your Score: 89%</td>
+	<td>Your Score: 67%</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=.lm-results-text</td>
+	<td>Nice work! You've got a good start on your knowledge, but there's still plenty to learn.</td>
 </tr>
 <tr>
 	<td>verifyText</td>
 	<td>//div[@id='lm-widget']/div/div[2]/div[3]/div/div[3]/p[2]</td>
-	<td>exact:Well done! Would you like to brush up on your knowledge?</td>
+	<td>Nice work! You've got a good start on your knowledge, but there's still plenty to learn.</td>
 </tr>
 <tr>
 	<td>verifyText</td>
@@ -527,18 +716,33 @@
 </tr>
 <tr>
 	<td>assertElementPresent</td>
+	<td>link=Facebook</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=Twitter</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=GooglePlus</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
 	<td>css=div.lm-more &gt; h3</td>
+	<td>Learn More</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=li &gt; img</td>
 	<td></td>
 </tr>
 <tr>
 	<td>assertText</td>
 	<td>css=div.thumbMod.clrfix &gt; ul.clrfix &gt; li</td>
 	<td>The Diabetes-Heart Disease Connection and What It Means for You</td>
-</tr>
-<tr>
-	<td>assertElementPresent</td>
-	<td>css=li &gt; img</td>
-	<td></td>
 </tr>
 <tr>
 	<td>assertElementPresent</td>
@@ -551,10 +755,32 @@
 	<td></td>
 </tr>
 <tr>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<!--QA Note: Social networking icon testing on result page -->
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=Facebook</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=Twitter</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=GooglePlus</td>
+	<td></td>
+</tr>
+<tr>
 	<td>close</td>
 	<td></td>
 	<td></td>
 </tr>
+
 </tbody></table>
 </body>
 </html>
