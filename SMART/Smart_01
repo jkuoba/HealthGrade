@@ -12,23 +12,30 @@
 <tr><td rowspan="1" colspan="3">Smart_01</td></tr>
 </thead><tbody>
 <tr>
+	<td>setSpeed</td>
+	<td>700</td>
+	<td></td>
+</tr>
+<tr>
 	<td>store</td>
 	<td>1</td>
 	<td>index</td>
 </tr>
 <tr>
 	<td>store</td>
-	<td>5</td>
+	<td>20</td>
 	<td>max</td>
 </tr>
+<!--http://healthgrades.ucms-dev-v3.healthgrades.com/-->
+<!--/treating-rheumatoid-arthritis-effectively/rheumatoid-arthritis-isnt-what-you-think?did=t11_rssQA1&tc=F0CL1F-->
 <tr>
 	<td>open</td>
-	<td>/taming-atrial-fibrillation/8-tips-for-living-safely-with-atrial-fibrillation?did=QATrackingCode&amp;cb=ap&amp;tc=ZRXNKW</td>
+	<td>/living-life-to-the-fullest-with-ra/what-rheumatoid-arthritis-does-to-your-heart?did=t11_rssHGQA1&amp;tc=8L3H6L</td>
 	<td></td>
 </tr>
 <tr>
 	<td>pause</td>
-	<td>4000</td>
+	<td>3000</td>
 	<td></td>
 </tr>
 <tr>
@@ -53,7 +60,7 @@
 </tr>
 <tr>
 	<td>open</td>
-	<td>/taming-atrial-fibrillation/8-tips-for-living-safely-with-atrial-fibrillation?did=QATrackingCode&amp;cb=ap&amp;tc=ZRXNKW</td>
+	<td>/living-life-to-the-fullest-with-ra/what-rheumatoid-arthritis-does-to-your-heart?did=t11_rssHGQA1&amp;tc=8L3H6L</td>
 	<td></td>
 </tr>
 <tr>

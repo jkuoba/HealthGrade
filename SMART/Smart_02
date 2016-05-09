@@ -12,23 +12,29 @@
 <tr><td rowspan="1" colspan="3">Smart_01</td></tr>
 </thead><tbody>
 <tr>
+	<td>setSpeed</td>
+	<td>700</td>
+	<td></td>
+</tr>
+<tr>
 	<td>store</td>
 	<td>1</td>
 	<td>index</td>
 </tr>
 <tr>
 	<td>store</td>
-	<td>10</td>
+	<td>20</td>
 	<td>max</td>
 </tr>
+<!--/taming-atrial-fibrillation/atrial-fibrillation-treatment-options?did=t11_rssQA1&tc=10S8P5-->
 <tr>
 	<td>open</td>
-	<td>/article/the-celebrity-face-of-rosacea?did=QATrackingCode&amp;cb=ap&amp;tc=IE9YOP</td>
+	<td>/taming-atrial-fibrillation/atrial-fibrillation-treatment-options?did=t11_rssHGQA1&amp;tc=9ACEYU</td>
 	<td></td>
 </tr>
 <tr>
 	<td>pause</td>
-	<td>3000</td>
+	<td>4000</td>
 	<td></td>
 </tr>
 <tr>
@@ -53,7 +59,7 @@
 </tr>
 <tr>
 	<td>open</td>
-	<td>/article/the-celebrity-face-of-rosacea?did=QATrackingCode&amp;cb=ap&amp;tc=IE9YOP</td>
+	<td>/taming-atrial-fibrillation/atrial-fibrillation-treatment-options?did=t11_rssHGQA1&amp;tc=9ACEYU</td>
 	<td></td>
 </tr>
 <tr>
